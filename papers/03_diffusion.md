@@ -12,3 +12,5 @@
 | 2024 | Audio-Face | ACM MM | Audio | — | — |
 | 2025 | TurboFill | CVPR | — | [project](https://liangbinxie.github.io/projects/TurboFill/) | [paper](https://arxiv.org/abs/2504.00996) |
 | 2025 | RAD | CVPR | — | [code](https://github.com/srk97/RAD) | [paper](https://arxiv.org/abs/2412.09191) |
+| 2026 | MATdiff | — | Mask-Aware TR+DM | — | — |
+| 2026 | FreeInpaint | — | Tuning-free Attn | — | — |
