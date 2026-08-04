@@ -1,8 +1,8 @@
-# From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking
+# From Pixels to Faces: A Survey of Deep Learning-Based Face Inpainting and Face Unmasking
 
 [![Paper](https://img.shields.io/badge/Paper-ACM%20CSUR-blue)]() [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)]() [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Companion repository for the survey **"From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking"** (submitted to ACM Computing Surveys, 2026).
+Companion repository for the survey **"From Pixels to Faces: A Survey of Deep Learning-Based Face Inpainting and Face Unmasking"** (submitted to ACM Computing Surveys, 2026).
 
 > Mohamed Mahmoud, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Hyun-Soo Kang
 > Chungbuk National University · Assiut University
@@ -64,8 +64,8 @@ python benchmark/compute_arcface_similarity.py \
 ## 📖 Citation
 ```bibtex
 @article{mahmoud2026pixels,
-  title   = {From Pixels to Faces: A Comprehensive Survey of Deep
-             Learning-Based Face Inpainting and Face Unmasking},
+  title   = {From Pixels to Faces: A Survey of Deep Learning-Based
+             Face Inpainting and Face Unmasking},
   author  = {Mahmoud, Mohamed and
              Abdalla, Mahmoud and Kasem, Mahmoud SalahEldin and
              Kang, Hyun-Soo},
