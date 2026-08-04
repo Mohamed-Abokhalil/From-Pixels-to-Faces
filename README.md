@@ -4,7 +4,7 @@
 
 Companion repository for the survey **"From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking"** (submitted to ACM Computing Surveys, 2026).
 
-> Mohamed Mahmoud, Mostafa Farouk Senussi, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Hyun-Soo Kang
+> Mohamed Mahmoud, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Hyun-Soo Kang
 > Chungbuk National University · Assiut University
 
 ## 📌 Highlights
@@ -12,6 +12,8 @@ Companion repository for the survey **"From Pixels to Faces: A Comprehensive Sur
 - **Dedicated face unmasking treatment**: 10 dedicated methods, unified benchmark
 - **Unified benchmark**: 31 FI + 11 FU methods on CelebA, 256×256, with PSNR / SSIM / FID / LPIPS / L1 / **ArcFace ID-Sim**
 - Identity-aware evaluation protocol and reproducible mask sets
+- **Electronic supplement** with the full reported-metrics table and the complete chronological method taxonomy
+- **Latest additions (2025–2026):** TransRef, Pyramid Fusion, SqSFill, NLMSA, MATdiff, FreeInpaint
 
 ## 🗂 Repository Structure
 ```
@@ -29,6 +31,8 @@ Companion repository for the survey **"From Pixels to Faces: A Comprehensive Sur
 | Diffusion-Based (2022–present) | [papers/03_diffusion.md](papers/03_diffusion.md) |
 | Face Unmasking (dedicated subtask) | [papers/04_face_unmasking.md](papers/04_face_unmasking.md) |
 | Datasets & Tools | [papers/05_datasets.md](papers/05_datasets.md) |
+
+> 📄 **Paper & supplement.** The article is split into a main manuscript (≤35 pp.) and an electronic supplement containing (i) the table of metrics originally reported by each method and (ii) the complete chronological taxonomy of all reviewed methods. This repository mirrors both.
 
 ## 🏆 Unified Benchmark (top-5 excerpt)
 **Face Inpainting** — CelebA, 1K images, QD-IMD masks, 256×256:
@@ -62,7 +66,7 @@ python benchmark/compute_arcface_similarity.py \
 @article{mahmoud2026pixels,
   title   = {From Pixels to Faces: A Comprehensive Survey of Deep
              Learning-Based Face Inpainting and Face Unmasking},
-  author  = {Mahmoud, Mohamed and Senussi, Mostafa Farouk and
+  author  = {Mahmoud, Mohamed and
              Abdalla, Mahmoud and Kasem, Mahmoud SalahEldin and
              Kang, Hyun-Soo},
   journal = {ACM Computing Surveys},
