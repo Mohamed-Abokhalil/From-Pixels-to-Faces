@@ -22,4 +22,8 @@
 | 2024 | E2F-Net | PR | StyleGAN | [code](https://github.com/ahmadhassanpour/E2F-Net) | [paper](https://arxiv.org/abs/2403.11985) |
 | 2024 | TSFormer | ACM TOMM | TR | — | — |
 | 2025 | IN² | PR | INR | — | — |
+| 2025 | TransRef | Neurocomputing | Reference-TR | [code](https://github.com/Cameltr/TransRef) | [paper](https://arxiv.org/abs/2306.11528) |
+| 2025 | Pyramid Fusion | Neurocomputing | Gated-TR | — | — |
+| 2025 | SqSFill | Neurocomputing | Spatial-Spectral | — | — |
+| 2025 | NLMSA | Neurocomputing | Linear-Attn | — | — |
 | 2025 | EXE-GAN | Neurocomputing | Cross-Attn | [code](https://github.com/LonglongaaaGo/EXE-GAN) | [paper](https://arxiv.org/abs/2202.06358) |
