@@ -1,4 +1,4 @@
-# From Pixels to Faces: A Survey of Deep Learning-Based Face Inpainting and Face Unmasking
+# From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking
 
 [![Paper](https://img.shields.io/badge/Paper-AI%20Review-blue)]() [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)]() [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
