@@ -4,7 +4,7 @@
 
 Companion repository for the survey **"From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking"** (submitted to *Artificial Intelligence Review*, Springer, 2026).
 
-> Mohamed Mahmoud, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Hyun-Soo Kang
+> Mohamed Mahmoud, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Ahmed Salem, Hyun-Soo Kang
 > Chungbuk National University · Assiut University
 
 ## 📌 Highlights
