@@ -1,0 +1,60 @@
+bibkey,title,retrieved,rec_ids
+li2017generative,Generative face completion,True,R0013
+yeh2017semantic,Semantic image inpainting with deep generative models,False,
+wang2018deeply,Deeply supervised face completion with multi-context generative adversarial network,True,R0194
+chen2018high,High resolution face completion with multiple controllable attributes via fully end-to-end progressive generative adversarial networks,True,R0409
+deng2018uv,Uv-gan: Adversarial facial uv map completion for pose-invariant face recognition,False,
+liao2018face,Face completion with semantic knowledge and collaborative adversarial learning,True,R0182
+dolhansky2018eye,Eye in-painting with exemplar generative adversarial networks,True,R0033
+sun2018natural,Natural and effective obfuscation by head inpainting,True,R0023
+yang2019lafin,Lafin: Generative landmark guided face inpainting,True,R0027;R0393
+jo2019sc,SC-FEGAN: Face editing generative adversarial network with user's sketch and color,False,
+song2019geometry,Geometry-aware face completion and editing,True,R0071
+wang2020recurrent,Recurrent generative adversarial network for face completion,True,R0117
+fang2020face,Face completion with hybrid dilated convolution,True,R0061
+zhou2020learning,Learning oracle attention for high-fidelity face completion,True,R0142
+li2020learning,Learning symmetry consistent deep CNNs for face completion,True,R0154
+li2020learning2,Learning disentangling and fusing networks for face completion under structured occlusions,True,R0222
+din2020novel,A novel GAN-based network for unmasking of masked face,True,R0010
+zhang2021face,Face inpainting based on GAN by facial prediction and fusion as guidance information,True,R0193
+han2021face,Face image inpainting with evolutionary generators,True,R0012
+xiao2021face,When face completion meets irregular holes: An attributes guided deep inpainting network,True,R0242
+li2021swapinpaint,SwapInpaint: Identity-specific face inpainting with identity swapping,True,R0085
+liu2021facial,Facial image inpainting using attention-based multi-level generative network,True,R0036
+wan2021high,High-fidelity pluralistic image completion with transformers,False,
+wang2021towards,Towards real-world blind face restoration with generative facial prior,False,
+chen2021progressive,Progressive semantic-aware style transformation for blind face restoration,False,
+yang2021gan,Gan prior embedded network for blind face restoration in the wild,False,
+dey20223dfacefill,3DFaceFill: An analysis-by-synthesis approach to face completion,True,R0209
+jiang2022mask,Mask removal: Face inpainting via attributes,True,R0083
+ma2022contrastive,Contrastive attention network with dense field estimation for face completion,True,R0208
+gu2022vqfr,Vqfr: Blind face restoration with vector-quantized dictionary and parallel decoder,False,
+zhou2022towards,Towards robust blind face restoration with codebook lookup transformer,False,
+wang2022restoreformer,Restoreformer: High-quality blind face restoration from undegraded key-value pairs,False,
+zhang2022gan,De-gan: Domain embedded gan for high quality face image inpainting,True,R0011
+he2022research,Research on high-resolution face image inpainting method based on StyleGAN,True,R0016
+zhang2022pluralistic,Pluralistic face inpainting with transformation of attribute information,True,R0138
+wang2023restoreformer++,Restoreformer++: Towards real-world blind face restoration from undegraded key-value pairs,False,
+wang2023dr2,Dr2: Diffusion-based robust degradation remover for blind face restoration,False,
+yang2023pgdiff,PGDiff: Guiding diffusion models for versatile face restoration via partial guidance,False,
+phutke2023nested,Nested deformable multi-head attention for facial image inpainting,True,R0031
+luo2023reference,Reference-guided large-scale face inpainting with identity and texture control,True,R0171
+su2023face,Face image completion method based on parsing features maps,True,R0074
+motamed2023patmat,Patmat: Person aware tuning of mask-aware transformer for face inpainting,True,R0184
+zuo2023generative,Generative image inpainting with segmentation confusion adversarial training and contrastive learning,False,
+mahmoud2023ganmasker,Ganmasker: A two-stage generative adversarial network for high-quality face mask removal,True,R0072
+sola2023unmasking,Unmasking your expression: Expression-conditioned gan for masked face inpainting,True,R0006
+kumar2023sam,SAM C-GAN: a method for removal of face masks from masked faces,True,R0078
+tsai2024dual,Dual associated encoder for face restoration,False,
+xu2024personalized,Personalized face inpainting with diffusion models by parallel visual attention,True,R0150
+hassanpour2024e2f,E2F-Net: Eyes-to-face inpainting via StyleGAN latent space,True,R0156
+yue2024difface,Difface: Blind face restoration with diffused error contraction,False,
+chen2024toward,Toward real-world blind face restoration with generative diffusion prior,False,
+chen2024rdfinet,Rdfinet: reference-guided directional diverse face inpainting network,True,R0134
+zhan2024learning,Learning from text: a multimodal face inpainting network for irregular holes,True,R0191
+sun2024audio,Audio-Driven Identity Manipulation for Face Inpainting,True,R0122
+yang2024face,Face mask removal with region-attentive face inpainting,True,R0392
+zhao2025learning,Learning position-aware implicit neural network for real-world face inpainting,True,R0188
+lu2025inpainting,Do inpainting yourself: Generative facial inpainting guided by exemplars,True,R0105
+li2025semantic,Semantic-guided face inpainting with subspace pyramid aggregation,True,R0148
+mahmoud2026m2unet,M2UNet: A Segmentation-Guided GAN with Attention-Enhanced U2-Net for Face Unmasking,True,R0238

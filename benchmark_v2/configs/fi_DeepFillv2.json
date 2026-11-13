@@ -1,0 +1,33 @@
+{
+ "task": "fi",
+ "method": "DeepFillv2",
+ "citation_key": "yu2019free",
+ "category": "General inpainting",
+ "family": "GAN/CNN",
+ "status_in_revision": "ok",
+ "note": "",
+ "developed_by_author_team": false,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": "https://github.com/JiahuiYu/generative_inpainting.git",
+ "git_commit": "3a5324373ba52c68c79587ca183bc10b9e57b783",
+ "local_code": "Face_Inpainting\\RelatedWorks\\generative_inpainting",
+ "checkpoints_present": [
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\generative_inpainting\\model_logs\\release_celeba_hq_256_deepfill_v2\\snap-0.data-00000-of-00001",
+   "bytes": 119996408,
+   "sha256": "173b26e2908a200d15e693c4cae283dd484a488042e04eaa7104a412db60dc3c"
+  },
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\generative_inpainting\\model_logs\\release_celeba_hq_256_deepfill_v2\\snap-0.meta",
+   "bytes": 65952190,
+   "sha256": "78729faebc2c4b8bdcebdee179bec0c29d4ba36d265347a65d4ebcf500f765a5"
+  }
+ ],
+ "stored_outputs_produced_in": "Face_Inpainting\\RelatedWorks\\generative_inpainting\\examples\\deepfillv2",
+ "stored_outputs_identity_checked": true,
+ "rerun_in_revision": false,
+ "rerun_command": null,
+ "run_settings": "official TensorFlow release_celeba_hq_256_deepfill_v2 checkpoint, test.py called per image by test_all.py",
+ "stochastic": false,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

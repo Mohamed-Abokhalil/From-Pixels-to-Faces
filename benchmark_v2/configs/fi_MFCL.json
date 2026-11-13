@@ -1,0 +1,48 @@
+{
+ "task": "fi",
+ "method": "MFCL",
+ "citation_key": "lin2022multi",
+ "category": "General inpainting",
+ "family": "GAN/CNN",
+ "status_in_revision": "excluded",
+ "note": "no official pretrained model was released (README test section has empty checkpoint paths); the outputs are identical to MFCL_30, written by a model we trained for 30 epochs (checkpoints dated 2025-09/10); excluded under the official-checkpoint rule",
+ "developed_by_author_team": false,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": "https://github.com/GZHU-DVL/MFCL-Inpainting.git",
+ "git_commit": "1c33b1e9b577d4bad2e3ddea87abde6380d40784",
+ "local_code": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting",
+ "checkpoints_present": [
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting\\checkpoints\\Encoder-Decoder\\30_net_D.pth",
+   "bytes": 33257654,
+   "sha256": "5e17dd6746313d36fd0b0ab4d021200a72def0b3d93c7fe53924ed018a475897"
+  },
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting\\checkpoints\\Encoder-Decoder\\30_net_DE.pth",
+   "bytes": 217162094,
+   "sha256": "58f67f0fabe31ad2e946ee781370c4719c9bdc1c9f79a2b6dae5a19d9f3cad5c"
+  },
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting\\checkpoints\\Encoder-Decoder\\30_net_EN.pth",
+   "bytes": 360352634,
+   "sha256": "5a21727c27cf9154e0b34aea42f492ccad0c836dbea6663928cacf767dcfcff6"
+  },
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting\\checkpoints\\Encoder-Decoder\\30_net_F.pth",
+   "bytes": 33257654,
+   "sha256": "aa102615cea71357ec4617b01321dcb6a37d3af14ec1bd3025f3a76fb80386f3"
+  },
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting\\checkpoints\\Encoder-Decoder\\30_net_MEDFE.pth",
+   "bytes": 703440494,
+   "sha256": "38daa33fc99c8d591b887ec256c1ce75adb2751d97f45c3e19e2d7ea62905233"
+  }
+ ],
+ "stored_outputs_produced_in": "Face_Inpainting\\RelatedWorks\\MFCL-Inpainting\\MFCL_30",
+ "stored_outputs_identity_checked": true,
+ "rerun_in_revision": false,
+ "rerun_command": null,
+ "run_settings": "EXCLUDED: no pretrained model was released (README test section has empty checkpoint paths); outputs identical to MFCL_30, written by a model trained by us for 30 epochs (checkpoints 2025-09/10)",
+ "stochastic": false,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

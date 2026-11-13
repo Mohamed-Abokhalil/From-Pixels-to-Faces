@@ -1,0 +1,9 @@
+{
+ "per_export": {
+  "arxiv_20261112.json": 70,
+  "openalex_20261112.json": 432
+ },
+ "identified_total": 502,
+ "duplicates_removed": 77,
+ "after_dedup": 425
+}

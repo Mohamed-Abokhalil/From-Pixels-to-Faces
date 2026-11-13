@@ -1,0 +1,28 @@
+{
+ "task": "fi",
+ "method": "Spa-former",
+ "citation_key": "huang2024sparse",
+ "category": "General inpainting",
+ "family": "Transformer",
+ "status_in_revision": "rerun",
+ "note": "original outputs used generated random masks (mask_type [2,4]); re-run with benchmark masks and the official CelebA-HQ checkpoint (reruns/fi/spa-former)",
+ "developed_by_author_team": false,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": "https://github.com/huangwenwenlili/spa-former",
+ "git_commit": "1c6bb29eb95a2655a5827ded20097122b4d0c9cb",
+ "local_code": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\spa-former",
+ "checkpoints_present": [
+  {
+   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\spa-former\\checkpoints\\celeba_hq\\latest_net_G.pth",
+   "bytes": 52904690,
+   "sha256": "d12a94a03c90af53c8253d159eba72c8e9dbaf8fc31af5bac1dcf68a1e0b580d"
+  }
+ ],
+ "stored_outputs_produced_in": "benchmark_v2/reruns",
+ "stored_outputs_identity_checked": null,
+ "rerun_in_revision": true,
+ "rerun_command": "python rerun_code/run_spaformer.py",
+ "run_settings": "re-run in this revision with the official checkpoint and the benchmark masks (rerun_command)",
+ "stochastic": false,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

@@ -1,0 +1,79 @@
+{
+ "top_by_hole_psnr": [
+  "M2UNet",
+  "GANMasker",
+  "SCAT",
+  "EdgeConnect"
+ ],
+ "pairwise": [
+  {
+   "a": "M2UNet",
+   "b": "GANMasker",
+   "metric": "psnr_hole",
+   "median_diff": 0.4869819944334939,
+   "p": 1.2601162471490132e-22,
+   "p_holm": 1.2601162471490132e-22
+  },
+  {
+   "a": "M2UNet",
+   "b": "SCAT",
+   "metric": "psnr_hole",
+   "median_diff": 1.9528767003003331,
+   "p": 8.183233919717012e-68,
+   "p_holm": 3.273293567886805e-67
+  },
+  {
+   "a": "M2UNet",
+   "b": "EdgeConnect",
+   "metric": "psnr_hole",
+   "median_diff": 2.8208619004772633,
+   "p": 3.3611663101894212e-80,
+   "p_holm": 2.0166997861136528e-79
+  },
+  {
+   "a": "GANMasker",
+   "b": "SCAT",
+   "metric": "psnr_hole",
+   "median_diff": 1.4312767851218915,
+   "p": 1.5387043838927811e-55,
+   "p_holm": 4.616113151678343e-55
+  },
+  {
+   "a": "GANMasker",
+   "b": "EdgeConnect",
+   "metric": "psnr_hole",
+   "median_diff": 2.2632505845774986,
+   "p": 2.0512171425992824e-77,
+   "p_holm": 1.0256085712996411e-76
+  },
+  {
+   "a": "SCAT",
+   "b": "EdgeConnect",
+   "metric": "psnr_hole",
+   "median_diff": 0.7912349264966281,
+   "p": 1.6909777703244925e-45,
+   "p_holm": 3.381955540648985e-45
+  }
+ ],
+ "spearman": {
+  "psnr_hole~id": 0.4049629932914397,
+  "lpips~id": -0.31562384020252926,
+  "psnr_hole~lpips": -0.5037875433062718,
+  "ssim_full~id": 0.33008932245513634
+ },
+ "method_rank_spearman": {
+  "psnr_hole~id_aligned": 0.7500000000000002,
+  "fid~id_aligned": 0.6071428571428572,
+  "legacy_id~aligned_id": 0.9642857142857145
+ },
+ "visible_only_id_aligned": 0.6831369490623475,
+ "id_gain_over_visible_only": {
+  "EdgeConnect": -0.1261902001798153,
+  "CoModGAN": -0.1404136467576027,
+  "RePaint": -0.12574067717790605,
+  "GANMasker": -0.04143204247951515,
+  "SCAT": -0.09199358689785009,
+  "CoPaint": -0.11627241826057433,
+  "M2UNet": -0.013493933022022286
+ }
+}

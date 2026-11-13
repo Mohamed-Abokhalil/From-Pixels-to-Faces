@@ -1,0 +1,960 @@
+[
+ {
+  "label": "R1.3-1 Yu2018 Contextual Attention",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr.2018.00577",
+    "title": "Generative Image Inpainting with Contextual Attention",
+    "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "type": "proceedings-article",
+    "year": 2018,
+    "volume": null,
+    "issue": null,
+    "pages": "5505-5514",
+    "publisher": "IEEE",
+    "authors": [
+     "Yu, Jiahui",
+     "Lin, Zhe",
+     "Yang, Jimei",
+     "Shen, Xiaohui",
+     "Lu, Xin",
+     "Huang, Thomas S."
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/iccv.2019.00457",
+    "title": "Free-Form Image Inpainting With Gated Convolution",
+    "container": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "year": 2019,
+    "volume": null,
+    "issue": null,
+    "pages": "4470-4479",
+    "publisher": "IEEE",
+    "authors": [
+     "Yu, Jiahui",
+     "Lin, Zhe",
+     "Yang, Jimei",
+     "Shen, Xiaohui",
+     "Lu, Xin",
+     "Huang, Thomas"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.2139/ssrn.4580612",
+    "title": "Deep Generative Network for Image Inpainting with Gradient Semantics and Spatial-Smooth Attention",
+    "container": "",
+    "type": "posted-content",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Sheng, Ziqi",
+     "Xu, Wenbo",
+     "Lin, Cong",
+     "Lu, Wei"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-2 Li2020 RFR",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr42600.2020.00778",
+    "title": "Recurrent Feature Reasoning for Image Inpainting",
+    "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2020,
+    "volume": null,
+    "issue": null,
+    "pages": "7757-7765",
+    "publisher": "IEEE",
+    "authors": [
+     "Li, Jingyuan",
+     "Wang, Ning",
+     "Zhang, Lefei",
+     "Du, Bo",
+     "Tao, Dacheng"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.3390/s22082854",
+    "title": "Semantic Image Inpainting with Multi-Stage Feature Reasoning Generative Adversarial Network",
+    "container": "Sensors",
+    "type": "journal-article",
+    "year": 2022,
+    "volume": "22",
+    "issue": "8",
+    "pages": "2854",
+    "publisher": "MDPI AG",
+    "authors": [
+     "Li, Guangyao",
+     "Li, Liangfu",
+     "Pu, Yingdan",
+     "Wang, Nan",
+     "Zhang, Xi"
+    ],
+    "abstract": "Most existing image inpainting methods have achieved remarkable progress in small image defects. However, repairing large missing regions with insufficient context information is still an intractable problem. In this paper, a Multi-stage Feature Reasoning Generative Adversarial Network to gradually restore irregular holes is proposed. Specifically, dynamic partial convolution is used to adaptively adjust the restoration proportion during inpainting progress, which strengthens the correlation between valid and invalid pixels. In the decoding phase, the statistical natures of features in the masked areas differentiate from those of unmasked areas. To this end, a novel decoder is designed which not only dynamically assigns a scaling factor and bias on per feature point basis using point-wise normalization, but also utilizes skip connections to solve the problem of information loss between the codec network layers. Moreover, in order to eliminate gradient vanishing and increase the reasoning times, a hybrid weighted merging method consisting of a hard weight map and a soft weight map is proposed to ensemble the feature maps generated during the whole reconstruction process. Experiments on CelebA, Places2, and Paris StreetView show that the proposed model generates results with a PSNR improvement of 0.3 dB to 1.2 dB compared to other methods."
+   },
+   {
+    "doi": "10.1109/icivc58118.2023.10270274",
+    "title": "Progressive Feature Fusing for High-Resolution Image Inpainting",
+    "container": "2023 8th International Conference on Image, Vision and Computing (ICIVC)",
+    "type": "proceedings-article",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": "923-927",
+    "publisher": "IEEE",
+    "authors": [
+     "Wang, Shuaifei",
+     "Wang, Meijuan",
+     "Li, Zhiyang",
+     "Zhou, Jun",
+     "Liu, Zhaobin"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-3 Cai2020 FCSR-GAN T-BIOM",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/tbiom.2019.2951063",
+    "title": "FCSR-GAN: Joint Face Completion and Super-Resolution via Multi-Task Learning",
+    "container": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+    "type": "journal-article",
+    "year": 2020,
+    "volume": "2",
+    "issue": "2",
+    "pages": "109-121",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Cai, Jiancheng",
+     "Han, Hu",
+     "Shan, Shiguang",
+     "Chen, Xilin"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/fg.2019.8756607",
+    "title": "FCSR-GAN: End-to-end Learning for Joint Face Completion and Super-resolution",
+    "container": "2019 14th IEEE International Conference on Automatic Face &amp; Gesture Recognition (FG 2019)",
+    "type": "proceedings-article",
+    "year": 2019,
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "publisher": "IEEE",
+    "authors": [
+     "Cai, Jiancheng",
+     "Hu, Han",
+     "Shan, Shiguang",
+     "Chen, Xilin"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tbiom.2024.3354333",
+    "title": "Implicit Mutual Learning With Dual-Branch Networks for Face Super-Resolution",
+    "container": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+    "type": "journal-article",
+    "year": 2024,
+    "volume": "6",
+    "issue": "2",
+    "pages": "182-194",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Zeng, Kangli",
+     "Wang, Zhongyuan",
+     "Lu, Tao",
+     "Chen, Jianyu",
+     "He, Zheng",
+     "Han, Zhen"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-4 Cai2021 Semi-supervised natural face de-occlusion TIFS",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/tifs.2020.3023793",
+    "title": "Semi-Supervised Natural Face De-Occlusion",
+    "container": "IEEE Transactions on Information Forensics and Security",
+    "type": "journal-article",
+    "year": 2021,
+    "volume": "16",
+    "issue": null,
+    "pages": "1044-1057",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Cai, Jiancheng",
+     "Han, Hu",
+     "Cui, Jiyun",
+     "Chen, Jie",
+     "Liu, Li",
+     "Zhou, S. Kevin"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tifs.2018.2885252",
+    "title": "Cost-Sensitive Label Propagation for Semi-Supervised Face Recognition",
+    "container": "IEEE Transactions on Information Forensics and Security",
+    "type": "journal-article",
+    "year": 2019,
+    "volume": "14",
+    "issue": "7",
+    "pages": "1729-1743",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Wan, Jianwu",
+     "Wang, Yi"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tifs.2012.2188389",
+    "title": "Cost-Sensitive Semi-Supervised Discriminant Analysis for Face Recognition",
+    "container": "IEEE Transactions on Information Forensics and Security",
+    "type": "journal-article",
+    "year": 2012,
+    "volume": "7",
+    "issue": "3",
+    "pages": "944-953",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Lu, Jiwen",
+     "Zhou, Xiuzhuang",
+     "Tan, Yap-Peng",
+     "Shang, Yuanyuan",
+     "Zhou, Jie"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-5 Dong2022 ZITS",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr52688.2022.01107",
+    "title": "Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "11348-11358",
+    "publisher": "IEEE",
+    "authors": [
+     "Dong, Qiaole",
+     "Cao, Chenjie",
+     "Fu, Yanwei"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tpami.2023.3280222/mm1",
+    "title": "ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors_supp1-3280222.pdf",
+    "container": "",
+    "type": "component",
+    "year": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Cao, Chenjie"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tmm.2024.3369897/mm2",
+    "title": "HINT: High-quality INpainting Transformer with Mask-Aware Encoding and Enhanced Attention_supp1-3369897.mp4",
+    "container": "",
+    "type": "component",
+    "year": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Shum, Hubert P. H."
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-6 Liu2022 PUT",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr52688.2022.01106",
+    "title": "Reduce Information Loss in Transformers for Pluralistic Image Inpainting",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "11337-11347",
+    "publisher": "IEEE",
+    "authors": [
+     "Liu, Qiankun",
+     "Tan, Zhentao",
+     "Chen, Dongdong",
+     "Chu, Qi",
+     "Dai, Xiyang",
+     "Chen, Yinpeng",
+     "Liu, Mengchen",
+     "Yuan, Lu",
+     "Yu, Nenghai"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cvpr52733.2024.00725",
+    "title": "Don't Look into the Dark: Latent Codes for Pluralistic Image Inpainting",
+    "container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2024,
+    "volume": null,
+    "issue": null,
+    "pages": "7591-7600",
+    "publisher": "IEEE",
+    "authors": [
+     "Chen, Haiwei",
+     "Zhao, Yajie"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.displa.2022.102321",
+    "title": "Generative image inpainting with enhanced gated convolution and Transformers",
+    "container": "Displays",
+    "type": "journal-article",
+    "year": 2022,
+    "volume": "75",
+    "issue": null,
+    "pages": "102321",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Wang, Min",
+     "Lu, Wanglong",
+     "Lyu, Jiankai",
+     "Shi, Kaijie",
+     "Zhao, Hanli"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-7 Zhao2022 JCAD",
+  "crossref_candidates": [
+   {
+    "doi": "10.3724/sp.j.1089.2022.19169",
+    "title": "Efficient Generative Face Completion with Perceptual Deblurring",
+    "container": "Journal of Computer-Aided Design &amp; Computer Graphics",
+    "type": "journal-article",
+    "year": 2022,
+    "volume": "34",
+    "issue": "09",
+    "pages": "1420-1431",
+    "publisher": "China Science Publishing & Media Ltd.",
+    "authors": [
+     "Zhao, Hanli",
+     "Liu, Ying",
+     "Lu, Wanglong",
+     "Jin, Xiaogang",
+     "Huang, Hui",
+     "Shi, Kaijie"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.3724/sp.j.1089.2024.20147",
+    "title": "Blind Face Deblurring via Latent Generative Priors",
+    "container": "Journal of Computer-Aided Design &amp; Computer Graphics",
+    "type": "journal-article",
+    "year": 2024,
+    "volume": "36",
+    "issue": "12",
+    "pages": "1959-1967",
+    "publisher": "China Science Publishing & Media Ltd.",
+    "authors": [
+     "Liang, Yuan",
+     "Jiang, Yuxin",
+     "He, Shengfeng"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.3724/sp.j.1089.2023-00334",
+    "title": "Joint Optimization for Deblurring and 3D Reconstruction of Blurry Face Image",
+    "container": "Journal of Computer-Aided Design &amp; Computer Graphics",
+    "type": "journal-article",
+    "year": 2025,
+    "volume": "37",
+    "issue": "4",
+    "pages": "583-592",
+    "publisher": "China Science Publishing & Media Ltd.",
+    "authors": [
+     "Xu, Chongrun",
+     "Liu, Ligang"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-8 Xie2023 SmartBrush",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr52729.2023.02148",
+    "title": "SmartBrush: Text and Shape Guided Object Inpainting with Diffusion Model",
+    "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": "22428-22437",
+    "publisher": "IEEE",
+    "authors": [
+     "Xie, Shaoan",
+     "Zhang, Zhifei",
+     "Lin, Zhe",
+     "Hinz, Tobias",
+     "Zhang, Kun"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cvpr52734.2025.01708",
+    "title": "MTADiffusion: Mask Text Alignment Diffusion Model for Object Inpainting",
+    "container": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2025,
+    "volume": null,
+    "issue": null,
+    "pages": "18325-18334",
+    "publisher": "IEEE",
+    "authors": [
+     "Huang, Jun",
+     "Liu, Ting",
+     "Wu, Yihang",
+     "Qu, Xiaochao",
+     "Liu, Luoqi",
+     "Hu, Xiaolin"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tmm.2025.3535325/mm1",
+    "title": "Learning Shape-Color Diffusion Priors for Text-Guided 3D Object Generation_supp1-3535325.pdf",
+    "container": "",
+    "type": "component",
+    "year": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Wang, Yu-Chiang"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-9 Lu2025 visual style prompt BFR PR",
+  "crossref_candidates": [
+   {
+    "doi": "10.1016/j.patcog.2024.111312",
+    "title": "Visual style prompt learning using diffusion models for blind face restoration",
+    "container": "Pattern Recognition",
+    "type": "journal-article",
+    "year": 2025,
+    "volume": "161",
+    "issue": null,
+    "pages": "111312",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Lu, Wanglong",
+     "Wang, Jikai",
+     "Wang, Tao",
+     "Zhang, Kaihao",
+     "Jiang, Xianta",
+     "Zhao, Hanli"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.patcog.2026.114401",
+    "title": "Prompt-in-prompt learning for all-in-one image restoration",
+    "container": "Pattern Recognition",
+    "type": "journal-article",
+    "year": 2026,
+    "volume": "180",
+    "issue": null,
+    "pages": "114401",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Li, Zilong",
+     "Lei, Yiming",
+     "Ma, Chenglong",
+     "Zhang, Junping",
+     "Shan, Hongming"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.patrec.2026.04.021",
+    "title": "GenR: Generative latent inversion for blind face restoration",
+    "container": "Pattern Recognition Letters",
+    "type": "journal-article",
+    "year": 2026,
+    "volume": "205",
+    "issue": null,
+    "pages": "116-123",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Ali, Akbar",
+     "Mastan, Indra Deep",
+     "Raman, Shanmuganathan"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R1.3-10 Lu2025 GRIG CVM",
+  "crossref_candidates": [
+   {
+    "doi": "10.26599/cvm.2025.9450408",
+    "title": "GRIG: Data-Efficient Generative Residual Image Inpainting",
+    "container": "Computational Visual Media",
+    "type": "journal-article",
+    "year": 2025,
+    "volume": "11",
+    "issue": "6",
+    "pages": "1329-1361",
+    "publisher": "Tsinghua University Press",
+    "authors": [
+     "Lu, Wanglong",
+     "Jiang, Xianta",
+     "Jin, Xiaogang",
+     "Yang, Yong-Liang",
+     "Gong, Minglun",
+     "Shi, Kaijie",
+     "Wang, Tao",
+     "Zhao, Hanli"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1117/12.2573109",
+    "title": "Generative image inpainting with residual attention learning",
+    "container": "Twelfth International Conference on Digital Image Processing (ICDIP 2020)",
+    "type": "proceedings-article",
+    "year": 2020,
+    "volume": null,
+    "issue": null,
+    "pages": "48",
+    "publisher": "SPIE",
+    "authors": [
+     "Wan, Fang",
+     "Zhu, Yuesheng",
+     "Cai, Zehua"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.jvcir.2021.103231",
+    "title": "Generative image inpainting with salient prior and relative total variation",
+    "container": "Journal of Visual Communication and Image Representation",
+    "type": "journal-article",
+    "year": 2021,
+    "volume": "79",
+    "issue": null,
+    "pages": "103231",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Shao, Hang",
+     "Wang, Yongxiong"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "R4.3-a arXiv 2109.07161",
+  "arxiv": {
+   "arxiv": "2109.07161",
+   "title": "Resolution-robust Large Mask Inpainting with Fourier Convolutions",
+   "published": "2021-09-15",
+   "journal_ref": null,
+   "doi": null,
+   "authors": [
+    "Roman Suvorov",
+    "Elizaveta Logacheva",
+    "Anton Mashikhin",
+    "Anastasia Remizova",
+    "Arsenii Ashukha",
+    "Aleksei Silvestrov",
+    "Naejin Kong",
+    "Harshith Goka",
+    "Kiwoong Park",
+    "Victor Lempitsky"
+   ],
+   "abstract": "Modern image inpainting systems, despite the significant progress, often struggle with large missing areas, complex geometric structures, and high-resolution images. We find that one of the main reasons for that is the lack of an effective receptive field in both the inpainting network and the loss function. To alleviate this issue, we propose a new method called large mask inpainting (LaMa). LaMa is based on i) a new inpainting network architecture that uses fast Fourier convolutions (FFCs), which have the image-wide receptive field; ii) a high receptive field perceptual loss; iii) large training masks, which unlocks the potential of the first two components. Our inpainting network improves the state-of-the-art across a range of datasets and achieves excellent performance even in challenging scenarios, e.g. completion of periodic structures. Our model generalizes surprisingly well to resolutions that are higher than those seen at train time, and achieves this at lower parameter&time costs than the competitive baselines. The code is available at \\url{https://github.com/saic-mdal/lama}."
+  }
+ },
+ {
+  "label": "R4.3-b MTA 10.1007/s11042-024-19365-8",
+  "crossref": {
+   "doi": "10.1007/s11042-024-19365-8",
+   "title": "SFI-Swin: symmetric face inpainting with swin transformer by distinctly learning face components distributions",
+   "container": "Multimedia Tools and Applications",
+   "type": "journal-article",
+   "year": 2024,
+   "volume": "84",
+   "issue": "17",
+   "pages": "17581-17595",
+   "publisher": "Springer Science and Business Media LLC",
+   "authors": [
+    "Givkashi, MohammadHossein",
+    "Naderi, MohammadReza",
+    "Karimi, Nader",
+    "Shirani, Shahram",
+    "Samavi, Shadrokh"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "R2.7-1 Tyagi 2021 WPC",
+  "crossref": {
+   "doi": "10.1007/s11277-020-08050-2",
+   "title": "Unconstrained Face Detection of Multiple Humans Present in the Video",
+   "container": "Wireless Personal Communications",
+   "type": "journal-article",
+   "year": 2021,
+   "volume": "118",
+   "issue": "2",
+   "pages": "901-917",
+   "publisher": "Springer Science and Business Media LLC",
+   "authors": [
+    "Tyagi, Ranbeer",
+    "Tomar, Geetam Singh",
+    "Shrivastava, Laxmi"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "R2.7-2 Tyagi 2023 AIC",
+  "crossref": {
+   "doi": "10.1109/aic57670.2023.10263884",
+   "title": "Unconstrained Face Recognition from Image Sequence",
+   "container": "2023 IEEE World Conference on Applied Intelligence and Computing (AIC)",
+   "type": "proceedings-article",
+   "year": 2023,
+   "volume": null,
+   "issue": null,
+   "pages": "772-777",
+   "publisher": "IEEE",
+   "authors": [
+    "Tyagi, Ranbeer",
+    "Tomar, Geetam Singh",
+    "Shrivastava, Laxmi"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "R2.7-3 Tyagi 2024 TS",
+  "crossref": {
+   "doi": "10.18280/ts.410537",
+   "title": "Side Searching and Object Improvement Methods for Unconstrained Face Recognition Environment",
+   "container": "Traitement du Signal",
+   "type": "journal-article",
+   "year": 2024,
+   "volume": "41",
+   "issue": "5",
+   "pages": "2645-2654",
+   "publisher": "International Information and Engineering Technology Association",
+   "authors": [
+    "Tyagi, Ranbeer",
+    "Tomar, Geetam Singh",
+    "Shrivastava, Laxmi"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "R2.7-4 Tyagi 2025 MPCON",
+  "crossref": {
+   "doi": "10.1109/mpcon66082.2025.11251496",
+   "title": "Effective Unconstrained Face Recognition from Images Using RFG: A review",
+   "container": "2025 IEEE Madhya Pradesh Section Conference (MPCON)",
+   "type": "proceedings-article",
+   "year": 2025,
+   "volume": null,
+   "issue": null,
+   "pages": "641-646",
+   "publisher": "IEEE",
+   "authors": [
+    "Tyagi, Ranbeer",
+    "Tomar, Geetam Singh",
+    "Shrivastava, Laxmi"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "VHII Campana 2023 C&G",
+  "crossref_candidates": [
+   {
+    "doi": "10.1016/j.cag.2023.05.006",
+    "title": "Variable-hyperparameter visual transformer for efficient image inpainting",
+    "container": "Computers &amp; Graphics",
+    "type": "journal-article",
+    "year": 2023,
+    "volume": "113",
+    "issue": null,
+    "pages": "57-68",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Campana, Jose Luis Flores",
+     "Decker, Luís Gustavo Lorgus",
+     "Souza, Marcos Roberto e",
+     "Maia, Helena de Almeida",
+     "Pedrini, Helio"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.cag.2026.104608",
+    "title": "Spa-IHANet: Sparse self-attention transformer combined with improved hybrid attention mechanisms network for image inpainting",
+    "container": "Computers &amp; Graphics",
+    "type": "journal-article",
+    "year": 2026,
+    "volume": "137",
+    "issue": null,
+    "pages": "104608",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Zhao, Sihan",
+     "Liu, Ziyun",
+     "Yang, Xiaozhong"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.cag.2008.11.004",
+    "title": "Advanced tracking through efficient image processing and visual–inertial sensor fusion",
+    "container": "Computers &amp; Graphics",
+    "type": "journal-article",
+    "year": 2009,
+    "volume": "33",
+    "issue": "1",
+    "pages": "59-72",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Bleser, Gabriele",
+     "Stricker, Didier"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "TSFormer Lin 2024 TOMM",
+  "crossref_candidates": [
+   {
+    "doi": "10.1145/3696452",
+    "title": "TSFormer: Tracking Structure Transformer for Image Inpainting",
+    "container": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "type": "journal-article",
+    "year": 2024,
+    "volume": "20",
+    "issue": "12",
+    "pages": "1-23",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "authors": [
+     "Lin, Jiayu",
+     "Wang, Yuan-Gen"
+    ],
+    "abstract": "\n            Recent studies have shown that image structure can significantly facilitate image inpainting. However, current approaches mostly explore structure prior without considering its guidance to texture reconstruction, leading to performance degradation. To solve this issue, we propose a two-stream Tracking Structure Transformer (TSFormer), including structure target stream and image completion stream, to capture the synchronous and dynamic interplay between structure and texture. Specifically, we first design a structure enhancement module to restore the Histograms of Oriented Gradient (HOG) and the edge of an input image in a sketch space, which forms the input of the structure target stream. Meanwhile, in the image completion stream, we design a channel-space parallel-attention component to facilitate the efficient co-learning of channel and spatial visual cues. To build a bridge between the two streams, we further develop a structure-texture cross-attention module, wherein both structure and texture are synchronously extracted through self-attention, and texture extraction is implemented by dynamically tracking the structure in a cross-attention fashion, enabling the capture of the intricate interaction between structure and texture. Extensive experiments evaluated on three benchmark datasets, including CelebA, Places2, and Paris StreetView, demonstrate that the proposed TSFormer achieves state-of-the-art performance compared to its competitors. The code is availab"
+   },
+   {
+    "doi": "10.1145/3715962",
+    "title": "Texture and Structure-Guided Dual-Attention Mechanism for Image Inpainting",
+    "container": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "type": "journal-article",
+    "year": 2025,
+    "volume": "21",
+    "issue": "4",
+    "pages": "1-25",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "authors": [
+     "Li, Runing",
+     "Dai, Jiangyan",
+     "Qin, Qibing",
+     "Wang, Chengduan",
+     "Zhang, Huihui",
+     "Yi, Yugen"
+    ],
+    "abstract": "\n            Deep learning exhibits powerful capability in image inpainting task, particularly in generating pixel-level details closely with the human visual perception. However, the complex background or larger missing regions make it still encounters the artifacts. Many researchers have investigated that prior information is crucial for guiding the image inpainting. In this article, we introduce the dual-attention mechanism, including lightweight spatial attention and linearized attention, to construct an end-to-end texture and structure-guided image inpainting method. In the first stage, we build the detail inpainting network with the lightweight spatial attention. In this model, the extracted texture and structural features are fused with multi-layers and then the fused detail image is considered as the prior to guide the detail repair of corrupted images. In the second stage, we construct the content completing network by the repaired detail and the linearized Transformer module. This module not only overcomes the limitation of the receptive field size of convolutional kernels that can improve the long-range modeling of features but also can significantly reduce the computational complexity of the original Transformer. To demonstrate the superior effectiveness of the proposed method, we perform extensive experiments with advanced models on three datasets: CelebA-HQ, Places2, and Paris Street Views. Comparative results manifest that our method achieves excellent image in"
+   },
+   {
+    "doi": "10.1145/3503161.3548348",
+    "title": "Atrous Pyramid Transformer with Spectral Convolution for Image Inpainting",
+    "container": "Proceedings of the 30th ACM International Conference on Multimedia",
+    "type": "proceedings-article",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "4674-4683",
+    "publisher": "ACM",
+    "authors": [
+     "Huang, Muqi",
+     "Zhang, Lefei"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "Audio-Face",
+  "crossref": {
+   "doi": "10.1145/3664647.3680975",
+   "title": "Audio-Driven Identity Manipulation for Face Inpainting",
+   "container": "Proceedings of the 32nd ACM International Conference on Multimedia",
+   "type": "proceedings-article",
+   "year": 2024,
+   "volume": null,
+   "issue": null,
+   "pages": "6123-6132",
+   "publisher": "ACM",
+   "authors": [
+    "Sun, Yuqi",
+    "Lin, Qing",
+    "Tan, Weimin",
+    "Yan, Bo"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "MuFIN",
+  "crossref": {
+   "doi": "10.1109/tcsvt.2024.3370578",
+   "title": "Learning From Text: A Multimodal Face Inpainting Network for Irregular Holes",
+   "container": "IEEE Transactions on Circuits and Systems for Video Technology",
+   "type": "journal-article",
+   "year": 2024,
+   "volume": "34",
+   "issue": "8",
+   "pages": "7484-7497",
+   "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "authors": [
+    "Zhan, Dandan",
+    "Wu, Jiahao",
+    "Luo, Xing",
+    "Jin, Zhi"
+   ],
+   "abstract": ""
+  }
+ },
+ {
+  "label": "CANDF",
+  "arxiv": {
+   "arxiv": "2112.10310",
+   "title": "Contrastive Attention Network with Dense Field Estimation for Face Completion",
+   "published": "2021-12-20",
+   "journal_ref": null,
+   "doi": null,
+   "authors": [
+    "Xin Ma",
+    "Xiaoqiang Zhou",
+    "Huaibo Huang",
+    "Gengyun Jia",
+    "Zhenhua Chai",
+    "Xiaolin Wei"
+   ],
+   "abstract": "Most modern face completion approaches adopt an autoencoder or its variants to restore missing regions in face images. Encoders are often utilized to learn powerful representations that play an important role in meeting the challenges of sophisticated learning tasks. Specifically, various kinds of masks are often presented in face images in the wild, forming complex patterns, especially in this hard period of COVID-19. It's difficult for encoders to capture such powerful representations under this complex situation. To address this challenge, we propose a self-supervised Siamese inference network to improve the generalization and robustness of encoders. It can encode contextual semantics from full-resolution images and obtain more discriminative representations. To deal with geometric variations of face images, a dense correspondence field is integrated into the network. We further propose a multi-scale decoder with a novel dual attention fusion module (DAF), which can combine the restored and known regions in an adaptive manner. This multi-scale architecture is beneficial for the decoder to utilize discriminative representations learned from encoders into images. Extensive experiments clearly demonstrate that the proposed approach not only achieves more appealing results compared with state-of-the-art methods but also improves the performance of masked face recognition dramatically."
+  }
+ },
+ {
+  "label": "TurboFill",
+  "arxiv": {
+   "arxiv": "2504.00996",
+   "title": "TurboFill: Adapting Few-step Text-to-image Model for Fast Image Inpainting",
+   "published": "2025-04-01",
+   "journal_ref": null,
+   "doi": null,
+   "authors": [
+    "Liangbin Xie",
+    "Daniil Pakhomov",
+    "Zhonghao Wang",
+    "Zongze Wu",
+    "Ziyan Chen",
+    "Yuqian Zhou",
+    "Haitian Zheng",
+    "Zhifei Zhang",
+    "Zhe Lin",
+    "Jiantao Zhou",
+    "Chao Dong"
+   ],
+   "abstract": "This paper introduces TurboFill, a fast image inpainting model that enhances a few-step text-to-image diffusion model with an inpainting adapter for high-quality and efficient inpainting. While standard diffusion models generate high-quality results, they incur high computational costs. We overcome this by training an inpainting adapter on a few-step distilled text-to-image model, DMD2, using a novel 3-step adversarial training scheme to ensure realistic, structurally consistent, and visually harmonious inpainted regions. To evaluate TurboFill, we propose two benchmarks: DilationBench, which tests performance across mask sizes, and HumanBench, based on human feedback for complex prompts. Experiments show that TurboFill outperforms both multi-step BrushNet and few-step inpainting methods, setting a new benchmark for high-performance inpainting tasks. Our project page: https://liangbinxie.github.io/projects/TurboFill/"
+  }
+ },
+ {
+  "label": "RAD",
+  "arxiv": {
+   "arxiv": "2412.09191",
+   "title": "RAD: Region-Aware Diffusion Models for Image Inpainting",
+   "published": "2024-12-12",
+   "journal_ref": null,
+   "doi": null,
+   "authors": [
+    "Sora Kim",
+    "Sungho Suh",
+    "Minsik Lee"
+   ],
+   "abstract": "Diffusion models have achieved remarkable success in image generation, with applications broadening across various domains. Inpainting is one such application that can benefit significantly from diffusion models. Existing methods either hijack the reverse process of a pretrained diffusion model or cast the problem into a larger framework, \\ie, conditioned generation. However, these approaches often require nested loops in the generation process or additional components for conditioning. In this paper, we present region-aware diffusion models (RAD) for inpainting with a simple yet effective reformulation of the vanilla diffusion models. RAD utilizes a different noise schedule for each pixel, which allows local regions to be generated asynchronously while considering the global image context. A plain reverse process requires no additional components, enabling RAD to achieve inference time up to 100 times faster than the state-of-the-art approaches. Moreover, we employ low-rank adaptation (LoRA) to fine-tune RAD based on other pretrained diffusion models, reducing computational burdens in training as well. Experiments demonstrated that RAD provides state-of-the-art results both qualitatively and quantitatively, on the FFHQ, LSUN Bedroom, and ImageNet datasets."
+  }
+ },
+ {
+  "label": "FreeInpaint",
+  "arxiv": {
+   "arxiv": "2512.21104",
+   "title": "FreeInpaint: Tuning-free Prompt Alignment and Visual Rationality Enhancement in Image Inpainting",
+   "published": "2025-12-24",
+   "journal_ref": null,
+   "doi": null,
+   "authors": [
+    "Chao Gong",
+    "Dong Li",
+    "Yingwei Pan",
+    "Jingjing Chen",
+    "Ting Yao",
+    "Tao Mei"
+   ],
+   "abstract": "Text-guided image inpainting endeavors to generate new content within specified regions of images using textual prompts from users. The primary challenge is to accurately align the inpainted areas with the user-provided prompts while maintaining a high degree of visual fidelity. While existing inpainting methods have produced visually convincing results by leveraging the pre-trained text-to-image diffusion models, they still struggle to uphold both prompt alignment and visual rationality simultaneously. In this work, we introduce FreeInpaint, a plug-and-play tuning-free approach that directly optimizes the diffusion latents on the fly during inference to improve the faithfulness of the generated images. Technically, we introduce a prior-guided noise optimization method that steers model attention towards valid inpainting regions by optimizing the initial noise. Furthermore, we meticulously design a composite guidance objective tailored specifically for the inpainting task. This objective efficiently directs the denoising process, enhancing prompt alignment and visual rationality by optimizing intermediate latents at each step. Through extensive experiments involving various inpainting diffusion models and evaluation metrics, we demonstrate the effectiveness and robustness of our proposed FreeInpaint."
+  }
+ }
+]

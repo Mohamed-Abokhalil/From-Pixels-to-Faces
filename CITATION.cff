@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use these artefacts, please cite the article below."
+title: "From Pixels to Faces: review artefacts and re-executable face inpainting/unmasking benchmark"
+type: software
+version: "v2.0"
+license: MIT
+repository-code: "https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces"
+url: "https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces"
+doi: "10.5281/zenodo.24190797"
+abstract: >-
+  Scopus query and counts, supplementary search and full screening log, coded taxonomy, test-file lists with hashes,
+  masks, per-method configurations with output provenance, evaluation code and per-image scores of the face inpainting
+  and face unmasking benchmarks in "From Pixels to Faces". The generated outputs are archived in a separate Zenodo
+  record (10.5281/zenodo.24193552; see zenodo_record.json).
+keywords:
+  - face inpainting
+  - face unmasking
+  - face completion
+  - benchmark
+  - systematic review
+  - reproducibility
+authors:
+  - given-names: "Mohamed"
+    family-names: "Mahmoud"
+    affiliation: "Department of Information and Communication Engineering, Chungbuk National University, Republic of Korea; Information Technology Department, Assiut University, Egypt"
+  - given-names: "Mahmoud"
+    family-names: "Abdalla"
+    affiliation: "Department of Information and Communication Engineering, Chungbuk National University, Republic of Korea"
+  - given-names: "Mahmoud SalahEldin"
+    family-names: "Kasem"
+    affiliation: "Department of Information and Communication Engineering, Chungbuk National University, Republic of Korea; Multimedia Department, Assiut University, Egypt"
+  - given-names: "Ahmed"
+    family-names: "Salem"
+    affiliation: "Electrical Engineering Department, Assiut University, Egypt"
+  - given-names: "Hyun-Soo"
+    family-names: "Kang"
+    affiliation: "Department of Information and Communication Engineering, Chungbuk National University, Republic of Korea"
+preferred-citation:
+  type: article
+  title: "From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking"
+  journal: "Artificial Intelligence Review"
+  status: submitted
+  authors:
+    - given-names: "Mohamed"
+      family-names: "Mahmoud"
+    - given-names: "Mahmoud"
+      family-names: "Abdalla"
+    - given-names: "Mahmoud SalahEldin"
+      family-names: "Kasem"
+    - given-names: "Ahmed"
+      family-names: "Salem"
+    - given-names: "Hyun-Soo"
+      family-names: "Kang"

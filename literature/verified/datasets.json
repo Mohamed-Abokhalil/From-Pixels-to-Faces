@@ -1,0 +1,758 @@
+[
+ {
+  "label": "CelebAMask-HQ (MaskGAN)",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr42600.2020.00559",
+    "title": "MaskGAN: Towards Diverse and Interactive Facial Image Manipulation",
+    "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2020,
+    "volume": null,
+    "issue": null,
+    "pages": "5548-5557",
+    "publisher": "IEEE",
+    "authors": [
+     "Lee, Cheng-Han",
+     "Liu, Ziwei",
+     "Wu, Lingyun",
+     "Luo, Ping"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cait56099.2022.10072275",
+    "title": "MaskGAN: A Facial Fusion Algorithm for Deepfake Image Detection",
+    "container": "2022 International Conference on Computers and Artificial Intelligence Technologies (CAIT)",
+    "type": "proceedings-article",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "71-78",
+    "publisher": "IEEE",
+    "authors": [
+     "Liu, Dazhuang",
+     "Yang, Zhen",
+     "Zhang, Ru",
+     "Liu, Jianyi"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cvpr46437.2021.00229",
+    "title": "TediGAN: Text-Guided Diverse Face Image Generation and Manipulation",
+    "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2021,
+    "volume": null,
+    "issue": null,
+    "pages": "2256-2265",
+    "publisher": "IEEE",
+    "authors": [
+     "Xia, Weihao",
+     "Yang, Yujiu",
+     "Xue, Jing-Hao",
+     "Wu, Baoyuan"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "MM-CelebA-HQ (TediGAN)",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr46437.2021.00229",
+    "title": "TediGAN: Text-Guided Diverse Face Image Generation and Manipulation",
+    "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2021,
+    "volume": null,
+    "issue": null,
+    "pages": "2256-2265",
+    "publisher": "IEEE",
+    "authors": [
+     "Xia, Weihao",
+     "Yang, Yujiu",
+     "Xue, Jing-Hao",
+     "Wu, Baoyuan"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cvpr52688.2022.01044",
+    "title": "ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation",
+    "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "10697-10707",
+    "publisher": "IEEE",
+    "authors": [
+     "Wang, Jianan",
+     "Lu, Guansong",
+     "Xu, Hang",
+     "Li, Zhenguo",
+     "Xu, Chunjing",
+     "Fu, Yanwei"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cvpr42600.2020.00790",
+    "title": "ManiGAN: Text-Guided Image Manipulation",
+    "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2020,
+    "volume": null,
+    "issue": null,
+    "pages": "7877-7886",
+    "publisher": "IEEE",
+    "authors": [
+     "Li, Bowen",
+     "Qi, Xiaojuan",
+     "Lukasiewicz, Thomas",
+     "Torr, Philip H.S."
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "Multi-PIE",
+  "crossref_candidates": [
+   {
+    "doi": "10.1016/j.imavis.2009.08.002",
+    "title": "Multi-PIE",
+    "container": "Image and Vision Computing",
+    "type": "journal-article",
+    "year": 2010,
+    "volume": "28",
+    "issue": "5",
+    "pages": "807-813",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Gross, Ralph",
+     "Matthews, Iain",
+     "Cohn, Jeffrey",
+     "Kanade, Takeo",
+     "Baker, Simon"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/afgr.2008.4813399",
+    "title": "Multi-PIE",
+    "container": "2008 8th IEEE International Conference on Automatic Face &amp; Gesture Recognition",
+    "type": "proceedings-article",
+    "year": 2008,
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "publisher": "IEEE",
+    "authors": [
+     "Gross, Ralph",
+     "Matthews, Iain",
+     "Cohn, Jeffrey",
+     "Kanade, Takeo",
+     "Baker, Simon"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.imavis.2005.08.001",
+    "title": "Active appearance models with occlusion",
+    "container": "Image and Vision Computing",
+    "type": "journal-article",
+    "year": 2006,
+    "volume": "24",
+    "issue": "6",
+    "pages": "593-604",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Gross, Ralph",
+     "Matthews, Iain",
+     "Baker, Simon"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "LFW",
+  "crossref_candidates": [
+   {
+    "doi": "10.1117/12.2080393",
+    "title": "Quality labeled faces in the wild (QLFW): a database for studying face recognition in real-world environments",
+    "container": "SPIE Proceedings Human Vision and Electronic Imaging XX",
+    "type": "proceedings-article",
+    "year": 2015,
+    "volume": "9394",
+    "issue": null,
+    "pages": "93940B",
+    "publisher": "SPIE",
+    "authors": [
+     "Karam, Lina J.",
+     "Zhu, Tong"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1007/978-3-319-25958-1_8",
+    "title": "Labeled Faces in the Wild: A Survey",
+    "container": "Advances in Face Detection and Facial Image Analysis",
+    "type": "book-chapter",
+    "year": 2016,
+    "volume": null,
+    "issue": null,
+    "pages": "189-248",
+    "publisher": "Springer International Publishing",
+    "authors": [
+     "Learned-Miller, Erik",
+     "Huang, Gary B.",
+     "RoyChowdhury, Aruni",
+     "Li, Haoxiang",
+     "Hua, Gang"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/cvprw.2008.4562973",
+    "title": "Towards unconstrained face recognition",
+    "container": "2008 IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops",
+    "type": "proceedings-article",
+    "year": 2008,
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "publisher": "IEEE",
+    "authors": [
+     "Huang, Gary B.",
+     "Narayana, Manjunath",
+     "Learned-Miller, Erik"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "Helen",
+  "crossref_candidates": [
+   {
+    "doi": "10.1007/978-3-642-33712-3_49",
+    "title": "Interactive Facial Feature Localization",
+    "container": "Lecture Notes in Computer Science Computer Vision – ECCV 2012",
+    "type": "book-chapter",
+    "year": 2012,
+    "volume": null,
+    "issue": null,
+    "pages": "679-692",
+    "publisher": "Springer Berlin Heidelberg",
+    "authors": [
+     "Le, Vuong",
+     "Brandt, Jonathan",
+     "Lin, Zhe",
+     "Bourdev, Lubomir",
+     "Huang, Thomas S."
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1007/978-3-319-10593-2_8",
+    "title": "Consensus of Regression for Occlusion-Robust Facial Feature Localization",
+    "container": "Lecture Notes in Computer Science Computer Vision – ECCV 2014",
+    "type": "book-chapter",
+    "year": 2014,
+    "volume": null,
+    "issue": null,
+    "pages": "105-118",
+    "publisher": "Springer International Publishing",
+    "authors": [
+     "Yu, Xiang",
+     "Lin, Zhe",
+     "Brandt, Jonathan",
+     "Metaxas, Dimitris N."
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/iccv.2013.131",
+    "title": "Exemplar-Based Graph Matching for Robust Facial Landmark Localization",
+    "container": "2013 IEEE International Conference on Computer Vision",
+    "type": "proceedings-article",
+    "year": 2013,
+    "volume": null,
+    "issue": null,
+    "pages": "1025-1032",
+    "publisher": "IEEE",
+    "authors": [
+     "Zhou, Feng",
+     "Brandt, Jonathan",
+     "Lin, Zhe"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "CACD",
+  "crossref_candidates": [
+   {
+    "doi": "10.1007/978-3-319-10599-4_49",
+    "title": "Cross-Age Reference Coding for Age-Invariant Face Recognition and Retrieval",
+    "container": "Lecture Notes in Computer Science Computer Vision – ECCV 2014",
+    "type": "book-chapter",
+    "year": 2014,
+    "volume": null,
+    "issue": null,
+    "pages": "768-783",
+    "publisher": "Springer International Publishing",
+    "authors": [
+     "Chen, Bor-Chun",
+     "Chen, Chu-Song",
+     "Hsu, Winston H."
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tmm.2015.2420374",
+    "title": "Face Recognition and Retrieval Using Cross-Age Reference Coding With Cross-Age Celebrity Dataset",
+    "container": "IEEE Transactions on Multimedia",
+    "type": "journal-article",
+    "year": 2015,
+    "volume": "17",
+    "issue": "6",
+    "pages": "804-815",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Chen, Bor-Chun",
+     "Chen, Chu-Song",
+     "Hsu, Winston H."
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1007/s00521-024-09752-5",
+    "title": "Age-invariant face network (AFN): a discriminative model towards age-invariant face recognition",
+    "container": "Neural Computing and Applications",
+    "type": "journal-article",
+    "year": 2024,
+    "volume": "36",
+    "issue": "22",
+    "pages": "13689-13702",
+    "publisher": "Springer Science and Business Media LLC",
+    "authors": [
+     "Li, Jiarui",
+     "Zhou, Li",
+     "Chen, Jie"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "EDFace-Celeb-1M",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/tpami.2022.3181579",
+    "title": "EDFace-Celeb-1 M: Benchmarking Face Hallucination With a Million-Scale Dataset",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "year": 2023,
+    "volume": "45",
+    "issue": "3",
+    "pages": "3968-3978",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Zhang, Kaihao",
+     "Li, Dongxu",
+     "Luo, Wenhan",
+     "Liu, Jingyu",
+     "Deng, Jiankang",
+     "Liu, Wei",
+     "Zafeiriou, Stefanos"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1007/978-3-319-46487-9_6",
+    "title": "MS-Celeb-1M: A Dataset and Benchmark for Large-Scale Face Recognition",
+    "container": "Lecture Notes in Computer Science Computer Vision – ECCV 2016",
+    "type": "book-chapter",
+    "year": 2016,
+    "volume": null,
+    "issue": null,
+    "pages": "87-102",
+    "publisher": "Springer International Publishing",
+    "authors": [
+     "Guo, Yandong",
+     "Zhang, Lei",
+     "Hu, Yuxiao",
+     "He, Xiaodong",
+     "Gao, Jianfeng"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.2352/issn.2470-1173.2016.11.imawm-463",
+    "title": "MS-Celeb-1M: Challenge of Recognizing One Million Celebrities in the Real World",
+    "container": "Electronic Imaging",
+    "type": "journal-article",
+    "year": 2016,
+    "volume": "28",
+    "issue": "11",
+    "pages": "1-6",
+    "publisher": "Society for Imaging Science & Technology",
+    "authors": [
+     "Guo, Yandong",
+     "Zhang, Lei",
+     "Hu, Yuxiao",
+     "He, Xiaodong",
+     "Gao, Jianfeng"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "CelebRef-HQ (DMDNet)",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/tpami.2022.3215251",
+    "title": "Learning Dual Memory Dictionaries for Blind Face Restoration",
+    "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "type": "journal-article",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "1-13",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Li, Xiaoming",
+     "Zhang, Shiguang",
+     "Zhou, Shangchen",
+     "Zhang, Lei",
+     "Zuo, Wangmeng"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.2139/ssrn.4495224",
+    "title": "Blind Face Restoration: Benchmark Datasets and a Baseline Model",
+    "container": "",
+    "type": "posted-content",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "Elsevier BV",
+    "authors": [
+     "zhang, puyang",
+     "Zhang, Kaihao",
+     "Luo, Wenhan",
+     "Li, Changsheng",
+     "Wang, Guoren"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/tnnls.2023.3339614",
+    "title": "Multiprior Learning Via Neural Architecture Search for Blind Face Restoration",
+    "container": "IEEE Transactions on Neural Networks and Learning Systems",
+    "type": "journal-article",
+    "year": 2025,
+    "volume": "36",
+    "issue": "2",
+    "pages": "3057-3070",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "authors": [
+     "Yu, Yanjiang",
+     "Zhang, Puyang",
+     "Zhang, Kaihao",
+     "Luo, Wenhan",
+     "Li, Changsheng"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "FairFace",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/wacv48630.2021.00159",
+    "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation",
+    "container": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+    "type": "proceedings-article",
+    "year": 2021,
+    "volume": null,
+    "issue": null,
+    "pages": "1547-1557",
+    "publisher": "IEEE",
+    "authors": [
+     "Karkkainen, Kimmo",
+     "Joo, Jungseock"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.3389/frai.2026.1817529",
+    "title": "Reassessing demographic bias in face attribute classification: a statistically grounded multi-model evaluation on FairFace and UTKFace",
+    "container": "Frontiers in Artificial Intelligence",
+    "type": "journal-article",
+    "year": 2026,
+    "volume": "9",
+    "issue": null,
+    "pages": "1817529",
+    "publisher": "Frontiers Media SA",
+    "authors": [
+     "Nemavhola, Andisani",
+     "Viriri, Serestina",
+     "Chibaya, Colin"
+    ],
+    "abstract": "\n                    Face analysis systems are widely used in security, authentication, and public-sector applications; however, demographic bias and the statistical reliability of reported performance remain key concerns. Many studies rely on aggregate accuracy without quantifying subgroup disparities or uncertainty, potentially overstating model fairness. This study presents a statistically grounded evaluation of demographic bias in face attribute classification across three representative architectures, ResNet50, MobileNetV3, and a vision transformer (DeiT), using the FairFace and UTKFace datasets. Subgroup analysis is conducted across race and gender, incorporating disparity indices, bootstrap confidence intervals, and inferential statistical testing with effect size analysis. The evaluation uses an embedding-based nearest-neighbor approach to examine representation-level behavior consistently across models. Results show that race-based disparities are substantially larger than gender-based disparities across both datasets. On FairFace, race disparity gaps range from 0.1124 to 0.1266, while on UTKFace they increase significantly to 0.4726–0.4944, with large effect sizes (Cohen's\n                    d\n                    &amp;gt;1). In contrast, gender disparities remain smaller, with gaps between 0.0280 and 0.0582 on FairFace and 0.0194–0.0326 on UTKFace, and correspondingly small effect sizes (\n                    d\n                    &amp;lt; 0.13). Despite modest diff"
+   },
+   {
+    "doi": "10.1109/ijcb52358.2021.9484352",
+    "title": "RamFace: Race Adaptive Margin Based Face Recognition for Racial Bias Mitigation",
+    "container": "2021 IEEE International Joint Conference on Biometrics (IJCB)",
+    "type": "proceedings-article",
+    "year": 2021,
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "publisher": "IEEE",
+    "authors": [
+     "Yang, Zhanjia",
+     "Zhu, Xiangping",
+     "Jiang, Changyuan",
+     "Liu, Wenshuang",
+     "Shen, Linlin"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "VoxCeleb",
+  "crossref_candidates": [
+   {
+    "doi": "10.21437/interspeech.2017-950",
+    "title": "VoxCeleb: A Large-Scale Speaker Identification Dataset",
+    "container": "Interspeech 2017",
+    "type": "proceedings-article",
+    "year": 2017,
+    "volume": null,
+    "issue": null,
+    "pages": "2616-2620",
+    "publisher": "ISCA",
+    "authors": [
+     "Nagrani, Arsha",
+     "Chung, Joon Son",
+     "Zisserman, Andrew"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.csl.2019.101027",
+    "title": "Voxceleb: Large-scale speaker verification in the wild",
+    "container": "Computer Speech &amp; Language",
+    "type": "journal-article",
+    "year": 2020,
+    "volume": "60",
+    "issue": null,
+    "pages": "101027",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Nagrani, Arsha",
+     "Chung, Joon Son",
+     "Xie, Weidi",
+     "Zisserman, Andrew"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.21437/interspeech.2018-1929",
+    "title": "VoxCeleb2: Deep Speaker Recognition",
+    "container": "Interspeech 2018",
+    "type": "proceedings-article",
+    "year": 2018,
+    "volume": null,
+    "issue": null,
+    "pages": "1086-1090",
+    "publisher": "ISCA",
+    "authors": [
+     "Chung, Joon Son",
+     "Nagrani, Arsha",
+     "Zisserman, Andrew"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "FaceForensics++",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/iccv.2019.00009",
+    "title": "FaceForensics++: Learning to Detect Manipulated Facial Images",
+    "container": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "type": "proceedings-article",
+    "year": 2019,
+    "volume": null,
+    "issue": null,
+    "pages": "1-11",
+    "publisher": "IEEE",
+    "authors": [
+     "Rossler, Andreas",
+     "Cozzolino, Davide",
+     "Verdoliva, Luisa",
+     "Riess, Christian",
+     "Thies, Justus",
+     "Niessner, Matthias"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.7717/peerj-cs.3893/fig-2",
+    "title": "Figure 2: NR-IQA scores computed from facial regions in 20 frames of a pristine video (ID: 125) from the FaceForensics++ dataset and its four manipulated versions using six different NR-IQA metrics.",
+    "container": "",
+    "type": "component",
+    "year": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "PeerJ",
+    "authors": [],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1109/btas46853.2019.9185974",
+    "title": "Multi-task Learning for Detecting and Segmenting Manipulated Facial Images and Videos",
+    "container": "2019 IEEE 10th International Conference on Biometrics Theory, Applications and Systems (BTAS)",
+    "type": "proceedings-article",
+    "year": 2019,
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "publisher": "IEEE",
+    "authors": [
+     "Nguyen, Huy H.",
+     "Fang, Fuming",
+     "Yamagishi, Junichi",
+     "Echizen, Isao"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "HDTF",
+  "crossref_candidates": [
+   {
+    "doi": "10.1109/cvpr46437.2021.00366",
+    "title": "Flow-guided One-shot Talking Face Generation with a High-resolution Audio-visual Dataset",
+    "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "type": "proceedings-article",
+    "year": 2021,
+    "volume": null,
+    "issue": null,
+    "pages": "3660-3669",
+    "publisher": "IEEE",
+    "authors": [
+     "Zhang, Zhimeng",
+     "Li, Lincheng",
+     "Ding, Yu",
+     "Fan, Changjie"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.2139/ssrn.4698118",
+    "title": "Expformer: Audio-Driven One-Shot Talking Face Generation Based On  Expression Transformer",
+    "container": "",
+    "type": "posted-content",
+    "year": 2024,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Liu, Kangwei",
+     "Yi, Xiaowei",
+     "Zhao, Xianfeng"
+    ],
+    "abstract": ""
+   },
+   {
+    "doi": "10.1016/j.neucom.2026.133132",
+    "title": "Audio-to-3D: One-shot talking face generation with disentangled latent codes and diffusion control",
+    "container": "Neurocomputing",
+    "type": "journal-article",
+    "year": 2026,
+    "volume": "677",
+    "issue": null,
+    "pages": "133132",
+    "publisher": "Elsevier BV",
+    "authors": [
+     "Zhang, Peixu",
+     "Yang, Xinyu"
+    ],
+    "abstract": ""
+   }
+  ]
+ },
+ {
+  "label": "QD-IMD check",
+  "crossref_candidates": [
+   {
+    "doi": "10.20944/preprints202309.0244.v1",
+    "title": "PEIPNet: Parametric Efficient Image-Inpainting Network with Depthwise and Pointwise Convolution",
+    "container": "",
+    "type": "posted-content",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "publisher": "MDPI AG",
+    "authors": [
+     "Ko, Jaekyun",
+     "Choi, Wanuk",
+     "Lee, Sanghwan"
+    ],
+    "abstract": "Research on image-inpainting tasks has mainly focused on enhancing performance by augmenting various stages and modules. However, this trend does not consider the increase in the number of model parameters and operational memory, which increases the burden on computational resources. To solve this problem, we propose a Parametric Efficient Image InPainting Network (PEIPNet) for efficient and effective image-inpainting. Unlike other state-of-the-art methods, the proposed model has a one-stage inpainting framework in which depthwise and pointwise convolutions are adopted to reduce the number of parameters and computational costs. To generate semantically appealing results, we selected three unique components: spatially-adaptive denormalization (SPADE), dense dilated convolution module (DDCM), and efficient self-attention (ESA). The SPADE was adopted to conditionally normalize activations according to the mask to distinguish between damaged and undamaged regions. The DDCM was employed at every scale to overcome the gradient-vanishing obstacle and gradually fill-in pixels by capturing global information along the feature maps. The ESA was utilized to obtain clues from unmasked areas by extracting long-range information. In terms of efficiency, our model has the lowest operational memory compared with other state-of-the-art methods. Both qualitative and quantitative experiments demonstrate the generalized inpainting of our method on three public datasets: Paris StreetView, CelebA,"
+   },
+   {
+    "doi": "10.3390/s23198313",
+    "title": "PEIPNet: Parametric Efficient Image-Inpainting Network with Depthwise and Pointwise Convolution",
+    "container": "Sensors",
+    "type": "journal-article",
+    "year": 2023,
+    "volume": "23",
+    "issue": "19",
+    "pages": "8313",
+    "publisher": "MDPI AG",
+    "authors": [
+     "Ko, Jaekyun",
+     "Choi, Wanuk",
+     "Lee, Sanghwan"
+    ],
+    "abstract": "Research on image-inpainting tasks has mainly focused on enhancing performance by augmenting various stages and modules. However, this trend does not consider the increase in the number of model parameters and operational memory, which increases the burden on computational resources. To solve this problem, we propose a Parametric Efficient Image InPainting Network (PEIPNet) for efficient and effective image-inpainting. Unlike other state-of-the-art methods, the proposed model has a one-stage inpainting framework in which depthwise and pointwise convolutions are adopted to reduce the number of parameters and computational cost. To generate semantically appealing results, we selected three unique components: spatially-adaptive denormalization (SPADE), dense dilated convolution module (DDCM), and efficient self-attention (ESA). SPADE was adopted to conditionally normalize activations according to the mask in order to distinguish between damaged and undamaged regions. The DDCM was employed at every scale to overcome the gradient-vanishing obstacle and gradually fill in the pixels by capturing global information along the feature maps. The ESA was utilized to obtain clues from unmasked areas by extracting long-range information. In terms of efficiency, our model has the lowest operational memory compared with other state-of-the-art methods. Both qualitative and quantitative experiments demonstrate the generalized inpainting of our method on three public datasets: Paris StreetView,"
+   },
+   {
+    "doi": "10.1017/cbo9780511734304.008",
+    "title": "The Mumford-Shah Image Model for Inpainting",
+    "container": "Partial Differential Equation Methods for Image Inpainting",
+    "type": "book-chapter",
+    "year": 2015,
+    "volume": null,
+    "issue": null,
+    "pages": "161-173",
+    "publisher": "Cambridge University Press",
+    "authors": [],
+    "abstract": ""
+   }
+  ]
+ }
+]

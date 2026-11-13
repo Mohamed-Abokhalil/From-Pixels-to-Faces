@@ -1,0 +1,78 @@
+dup_src,dup_id,dup_title,kept_id
+OpenAlex,https://openalex.org/W3211660965,Image-to-image translation based face de-occlusion,R0124
+OpenAlex,https://openalex.org/W4290568447,Model and Dictionary guided Face Inpainting in the Wild,R0158
+OpenAlex,https://openalex.org/W2946545377,Symmetry-Aware Face Completion with Generative Adversarial Networks,R0183
+OpenAlex,https://openalex.org/W4295193377,How Food and Beverage Industry Overcome the Impacts of the COVID-19 Pandemic in Hong Kong?,R0292
+OpenAlex,https://openalex.org/W2931773140,Occluded Face Recognition by Identity-Preserving Inpainting.,R0325
+OpenAlex,https://openalex.org/W7203917653,Exact Computational Certificates for the Scott–Vogelius Inf–Sup Conjecture on Three-Dimensional Freudenthal Meshes,R0343
+OpenAlex,https://openalex.org/W7131629669,A randomised feasibility study of serial magnetic resonance imaging to reduce treatment times in Charcot neuroarthropathy in people with diabetes (CADOM),R0384
+OpenAlex,https://openalex.org/W2949906299,Natural and Effective Obfuscation by Head Inpainting,R0023
+OpenAlex,https://openalex.org/W4391124076,Learning Position-Aware Implicit Neural Network for Real-World Face Inpainting,R0188
+OpenAlex,https://openalex.org/W4402347982,Learning Position-Aware Implicit Neural Network for Real-World Face Inpainting,R0188
+OpenAlex,https://openalex.org/W3008550047,Joint Face Completion and Super-Resolution Using Multi-Scale Feature Relation Learning,R0245
+OpenAlex,https://openalex.org/W4286760884,Joint Face Completion and Super-resolution using Multi-scale Feature Relation Learning,R0245
+arXiv,http://arxiv.org/abs/1607.06871v3,Deep Appearance Models: A Deep Boltzmann Machine Approach for Face Modeling,R0278
+arXiv,http://arxiv.org/abs/1611.05271v1,DeMeshNet: Blind Face Inpainting for Deep MeshFace Verification,R0062
+arXiv,http://arxiv.org/abs/1612.08534v1,Robust LSTM-Autoencoders for Face De-Occlusion in the Wild,R0063
+arXiv,http://arxiv.org/abs/1704.05838v1,Generative Face Completion,R0013
+arXiv,http://arxiv.org/abs/1711.09001v5,Natural and Effective Obfuscation by Head Inpainting,R0023
+arXiv,http://arxiv.org/abs/1712.03999v1,Eye In-Painting with Exemplar Generative Adversarial Networks,R0033
+arXiv,http://arxiv.org/abs/1712.04646v1,Learning Disentangling and Fusing Networks for Face Completion Under Structured Occlusions,R0222
+arXiv,http://arxiv.org/abs/1801.07580v1,Side Information for Face Completion: a Robust PCA Approach,R0174
+arXiv,http://arxiv.org/abs/1801.07632v1,High Resolution Face Completion with Multiple Controllable Attributes via Fully End-to-End Progressive Generative Adversarial Networks,R0409
+arXiv,http://arxiv.org/abs/1803.08943v2,Image Inpainting using Block-wise Procedural Training with Annealed Adversarial Counterpart,R0419
+arXiv,http://arxiv.org/abs/1807.08772v1,Identity Preserving Face Completion for Large Ocular Region Occlusion,R0398
+arXiv,http://arxiv.org/abs/1809.02967v2,Geometry-Aware Face Completion and Editing,R0071
+arXiv,http://arxiv.org/abs/1810.00107v1,Superimposition-guided Facial Reconstruction from Skull,R0413
+arXiv,http://arxiv.org/abs/1810.08774v1,Improved Techniques for GAN based Facial Inpainting,R0397
+arXiv,http://arxiv.org/abs/1811.07104v3,On Hallucinating Context and Background Pixels from a Face Mask using Multi-scale GANs,R0259
+arXiv,http://arxiv.org/abs/1812.03252v3,Face Completion with Semantic Knowledge and Collaborative Adversarial Learning,R0182
+arXiv,http://arxiv.org/abs/1812.07741v1,Learning Symmetry Consistent Deep CNNs for Face Completion,R0154
+arXiv,http://arxiv.org/abs/1901.03396v1,Detecting Overfitting of Deep Generative Networks via Latent Recovery,R0414
+arXiv,http://arxiv.org/abs/1904.06109v2,Face De-occlusion using 3D Morphable Model and Generative Adversarial Network,R0116
+arXiv,http://arxiv.org/abs/1906.02858v1,Does Generative Face Completion Help Face Recognition?,R0125
+arXiv,http://arxiv.org/abs/1908.05932v1,FSGAN: Subject Agnostic Face Swapping and Reenactment,R0297
+arXiv,http://arxiv.org/abs/1911.01045v1,FCSR-GAN: Joint Face Completion and Super-resolution via Multi-task Learning,R0203
+arXiv,http://arxiv.org/abs/1911.11394v1,LaFIn: Generative Landmark Guided Face Inpainting,R0393
+arXiv,http://arxiv.org/abs/2001.03725v2,Symmetric Skip Connection Wasserstein GAN for High-Resolution Facial Image Inpainting,R0048
+arXiv,http://arxiv.org/abs/2002.02909v2,Domain Embedded Multi-model Generative Adversarial Networks for Image-based Face Inpainting,R0405
+arXiv,http://arxiv.org/abs/2003.00255v2,Joint Face Completion and Super-resolution using Multi-scale Feature Relation Learning,R0245
+arXiv,http://arxiv.org/abs/2003.13903v1,Learning Oracle Attention for High-fidelity Face Completion,R0142
+arXiv,http://arxiv.org/abs/2008.04621v3,R-MNet: A Perceptual Adversarial Network for Image Inpainting,R0268
+arXiv,http://arxiv.org/abs/2101.07036v2,Iterative Facial Image Inpainting Based on an Encoder-Generator Architecture,R0029
+arXiv,http://arxiv.org/abs/2105.03342v1,Foreground-guided Facial Inpainting with Fidelity Preservation,R0075
+arXiv,http://arxiv.org/abs/2105.06033v1,Extreme Face Inpainting with Sketch-Guided Conditional GAN,R0143
+arXiv,http://arxiv.org/abs/2106.07310v1,Pixel Sampling for Style Preserving Face Pose Editing,R0316
+arXiv,http://arxiv.org/abs/2108.04424v2,FT-TDR: Frequency-guided Transformer and Top-Down Refinement Network for Blind Face Inpainting,R0199
+arXiv,http://arxiv.org/abs/2109.00681v2,Deep Face Video Inpainting via UV Mapping,R0318
+arXiv,http://arxiv.org/abs/2110.10395v1,3DFaceFill: An Analysis-By-Synthesis Approach to Face Completion,R0209
+arXiv,http://arxiv.org/abs/2112.08022v1,Segmentation-Reconstruction-Guided Facial Image De-occlusion,R0305
+arXiv,http://arxiv.org/abs/2112.10310v1,Contrastive Attention Network with Dense Field Estimation for Face Completion,R0208
+arXiv,http://arxiv.org/abs/2202.06358v3,Do Inpainting Yourself: Generative Facial Inpainting Guided by Exemplars,R0105
+arXiv,http://arxiv.org/abs/2202.09856v2,Non-Deterministic Face Mask Removal Based On 3D Priors,R0041
+arXiv,http://arxiv.org/abs/2202.12972v1,FSGANv2: Improved Subject Agnostic Face Swapping and Reenactment,R0333
+arXiv,http://arxiv.org/abs/2204.02824v3,ShowFace: Coordinated Face Inpainting with Memory-Disentangled Refinement Networks,R0403
+arXiv,http://arxiv.org/abs/2205.13368v1,One-Shot Face Reenactment on Megapixels,R0416
+arXiv,http://arxiv.org/abs/2209.08850v1,Masked Face Inpainting Through Residual Attention UNet,R0002
+arXiv,http://arxiv.org/abs/2209.08930v1,HiMFR: A Hybrid Masked Face Recognition Through Face Inpainting,R0402
+arXiv,http://arxiv.org/abs/2210.12622v1,Facial De-occlusion Network for Virtual Telepresence Systems,R0399
+arXiv,http://arxiv.org/abs/2211.02707v1,Contrastive Learning for Diverse Disentangled Foreground Generation,R0285
+arXiv,http://arxiv.org/abs/2301.03130v1,SFI-Swin: Symmetric Face Inpainting with Swin Transformer by Distinctly Learning Face Components Distributions,R0227
+arXiv,http://arxiv.org/abs/2301.08044v1,Reference Guided Image Inpainting using Facial Attributes,R0307
+arXiv,http://arxiv.org/abs/2301.08443v1,DIFAI: Diverse Facial Inpainting using StyleGAN Inversion,R0066
+arXiv,http://arxiv.org/abs/2303.07014v1,Reference-Guided Large-Scale Face Inpainting with Identity and Texture Control,R0171
+arXiv,http://arxiv.org/abs/2304.06107v1,PATMAT: Person Aware Tuning of Mask-Aware Transformer for Face Inpainting,R0184
+arXiv,http://arxiv.org/abs/2310.15081v3,E4S: Fine-grained Face Swapping via Editing With Regional GAN Inversion,R0417
+arXiv,http://arxiv.org/abs/2312.03556v1,Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention,R0150
+arXiv,http://arxiv.org/abs/2312.06285v1,Compensation Sampling for Improved Convergence in Diffusion Models,R0260
+arXiv,http://arxiv.org/abs/2401.10537v1,Learning Position-Aware Implicit Neural Network for Real-World Face Inpainting,R0188
+arXiv,http://arxiv.org/abs/2403.01108v2,Face Swap via Diffusion Model,R0415
+arXiv,http://arxiv.org/abs/2403.12197v1,E2F-Net: Eyes-to-Face Inpainting via StyleGAN Latent Space,R0156
+arXiv,http://arxiv.org/abs/2405.05900v1,"A Comprehensive Survey of Masked Faces: Recognition, Detection, and Unmasking",R0301
+arXiv,http://arxiv.org/abs/2405.16761v1,Masked Face Recognition with Generative-to-Discriminative Representations,R0418
+arXiv,http://arxiv.org/abs/2409.06845v2,Face Mask Removal with Region-attentive Face Inpainting,R0392
+arXiv,http://arxiv.org/abs/2409.12385v1,Look Through Masks: Towards Masked Face Recognition with De-Occlusion Distillation,R0332
+arXiv,http://arxiv.org/abs/2409.13349v3,ID-Guard: A Universal Framework for Combating Facial Manipulation via Breaking Identification,R0291
+arXiv,http://arxiv.org/abs/2512.05039v2,Semantic-Guided Two-Stage GAN for Face Inpainting with Hybrid Perceptual Encoding,R0404
+arXiv,http://arxiv.org/abs/2605.16696v1,Face inpainting with Identity Preserving Latent Diffusion Models,R0400
+arXiv,http://arxiv.org/abs/2608.04820v1,When Diffusion Models Forget Who You Are: Identity Preservation in Face Inpainting under Large Occlusions,R0408

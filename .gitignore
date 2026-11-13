@@ -1,0 +1,18 @@
+# generated data: distributed through Zenodo (download_outputs.py), never committed
+outputs/
+samples_stoch/
+_downloads/
+*.zip
+# CelebA-derived images are not redistributed in git
+*.jpg
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# local environments and checkpoints
+.venv/
+*.ckpt
+*.pth
+*.pt

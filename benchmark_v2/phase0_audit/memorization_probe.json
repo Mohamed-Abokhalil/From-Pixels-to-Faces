@@ -1,0 +1,22 @@
+{
+ "Spa-former_fi": {
+  "n": 40,
+  "lower_half_psnr_mean": 13.570712321329173,
+  "std": 1.6526592768385864
+ },
+ "Spa-former_fu": {
+  "n": 40,
+  "lower_half_psnr_mean": 13.2124019936792,
+  "std": 2.499379174621158
+ },
+ "VHII_fi": {
+  "n": 40,
+  "lower_half_psnr_mean": 15.572772164607178,
+  "std": 2.0880018095189365
+ },
+ "VHII_fu": {
+  "n": 40,
+  "lower_half_psnr_mean": 14.571326147025957,
+  "std": 2.3631248439890427
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "record_id": "24193553",
+ "doi": "10.5281/zenodo.24193552",
+ "note": "Zenodo record holding the generated outputs (archives below); read by download_outputs.py.",
+ "archives": [
+  {
+   "file": "outputs_fi_EdgeConnect.zip",
+   "extracts_to": "outputs/fi/EdgeConnect/",
+   "n_files": 1000,
+   "bytes": 89458515,
+   "sha256": "8cc23bc0c2f0fefdba9c4d4e6c9a2f20d566b4050b7583577c6b0f28f0c6c11e"
+  },
+  {
+   "file": "outputs_fi_StructureFlow.zip",
+   "extracts_to": "outputs/fi/StructureFlow/",
+   "n_files": 1000,
+   "bytes": 88999316,
+   "sha256": "e3d1e77a0979243d0f223ae50a00d64428a0c829dbac0075083a6287cfe2e7d2"
+  },
+  {
+   "file": "outputs_fi_Pluralistic.zip",
+   "extracts_to": "outputs/fi/Pluralistic/",
+   "n_files": 1000,
+   "bytes": 89657331,
+   "sha256": "45abdabe0309f3db8a6f244b7cefad897d5009b3c08c2e2386701385734f5f4d"
+  },
+  {
+   "file": "outputs_fi_DeepFillv2.zip",
+   "extracts_to": "outputs/fi/DeepFillv2/",
+   "n_files": 1000,
+   "bytes": 108714865,
+   "sha256": "eb26923fc8f106c48e857c483a1970e49766c2d0385d8fd523a9becaed0970c9"
+  },
+  {
+   "file": "outputs_fi_PEN-Net.zip",
+   "extracts_to": "outputs/fi/PEN-Net/",
+   "n_files": 1000,
+   "bytes": 88475665,
+   "sha256": "b3a12f194899ba12cd6895ed52a160bedccf0d526a26d7c9d0d275091f8bd8b2"
+  },
+  {
+   "file": "outputs_fi_LaFIn.zip",
+   "extracts_to": "outputs/fi/LaFIn/",
+   "n_files": 1000,
+   "bytes": 89646507,
+   "sha256": "a64301794ff9f17288c31b00a4177e83da4abc057379e59e61bb88609662732c"
+  },
+  {
+   "file": "outputs_fi_E2I.zip",
+   "extracts_to": "outputs/fi/E2I/",
+   "n_files": 1000,
+   "bytes": 87985127,
+   "sha256": "83b614ce1d795437709498d134ddcb3f077c49a99ce3eaa742d6e8cbcdd8df24"
+  },
+  {
+   "file": "outputs_fi_MADF.zip",
+   "extracts_to": "outputs/fi/MADF/",
+   "n_files": 1000,
+   "bytes": 88361827,
+   "sha256": "15ebed63fa81d87a7a0cbe3d18b6fc7e6ce405cdd8e6de82727f4cf5207912a2"
+  },
+  {
+   "file": "outputs_fi_VHII.zip",
+   "extracts_to": "outputs/fi/VHII/",
+   "n_files": 1000,
+   "bytes": 88054956,
+   "sha256": "30671b9b3c9e6574c699843476f3a76688bbf9ba243193ff49e841346872a034"
+  },
+  {
+   "file": "outputs_fi_WaveFill.zip",
+   "extracts_to": "outputs/fi/WaveFill/",
+   "n_files": 1000,
+   "bytes": 89263254,
+   "sha256": "446ff4b69b90633f5c25ada2f14d8d93018895ed3573ed012854e14e8576e688"
+  },
+  {
+   "file": "outputs_fi_BAT-Fill.zip",
+   "extracts_to": "outputs/fi/BAT-Fill/",
+   "n_files": 1000,
+   "bytes": 89091029,
+   "sha256": "31d07d9e0f974f59276fdff5bee10e6552df461d4e0e608f7a19ab223201c0e1"
+  },
+  {
+   "file": "outputs_fi_latent-code.zip",
+   "extracts_to": "outputs/fi/latent-code/",
+   "n_files": 1000,
+   "bytes": 90274209,
+   "sha256": "9053cd3d024bb4eee98aae1088c14c4ef361750c75eec2a807b4905f81da7bdf"
+  },
+  {
+   "file": "outputs_fi_CoModGAN.zip",
+   "extracts_to": "outputs/fi/CoModGAN/",
+   "n_files": 1000,
+   "bytes": 117651511,
+   "sha256": "36ff863f205451bea40c32c2557f10495735f32f817465d0f1090586c5c1995e"
+  },
+  {
+   "file": "outputs_fi_CTSDG.zip",
+   "extracts_to": "outputs/fi/CTSDG/",
+   "n_files": 1000,
+   "bytes": 88387623,
+   "sha256": "b75d3fa4c464a9e63047e1f8f5a11f84dfbba23c1c594a31e9c4464d3630e0fc"
+  },
+  {
+   "file": "outputs_fi_GPEN.zip",
+   "extracts_to": "outputs/fi/GPEN/",
+   "n_files": 1000,
+   "bytes": 113776927,
+   "sha256": "75cb1c5e615c8459b5a846fc3919f4afd468729a13a5d1158dfffcf2e14b3814"
+  },
+  {
+   "file": "outputs_fi_MISF.zip",
+   "extracts_to": "outputs/fi/MISF/",
+   "n_files": 1000,
+   "bytes": 88140581,
+   "sha256": "dd929f96ed35cec48e548ddfb3905054f61a555e2439f2680804f354659d47d2"
+  },
+  {
+   "file": "outputs_fi_LaMa.zip",
+   "extracts_to": "outputs/fi/LaMa/",
+   "n_files": 1000,
+   "bytes": 89771595,
+   "sha256": "51b8bc3f559f3ae1bfe4cd699205ce052739663c13ea17517387ef9eeff1babb"
+  },
+  {
+   "file": "outputs_fi_DGTS.zip",
+   "extracts_to": "outputs/fi/DGTS/",
+   "n_files": 1000,
+   "bytes": 88899102,
+   "sha256": "b45b56e0e5040bde939968769dc985eb309be8da8336994e792f34054e6c28f5"
+  },
+  {
+   "file": "outputs_fi_RePaint.zip",
+   "extracts_to": "outputs/fi/RePaint/",
+   "n_files": 1000,
+   "bytes": 93527874,
+   "sha256": "f13b8d20322db9b534d46f6f1ecf4156da245c0345bfab439fed4f80d15cf385"
+  },
+  {
+   "file": "outputs_fi_CodeFormer.zip",
+   "extracts_to": "outputs/fi/CodeFormer/",
+   "n_files": 1000,
+   "bytes": 108827120,
+   "sha256": "0b60ff2c0866b6c9ff1385bd9666cc7fcbc7e321dc7d820c65df0669499cd565"
+  },
+  {
+   "file": "outputs_fi_AOT-GAN.zip",
+   "extracts_to": "outputs/fi/AOT-GAN/",
+   "n_files": 1000,
+   "bytes": 89196654,
+   "sha256": "0a459aec400d5e68a4714aa88d511fc7f2861cb24c11fea90299e943392684f7"
+  },
+  {
+   "file": "outputs_fi_SCAT.zip",
+   "extracts_to": "outputs/fi/SCAT/",
+   "n_files": 1000,
+   "bytes": 86305987,
+   "sha256": "9366091c7098dd4aad414a8f2f307ac2806a93b85905ec1f10792cb4684118ac"
+  },
+  {
+   "file": "outputs_fi_CMT.zip",
+   "extracts_to": "outputs/fi/CMT/",
+   "n_files": 1000,
+   "bytes": 107634706,
+   "sha256": "72578bf480cb4f30f95523a53bac9f1142cd93b4a9dc46859132b08d4d651ac0"
+  },
+  {
+   "file": "outputs_fi_CoPaint.zip",
+   "extracts_to": "outputs/fi/CoPaint/",
+   "n_files": 1000,
+   "bytes": 108735348,
+   "sha256": "88cfe529de596a32d4fb46196dc433f97ad16f1f0e0bdf3583cf78ace6f1c51a"
+  },
+  {
+   "file": "outputs_fi_NDMA.zip",
+   "extracts_to": "outputs/fi/NDMA/",
+   "n_files": 1000,
+   "bytes": 114051122,
+   "sha256": "0b9ef89cb41cc52250907b4f9538f261b1b25739ec826bc248fc2ce4c1237ab8"
+  },
+  {
+   "file": "outputs_fi_spa-former.zip",
+   "extracts_to": "outputs/fi/spa-former/",
+   "n_files": 1000,
+   "bytes": 88679134,
+   "sha256": "0c66552858a260a94549ab5f874a81df92d800bfd024a647eec5c65113e1fc68"
+  },
+  {
+   "file": "outputs_fi_TSFormer.zip",
+   "extracts_to": "outputs/fi/TSFormer/",
+   "n_files": 1000,
+   "bytes": 90389387,
+   "sha256": "ec18a02d9d0baf7e6f8de3d343cc1e9aae2a7ab73d1d19bf9b045a179b60cfc4"
+  },
+  {
+   "file": "outputs_fi_MADIN.zip",
+   "extracts_to": "outputs/fi/MADIN/",
+   "n_files": 1000,
+   "bytes": 89503055,
+   "sha256": "f7988ced0adcb5143d6e66da3ab800ab4420c0468fb054c01016bac6eb844a20"
+  },
+  {
+   "file": "outputs_fu_EdgeConnect.zip",
+   "extracts_to": "outputs/fu/EdgeConnect/",
+   "n_files": 500,
+   "bytes": 47600975,
+   "sha256": "045ac69830b99a6d20b782efc9dd29fe0e4972beab053c760f3762f688c9812e"
+  },
+  {
+   "file": "outputs_fu_CoModGAN.zip",
+   "extracts_to": "outputs/fu/CoModGAN/",
+   "n_files": 500,
+   "bytes": 60458325,
+   "sha256": "84cc7245871e8aa106da9f4dfcd2bdce0644c4c07b06e25f930168e8347fea65"
+  },
+  {
+   "file": "outputs_fu_RePaint.zip",
+   "extracts_to": "outputs/fu/RePaint/",
+   "n_files": 500,
+   "bytes": 50355948,
+   "sha256": "79a4fdf01b2f1658cda5b42b4a7c5b7f2591081affa8c0d322b33a452fcc8bc7"
+  },
+  {
+   "file": "outputs_fu_GANMasker.zip",
+   "extracts_to": "outputs/fu/GANMasker/",
+   "n_files": 500,
+   "bytes": 44877662,
+   "sha256": "a3e61b010a663a36e4a98fb2547cc5bf16d9731d3f8d6a6e202119de0ea92063"
+  },
+  {
+   "file": "outputs_fu_SCAT.zip",
+   "extracts_to": "outputs/fu/SCAT/",
+   "n_files": 500,
+   "bytes": 46841046,
+   "sha256": "0987df44a6050f237c81da4a20ebb4a6f2826236ac179bf2c76df59bcd553da6"
+  },
+  {
+   "file": "outputs_fu_CoPaint.zip",
+   "extracts_to": "outputs/fu/CoPaint/",
+   "n_files": 500,
+   "bytes": 56687857,
+   "sha256": "165df0124e1308898d9ce5032a91945060cddcc09fb04a404d3eff919cd0fc88"
+  },
+  {
+   "file": "outputs_fu_M2UNet.zip",
+   "extracts_to": "outputs/fu/M2UNet/",
+   "n_files": 500,
+   "bytes": 46958995,
+   "sha256": "6cf8f86d9b16fb08fa276240d05b8c45ef034b6cf29ff1b13786f9c89e9060f6"
+  },
+  {
+   "file": "samples_stoch_fi_Pluralistic.zip",
+   "extracts_to": "samples_stoch/fi/Pluralistic/",
+   "n_files": 1000,
+   "bytes": 90252689,
+   "sha256": "152906a7aa7a5ff7cd8e3e2eb9d7f63367c5a5815066f751dfe23c16d887df2c"
+  },
+  {
+   "file": "samples_stoch_fi_RePaint.zip",
+   "extracts_to": "samples_stoch/fi/RePaint/",
+   "n_files": 50,
+   "bytes": 4492463,
+   "sha256": "601130064826a66115f44bafff48b97d0213856ead1df2b0645d886d3a294774"
+  },
+  {
+   "file": "samples_stoch_fu_Pluralistic.zip",
+   "extracts_to": "samples_stoch/fu/Pluralistic/",
+   "n_files": 1000,
+   "bytes": 94434747,
+   "sha256": "a5dc9f215d901c9ae1cf926837b9abe5ea3c0cf812b7d835d3ef1aa7923200b9"
+  },
+  {
+   "file": "samples_stoch_fu_RePaint.zip",
+   "extracts_to": "samples_stoch/fu/RePaint/",
+   "n_files": 50,
+   "bytes": 4864967,
+   "sha256": "a54d73b77023997459c6cdffdf6aa9c6377aece40028c2b3fad174966fe859a7"
+  }
+ ],
+ "software_concept_doi": "10.5281/zenodo.24190797",
+ "license": "CC-BY-NC-4.0"
+}

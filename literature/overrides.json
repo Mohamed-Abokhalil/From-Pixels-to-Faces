@@ -1,0 +1,122 @@
+[
+[
+"Agbami|Coiled Tubing|Acid-Jetting|ESS Reverse|Frac Packs|Autonomous Inflow|Lower Completion Assembly|Subsea Multilateral|Gravel Pack|Gas Lift|West of Shetland|Re-Entry Drilling|Encephalitis|Room without Room|Climatic Moment|Herpes zoster|My true face|GDPR|Facial Reconstruction Outcome|Nissl|Educational Health Website|Sand Management|Wellbore|Cement|Sanding|Oil and Less Water|HPHT|Rubik|Antimatter|Completion Fluids|Chemical Tracers|Production Logging|Corrosive Hostile|Sickle Cell|self-completion|Ramadan|Pulmonary Artery|Autism|Mask-Wearing and Emotional|COVID Faces|Unmasking Youths|Bert Williams|social risks|magnetic resonance|skin cancer|Reasoning Models|Hydraulic Fracturing|Trip Completions|Geographe",
+"exclude",
+"E-DOMAIN",
+"not about face image completion (other field)"
+],
+[
+"PigFRIS",
+"exclude",
+"E-DOMAIN",
+"animal (pig) faces"
+],
+[
+"principle components analysis|Robust PCA Approach",
+"exclude",
+"E-NONDL",
+"PCA / robust-PCA, no deep model"
+],
+[
+"Cross-Spectral Face Completion|Cross-spectral Face Completion|Convincing 3D Face Reconstruction|Facial Displacement Completion|3D Human Face Reconstruction|Facial Reconstruction from Skull|3D Face Reconstruction from a Single Depth",
+"exclude",
+"E-TASK",
+"3D/texture/cross-spectral reconstruction, not mask-conditioned completion"
+],
+[
+"Does Generative Face Completion Help|Performance Comparison of Irregular|Evaluating AI-Based Image Inpainting|Comparative Study Based on De-Occlusion|Unmasking the potential|Robustness of Deep Face Inpainting|Quantitative and Qualitative Analysis on a GAN-Based Face Mask",
+"exclude",
+"E-NOTMETHOD",
+"evaluation/comparison study, no new completion method (kept for discussion)"
+],
+[
+"Application and Development Trend|Face Mask Removal: Datasets, Methods",
+"exclude",
+"E-REVIEW",
+"review/overview"
+],
+[
+"Watermarking Algorithm Based on Face Completion|Facial Expression-Aware Virtual Reality|Concatenate Word Embedding|Unsupervised Image Translation|ABANet|Improving Face Detection in Occluded|Occluded FER in Video|Look Through Masks|Detecting Overfitting|Hallucinating Context and Background|Robust face alignment by cascaded|MFI3D|Fatigue detection|inpainting hashing|occluded face recognition framework with combination|Emotion, Age and Gender Prediction|Deep Appearance Models",
+"exclude",
+"E-TASK",
+"completion is not the task (watermarking, FER, detection, recognition, translation, background outpainting, alignment)"
+],
+[
+"FSGAN|Face Swap via Diffusion|E4S: Fine-grained Face Swapping|FaceInpainter: High Fidelity Face Adaptation",
+"exclude",
+"E-TASK",
+"face swapping/reenactment"
+],
+[
+"DEAR-GAN",
+"exclude",
+"E-BFR",
+"blind face restoration (no mask); listed as related work"
+],
+[
+"Low-Cost Training of Image-to-Image Diffusion|PC-Refine|Complex Image Restoration Method Based on Generating",
+"exclude",
+"E-DOMAIN",
+"general image restoration/diffusion training; no face-specific completion claim in abstract"
+],
+[
+"Not Suitable For Identification",
+"exclude",
+"E-NOTMETHOD",
+"forensic evaluation of AI mask removal (cited in ethics)"
+],
+[
+"^Faces: unmasked$",
+"exclude",
+"E-ACCESS",
+"no abstract, non-informative title; human screeners to check"
+],
+[
+"Non-Deterministic Face Mask Removal|Semantic Prior Guided Face Inpainting|GPG-NET|Eyes-to-Face Inpainting|SegPainter|Using Voice Cues|Segmentation-Reconstruction-Guided Facial|Tang Dynasty|SwapInpaint2|DeMaskGAN",
+"include",
+"I",
+"learned face completion/unmasking method (rule false negative; checked by reading abstract)"
+],
+[
+"LLM-Inpainter",
+"include?",
+"CHECK",
+"high-res inpainting; face evaluation unclear from abstract"
+],
+[
+"maximum-correntropy",
+"include?",
+"CHECK",
+"face completion; learning component unclear"
+],
+[
+"masked individual surveillance|Missing Facial Data Recovery in Security|Raw Footage From Video Su",
+"include?",
+"CHECK",
+"application-oriented; verify that a completion method is proposed"
+],
+[
+"Obfuscation by Head Inpainting|Eye In-painting with Exemplar|SAM C-GAN",
+"include",
+"I",
+"learned face completion/unmasking method (rule false negative; checked)"
+],
+[
+"Face Completion Using Semantic Segmentation and Geometric Features",
+"include?",
+"CHECK",
+"2018 face completion; learning component unclear from abstract"
+],
+[
+"headless Buddha|End-tidal Oxygen|Food and Beverage|SARS-CoV-2 outbreak|acne vulgaris|Law of Habits",
+"exclude",
+"E-DOMAIN",
+"not face image completion"
+],
+[
+"R-MNet|Block-wise Procedural Training",
+"include",
+"I-GEN",
+"general inpainting method evaluated on a face benchmark"
+]
+]

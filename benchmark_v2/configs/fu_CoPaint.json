@@ -1,0 +1,28 @@
+{
+ "task": "fu",
+ "method": "CoPaint",
+ "citation_key": "zhang2023towards",
+ "category": "General inpainting",
+ "family": "Diffusion",
+ "status_in_revision": "ok",
+ "note": "",
+ "developed_by_author_team": false,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": "https://github.com/UCSB-NLP-Chang/CoPaint.git",
+ "git_commit": "0b728b02c2c09e123ca376cc04cc8e59a15e8e34",
+ "local_code": "Face_Inpainting\\RelatedWorks\\CoPaint",
+ "checkpoints_present": [
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\CoPaint\\checkpoints\\celeba256_250000.pt",
+   "bytes": 2211494805,
+   "sha256": "eda2de4eb8b433add921c281de1035bbbdcee4a98e97553ab3245ae2f2bcf294"
+  }
+ ],
+ "stored_outputs_produced_in": "Face_Unmasking\\00_SOTA\\CoPaint",
+ "stored_outputs_identity_checked": true,
+ "rerun_in_revision": false,
+ "rerun_command": null,
+ "run_settings": "official celeba256_250000.pt (RePaint CelebA-HQ diffusion model); default settings of the official repository",
+ "stochastic": true,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

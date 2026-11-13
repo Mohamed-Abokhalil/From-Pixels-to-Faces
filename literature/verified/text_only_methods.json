@@ -1,0 +1,38 @@
+[
+ {
+  "title": "Transref: Multi-scale reference embedding transformer for reference-guided image inpainting",
+  "doi": "https://doi.org/10.1016/j.neucom.2025.129749",
+  "year": 2025,
+  "abstract": ""
+ },
+ {
+  "title": "MATdiff: Mask-aware transformer with diffusion model for large-mask image inpainting",
+  "doi": "https://doi.org/10.1016/j.neucom.2026.133042",
+  "year": 2026,
+  "abstract": "Diffusion models have shown strong performance in image inpainting, yet their stochastic nature often leads to semantic inconsistencies between inpainted regions and known parts of the image, especially under large-mask settings. While Transformers excel at capturing long-range semantic dependencies, their high computational complexity restricts their applicability in handling large missing areas, potentially compromising structural consistency. To address these challenges, we propose MATdiff, a unified framework that effectively integrates Transformer-based semantic modeling with the generative capabilities of diffusion models. Specifically, we leverage a mask-aware transformer (MAT) as a conditional encoder to capture semantically coherent features from visible regions, thereby constraining stochastic generation and preserving global structural consistency during the reverse diffusion process. Moreover, we introduce a distribution-guided diffusion training (DGDT) strategy that utilizes a pre-trained unconditional latent diffusion model alongside a frozen conditional encoder, enabling end-to-end optimization of the MATdiff framework. DGDT leverages the underlying data distribution learned by the diffusion model to facilitate the generation of plausible overall structures for large-mask inpainting. Extensive experiments on the CelebA-HQ and Places datasets demonstrate that MATdiff achieves strong image inpainting performance, producing semantically coherent and structurally consistent results with high visual fidelity in large-mask scenarios, while also showing consistent improvements over the baseline MAT."
+ },
+ {
+  "title": "SqSFill: Joint spatial and spectral learning for high-fidelity image inpainting",
+  "doi": "https://doi.org/10.1016/j.neucom.2025.130414",
+  "year": 2025,
+  "abstract": ""
+ },
+ {
+  "title": "NLMSA: Towards Structure-Aware Image Inpainting Using Nested Linear and Multi-Scale Attention",
+  "doi": "https://doi.org/10.1016/j.neucom.2025.132292",
+  "year": 2025,
+  "abstract": ""
+ },
+ {
+  "title": "Pyramid Fusion network with gated transformer for free-form image inpainting",
+  "doi": "https://doi.org/10.1016/j.neucom.2025.130133",
+  "year": 2025,
+  "abstract": ""
+ },
+ {
+  "title": "Do inpainting yourself: Generative facial inpainting guided by exemplars",
+  "doi": "https://doi.org/10.1016/j.neucom.2024.128996",
+  "year": 2024,
+  "abstract": ""
+ }
+]

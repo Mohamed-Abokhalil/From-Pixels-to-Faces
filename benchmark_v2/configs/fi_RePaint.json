@@ -1,0 +1,28 @@
+{
+ "task": "fi",
+ "method": "RePaint",
+ "citation_key": "lugmayr2022repaint",
+ "category": "General inpainting",
+ "family": "Diffusion",
+ "status_in_revision": "ok",
+ "note": "",
+ "developed_by_author_team": false,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": "https://github.com/andreas128/RePaint.git",
+ "git_commit": "8e2a0552a0cc306e623da807d353915f1af17726",
+ "local_code": "Face_Inpainting\\RelatedWorks\\RePaint",
+ "checkpoints_present": [
+  {
+   "file": "Face_Inpainting\\RelatedWorks\\RePaint\\data\\pretrained\\celeba256_250000.pt",
+   "bytes": 2211494805,
+   "sha256": "eda2de4eb8b433add921c281de1035bbbdcee4a98e97553ab3245ae2f2bcf294"
+  }
+ ],
+ "stored_outputs_produced_in": "Face_Inpainting\\RelatedWorks\\RePaint\\log\\face_example\\inpainted",
+ "stored_outputs_identity_checked": true,
+ "rerun_in_revision": false,
+ "rerun_command": null,
+ "run_settings": "official celeba256_250000.pt; default face_example configuration of the official repository",
+ "stochastic": true,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

@@ -1,0 +1,28 @@
+{
+ "task": "fu",
+ "method": "Din et al.",
+ "citation_key": "din2020novel",
+ "category": "FU-specific",
+ "family": "GAN/CNN",
+ "status_in_revision": "excluded",
+ "note": "no official code or checkpoint was released; the outputs (Face_Unmasking/00_SOTA/GUMF) come from a re-implementation trained by us (kaylode/facemask-removal, local weights stage2/model_99_99000.pth); excluded under the official-checkpoint rule",
+ "developed_by_author_team": false,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": "https://github.com/kaylode/facemask-removal.git",
+ "git_commit": "3bccdebceb9b799fc50a37469e9245589ced2ca2",
+ "local_code": "D:\\Face Unmasking\\facemask-removal",
+ "checkpoints_present": [
+  {
+   "file": "D:\\Face Unmasking\\facemask-removal\\weights\\stage2\\model_99_99000.pth",
+   "bytes": 118876540,
+   "sha256": "cca5d5521e4c36840983c28551955bdbaf18fa71bd525fbd83ec16511f0c0cd6"
+  }
+ ],
+ "stored_outputs_produced_in": "Face_Unmasking\\00_SOTA\\GUMF",
+ "stored_outputs_identity_checked": true,
+ "rerun_in_revision": false,
+ "rerun_command": null,
+ "run_settings": "EXCLUDED: no official code or checkpoint was released; outputs from a re-implementation (kaylode/facemask-removal) trained by us (weights stage2/model_99_99000.pth, 2024-11)",
+ "stochastic": false,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

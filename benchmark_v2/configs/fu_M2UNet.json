@@ -1,0 +1,22 @@
+{
+ "task": "fu",
+ "method": "M2UNet",
+ "citation_key": "mahmoud2026m2unet",
+ "category": "FU-specific",
+ "family": "GAN/CNN",
+ "status_in_revision": "ok",
+ "note": "",
+ "developed_by_author_team": true,
+ "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
+ "repository": null,
+ "git_commit": null,
+ "local_code": null,
+ "checkpoints_present": [],
+ "stored_outputs_produced_in": "Face_Unmasking\\ours",
+ "stored_outputs_identity_checked": true,
+ "rerun_in_revision": false,
+ "rerun_command": null,
+ "run_settings": "outputs produced by the method's authors (members of this team) with the model of the published paper",
+ "stochastic": false,
+ "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
+}

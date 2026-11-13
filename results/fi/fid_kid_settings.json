@@ -1,0 +1,7 @@
+{
+ "implementation": "pytorch-fid InceptionV3 pool3 (pt_inception-2015-12-05)",
+ "n_boot": 100,
+ "kid_subsets": 100,
+ "kid_subset_size": 250,
+ "seed": 0
+}
