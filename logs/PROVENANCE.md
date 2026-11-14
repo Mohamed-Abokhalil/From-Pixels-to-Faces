@@ -1,6 +1,6 @@
 # Output provenance audit (N-04, N-05), 2026-11-13
 
-Rule (authors, 2026-11-13): the benchmark includes only methods evaluated with the models released by their authors; no model trained or fine-tuned by us.
+Rule (authors, 2026-11-13; wording of 2026-11-14): the benchmark includes only methods evaluated with checkpoints released by, or obtained from, the original authors; no model trained or fine-tuned for the benchmark. GANMasker and M2UNet: code and checkpoints not public; outputs produced by their original authors (members of the survey team) with the models of the published papers; checkpoints available on request.
 
 Method: for every benchmark output set, the folder in a method repository whose files are byte-identical (MD5) to the stored benchmark outputs was located (`scratchpad matchout.py`, now checked on every run by `benchmark_v2/make_configs.py`, field `stored_outputs_identity_checked`). The repository was then inspected for training artefacts (training configs with `MODE: 1`, loss logs, epoch-numbered checkpoints, tensorboard events).
 

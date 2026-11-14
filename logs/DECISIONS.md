@@ -19,3 +19,6 @@
 | D-15 | 2026-11-13 | Screening by a single screener; no κ; 211 retained records without full-text decision are reported as such, not given invented reasons | Authors' answer N-06; integrity rule | adopted |
 | D-16 | 2026-11-13 | No AI-use declaration in the manuscript (authors' decision N-09) | Authors | adopted |
 | D-17 | 2026-11-13 | Zenodo: software = new version of concept 10.5281/zenodo.24190797 created by a GitHub release (integration, as NII); outputs = separate dataset record (API draft, published after approval); manuscript cites concept DOIs (authors) | Authors / NII precedent | adopted |
+| D-18 | 2026-11-14 | Scopus: run date 9 July 2026; the yearly-count export is the source of the counts; no record-level export, so the database arm of PRISMA is counts-only (limitation) | Authors' answer N-01 | adopted |
+| D-19 | 2026-11-14 | Test split: stated as randomly selected from the CelebA test split, not verified by filename (files renumbered, no mapping); training-overlap limitation added | Authors' answer N-07; integrity rule | adopted |
+| D-20 | 2026-11-14 | Benchmark rule worded 'checkpoints released by, or obtained from, the original authors'; GANMasker/M2UNet checkpoints available on request | Authors' answer N-15 | adopted |

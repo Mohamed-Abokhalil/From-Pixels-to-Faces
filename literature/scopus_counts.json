@@ -1,11 +1,23 @@
 {
- "source": "Supplied by the authors (Scopus, Analyze search results > Documents by year), 2026-11-13. The record-level export was not supplied.",
+ "source": "literature/exports/Scopus-10-Analyze-Year (1).csv (Scopus, Analyze search results > Documents by year), exported by the authors. Only yearly counts are available; there is no record-level Scopus export.",
  "database": "Scopus",
  "query": "(TITLE-ABS-KEY( \"face inpainting\" OR \"face completion\" OR \"facial inpainting\" OR \"face image inpainting\" OR \"face image completion\" OR \"face unmasking\" OR \"face mask removal\" OR \"masked face restoration\" OR \"face occlusion removal\" OR \"face mask inpainting\" OR \"face demasking\" OR \"unmasking face\" ) AND PUBYEAR > 2015 AND PUBYEAR < 2027 AND (SRCTYPE(j) OR SRCTYPE(p)))",
  "source_types": "journals (j) and conference proceedings (p)",
- "run_date": null,
- "by_year": {"2016": 4, "2017": 8, "2018": 12, "2019": 22, "2020": 37, "2021": 33, "2022": 48, "2023": 42, "2024": 31, "2025": 47, "2026": 6},
+ "run_date": "2026-07-09",
+ "by_year": {
+  "2016": 4,
+  "2017": 8,
+  "2018": 12,
+  "2019": 22,
+  "2020": 37,
+  "2021": 33,
+  "2022": 48,
+  "2023": 42,
+  "2024": 31,
+  "2025": 47,
+  "2026": 6
+ },
  "total": 290,
  "total_2016_2025": 284,
- "note_2026": "partial year up to the (unrecorded) run date"
+ "note_2026": "partial year: records up to the run date (2026-07-09)"
 }

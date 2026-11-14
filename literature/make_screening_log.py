@@ -53,7 +53,8 @@ sc = json.load(open(L / "scopus_counts.json"))
 mac = {"SLscreened": summ["records_screened"], "SLexcluded": summ["excluded_title_abstract"], "SLretained": summ["retained_title_abstract"],
        "SLinTax": summ["retained_and_in_taxonomy"], "SLnotReviewed": summ["retained_not_reviewed_individually"],
        "SLonlyOther": summ["taxonomy_total"] - summ["retained_and_in_taxonomy"],
-       "ScopusTotal": sc["total"], "ScopusTenYears": sc["total_2016_2025"], "ScopusPartial": sc["by_year"]["2026"]}
+       "ScopusTotal": sc["total"], "ScopusTenYears": sc["total_2016_2025"], "ScopusPartial": sc["by_year"]["2026"],
+       "ScopusRunDate": (lambda d: f"{d.day} {d:%B %Y}")(__import__("datetime").date.fromisoformat(sc["run_date"]))}
 open(REV / "FI_FU_Survey_AIR_revised" / "screening_numbers.tex", "w", encoding="utf8").write(
     "".join(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in mac.items()))
 print(json.dumps(summ, indent=1))

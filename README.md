@@ -4,7 +4,7 @@ Companion repository of the review
 
 > M. Mahmoud, M. Abdalla, M. S. Kasem, A. Salem, H.-S. Kang. **From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking.** *Artificial Intelligence Review* (under review, revised version).
 
-Repository: https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces · Archived (all versions): https://doi.org/10.5281/zenodo.24190797 · Generated outputs: https://doi.org/10.5281/zenodo.24193552 (CC BY-NC 4.0)
+Repository: https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces · Archived code and artefacts (Zenodo concept DOI, all versions): https://doi.org/10.5281/zenodo.24190797 · Generated outputs (Zenodo concept DOI, all versions): https://doi.org/10.5281/zenodo.24193552 (CC BY-NC 4.0)
 
 It contains everything needed to check the literature search and to regenerate every benchmark number, table and figure of the article from per-image results. The generated outputs of the benchmarked methods are archived in a separate Zenodo record (see below), not in git.
 
@@ -12,19 +12,21 @@ It contains everything needed to check the literature search and to regenerate e
 
 | | Face inpainting (FI) | Face unmasking (FU) |
 |---|---|---|
-| Images | 1,000 CelebA-HQ images, 256×256 | 500 CelebA images, 256×256 |
+| Images | 1,000 CelebA-HQ images (`25001.png`…, file `n` = CelebA-HQ image `n-1`), 256×256 | 500 CelebA images (renumbered `030000.png`…`030518.png`), 256×256 |
 | Masks | QD-IMD irregular masks, six hole-ratio bins | MaskTheFace protective masks (surgical, cloth, N95, KN95) |
-| Methods | 28 (released checkpoints only) | 7 (released checkpoints only) |
+| Methods | 28 | 7 |
 
-Rule: only methods evaluated with the models released by their authors; no model was trained or fine-tuned by us. Entries of the submitted version whose outputs came from models we had trained, or could not be traced to the official checkpoints, were removed (FI: MFCL, AttrFaceNet, MuFIN; FU: Din et al., MuFIN, DeepFillv2, GLCIC); the evidence is in `logs/PROVENANCE.md` and `benchmark_v2/configs/`.
+All test images were randomly selected from the CelebA test split (no seed was recorded); no training data were used, and every method was run on the same images with the same masks and protocol. Because the files were renumbered, membership of the official test partition (CelebA images 182638–202599) cannot be checked by filename; the exact filename lists are in `benchmark_v2/testsets/`.
 
-GANMasker and M2UNet (FU) were developed by members of the author team; see the Competing interests statement of the article.
+Rule: only methods evaluated with checkpoints released by, or obtained from, the original authors; no model was trained or fine-tuned for the benchmark. Entries of the submitted version whose outputs came from models we had trained, or could not be traced to the official checkpoints, were removed (FI: MFCL, AttrFaceNet, MuFIN; FU: Din et al., MuFIN, DeepFillv2, GLCIC); the evidence is in `logs/PROVENANCE.md` and `benchmark_v2/configs/`.
+
+GANMasker and M2UNet (FU) were developed by members of the author team (see the Competing interests statement of the article). Their code and checkpoints are not public; their outputs were produced by their original authors with the models of the published papers, and the checkpoints are available from the authors on request. The released outputs, masks and filename lists allow every metric to be recomputed.
 
 ## Contents
 
 | Path | What |
 |---|---|
-| `literature/` | Scopus query and yearly counts (`scopus_counts.json`), supplementary OpenAlex/arXiv search scripts and exports, eligibility criteria, de-duplication, the full screening log with a decision and reason per record (`screening/screening_log.csv`, single screener), the coded taxonomy (`taxonomy_methods.csv`) and its table generator |
+| `literature/` | Scopus query and yearly counts (export as downloaded from Scopus in `exports/`, search run on 9 July 2026, parsed by `scopus_from_csv.py` into `scopus_counts.json`; Scopus gives no record-level export for this search), supplementary OpenAlex/arXiv search scripts and exports, eligibility criteria, de-duplication, the full screening log with a decision and reason per record (`screening/screening_log.csv`, single screener), the coded taxonomy (`taxonomy_methods.csv`) and its table generator |
 | `benchmark_v2/testsets/` | Exact FI and FU test lists with mask ratio, bin and SHA-256 of every ground-truth, mask and masked image; repeated-sampling subsets |
 | `data/{fi,fu}/masks/` | The benchmark masks (white = missing; every non-zero pixel is treated as missing) |
 | `benchmark_v2/configs/` | One record per method: repository, commit, checkpoint files with SHA-256, the folder in which the stored outputs were produced (checked byte-for-byte), run settings, status after the audit; `online_resource_2.csv` summarises them |
@@ -62,7 +64,7 @@ All outputs are recomposited with the observed pixels (Eq. 2 of the article) bef
 
 ## Data licences
 
-Code: MIT licence (`LICENSE`). Masks, test lists, scores and metadata: CC BY 4.0. The test images come from CelebA and CelebA-HQ (non-commercial research terms of their authors) and are not redistributed. The generated outputs are derived from these images and are archived separately under CC BY-NC 4.0 (https://doi.org/10.5281/zenodo.24193552); the method outputs were produced with the authors' released checkpoints, which have their own licences (see each repository in `benchmark_v2/configs/`).
+Code: MIT licence (`LICENSE`). Masks, test lists, scores and metadata: CC BY 4.0. The test images come from CelebA and CelebA-HQ (non-commercial research terms of their authors) and are not redistributed. The generated outputs are derived from these images and are archived separately under CC BY-NC 4.0 (https://doi.org/10.5281/zenodo.24193552); the method outputs were produced with checkpoints released by, or obtained from, the original authors, which have their own licences (see each repository in `benchmark_v2/configs/`).
 
 ## Citation
 

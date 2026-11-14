@@ -2,7 +2,7 @@
 databases and other sources.
 
 Left column  : the database search (Scopus; counts in literature/scopus_counts.json, supplied by the authors).
-               The record-level Scopus export is not available, so its screening counts are shown as not available.
+               Scopus exported only yearly counts (no record-level export exists), so this arm is counts-only.
 Right column : other sources -- the scripted supplementary search of OpenAlex and arXiv run for this revision
                (literature/screening/counts_identification.json, screening_log.csv / screening_summary.json from
                make_screening_log.py), citation chasing and curated lists, and reviewer suggestions
@@ -54,10 +54,10 @@ def main():
     for y, t in ((0.86, "Identification"), (0.52, "Screening"), (0.08, "Included")):
         ax.text(0.012, y, t, rotation=90, ha="center", va="center", fontsize=7.6, fontweight="bold", color="#555")
     # database column (Scopus)
-    box(ax, 0.04, 0.84, 0.24, 0.12, f"Records identified from Scopus\n(n = {sc['total']}; 2016-2025: {sc['total_2016_2025']},\n2026 partial: {sc['by_year']['2026']})\njournals and\nconference proceedings")
-    box(ax, 0.30, 0.84, 0.20, 0.12, "Record-level export\nnot available;\nrecords not screened\nindividually")
+    box(ax, 0.04, 0.84, 0.24, 0.12, f"Records identified from Scopus\n(n = {sc['total']}; 2016-2025: {sc['total_2016_2025']},\n2026 partial: {sc['by_year']['2026']})\njournals and conference\nproceedings; searched 9 Jul 2026")
+    box(ax, 0.30, 0.84, 0.20, 0.12, "Only yearly counts\nexported; no record-\nlevel export, so records\nnot screened individually")
     arrow(ax, 0.28, 0.90, 0.30, 0.90)
-    box(ax, 0.04, 0.66, 0.24, 0.10, "Records screened\n(n = not available)", fc="#f4f4f4")
+    box(ax, 0.04, 0.66, 0.24, 0.10, "Records screened\nindividually: none\n(counts-only export)", fc="#f4f4f4")
     arrow(ax, 0.16, 0.84, 0.16, 0.76)
     # other-methods column
     box(ax, 0.54, 0.84, 0.44, 0.12, f"Supplementary scripted search (12 Nov 2026):\nOpenAlex (n = {n_oa}), arXiv (n = {n_ax})\nduplicates removed (n = {ident['duplicates_removed']})\n"

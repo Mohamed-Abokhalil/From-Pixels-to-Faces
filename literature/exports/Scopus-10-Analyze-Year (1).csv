@@ -1,0 +1,19 @@
+﻿Scopus-10-Analyze-Year
+
+"Your query : (TITLE-ABS-KEY( ""face inpainting"" OR ""face completion"" OR ""facial inpainting"" OR ""face image inpainting"" OR ""face image completion"" OR ""face unmasking"" OR ""face mask removal"" OR ""masked face restoration"" OR ""face occlusion removal"" OR ""face mask inpainting"" OR ""face demasking"" OR ""unmasking face"" ) AND PUBYEAR > 2015 AND PUBYEAR < 2027 AND (SRCTYPE(j) OR SRCTYPE(p)))"
+
+
+Number of results : 10
+
+"YEAR",
+"2026","6"
+"2025","47"
+"2024","31"
+"2023","42"
+"2022","48"
+"2021","33"
+"2020","37"
+"2019","22"
+"2018","12"
+"2017","8"
+"2016","4"
