@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use these artefacts, please cite the article below."
 title: "From Pixels to Faces: review artefacts and re-executable face inpainting/unmasking benchmark"
 type: software
-version: "v2.0"
+version: "v2.1"
 license: MIT
 repository-code: "https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces"
 url: "https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces"

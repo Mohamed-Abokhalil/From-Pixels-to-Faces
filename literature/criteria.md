@@ -1,4 +1,4 @@
-# Eligibility criteria and screening procedure (E1, R1.1b, R2.2, R5.3b)
+# Eligibility criteria and screening procedure
 
 ## Inclusion
 - **I1 Publication type.** Peer-reviewed journal article or peer-reviewed conference/workshop paper; arXiv-only works are recorded separately and labelled *preprint* (they are never the sole support for a claim).
@@ -23,7 +23,7 @@
 - **Blind face restoration (related)**: restoration priors (GFP-GAN, CodeFormer, DifFace, …) used as related methods/baselines; not counted as FI.
 - **General inpainting (baseline)**: designed for general scenes; included only as benchmark baselines or when evaluated on faces.
 
-## Hybrid assignment rule (R2.3)
+## Hybrid assignment rule
 The chapter is decided by the **primary generative mechanism that produces the filled pixels** (adversarial CNN decoder → GAN family; pre-trained StyleGAN/VQ codebook or Transformer token prediction → latent/Transformer family; iterative denoising → diffusion family). Secondary mechanisms (attention, landmarks, parsing, references, text, audio) are recorded as attributes in the taxonomy table, not as chapters.
 
 ## Procedure
@@ -31,4 +31,4 @@ The chapter is decided by the **primary generative mechanism that produces the f
 2. First-pass title/abstract screen by the assistant with a logged reason (`screen_first_pass.py`, manual overrides in `overrides.json`). **This is not a substitute for human screening.**
 3. Two authors (screeners A and B) independently screen the blind sheets `screening/sheet_A.csv`, `sheet_B.csv` (all records, no first-pass decision shown). Agreement: Cohen's κ (`kappa.py`). Disagreements resolved by discussion with a third author; the resolution is logged.
 4. Full-text eligibility for records retained at stage 3; reasons for full-text exclusion logged.
-5. Included studies → taxonomy table (Online Resource 1, complete) → studies discussed in detail in the main text: every included study that is (a) peer-reviewed, and (b) either introduces a mechanism not already represented, is evaluated in our benchmark, has ≥ 1 citation per year since publication (OpenAlex), or was published 2025–2026 (recency, R4.4/R4.8).
+5. Included studies → taxonomy table (Online Resource 1, complete) → studies discussed in detail in the main text: every included study that is (a) peer-reviewed, and (b) either introduces a mechanism not already represented, is evaluated in our benchmark, has ≥ 1 citation per year since publication (OpenAlex), or was published 2025–2026 (recency).

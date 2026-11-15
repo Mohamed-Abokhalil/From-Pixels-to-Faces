@@ -2,7 +2,7 @@
 
 Companion repository of the review
 
-> M. Mahmoud, M. Abdalla, M. S. Kasem, A. Salem, H.-S. Kang. **From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking.** *Artificial Intelligence Review* (under review, revised version).
+> M. Mahmoud, M. Abdalla, M. S. Kasem, A. Salem, H.-S. Kang. **From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking.** *Artificial Intelligence Review* (under review).
 
 Repository: https://github.com/Mohamed-Abokhalil/From-Pixels-to-Faces · Archived code and artefacts (Zenodo concept DOI, all versions): https://doi.org/10.5281/zenodo.24190797 · Generated outputs (Zenodo concept DOI, all versions): https://doi.org/10.5281/zenodo.24193552 (CC BY-NC 4.0)
 
@@ -18,7 +18,7 @@ It contains everything needed to check the literature search and to regenerate e
 
 All test images were randomly selected from the CelebA test split (no seed was recorded); no training data were used, and every method was run on the same images with the same masks and protocol. Because the files were renumbered, membership of the official test partition (CelebA images 182638–202599) cannot be checked by filename; the exact filename lists are in `benchmark_v2/testsets/`.
 
-Rule: only methods evaluated with checkpoints released by, or obtained from, the original authors; no model was trained or fine-tuned for the benchmark. Entries of the submitted version whose outputs came from models we had trained, or could not be traced to the official checkpoints, were removed (FI: MFCL, AttrFaceNet, MuFIN; FU: Din et al., MuFIN, DeepFillv2, GLCIC); the evidence is in `logs/PROVENANCE.md` and `benchmark_v2/configs/`.
+Rule: only methods evaluated with checkpoints released by, or obtained from, the original authors; no model was trained or fine-tuned for the benchmark. Methods for which no output from such a checkpoint was available are not benchmarked (FI: MFCL, AttrFaceNet, MuFIN; FU: Din et al., MuFIN, DeepFillv2, GLCIC); the evidence is in `logs/PROVENANCE.md` and `benchmark_v2/configs/`.
 
 GANMasker and M2UNet (FU) were developed by members of the author team (see the Competing interests statement of the article). Their code and checkpoints are not public; their outputs were produced by their original authors with the models of the published papers, and the checkpoints are available from the authors on request. The released outputs, masks and filename lists allow every metric to be recomputed.
 
@@ -35,7 +35,7 @@ GANMasker and M2UNet (FU) were developed by members of the author team (see the 
 | `benchmark_v2/*.py` | Evaluation (`eval_pixel.py`, `eval_fid.py`, `eval_arcface.py`, `eval_stoch.py`) and table generation (`make_tables.py`) |
 | `results/` | Per-image scores of every method, ArcFace per-image scores, FID/KID with bootstrap s.d., summaries, old-vs-new comparison, statistics, repeated-sampling results |
 | `figures_src/` | PRISMA diagram, roadmap, trend and qualitative figures |
-| `logs/` | Provenance audit of every stored output (`PROVENANCE.md`) and the revision's decision log |
+| `logs/` | Provenance audit of every stored output (`PROVENANCE.md`) |
 | `MANIFEST_outputs.csv` | SHA-256 of every generated output image |
 | `zenodo_record.json`, `download_outputs.py` | Location and checksums of the archives with the generated outputs (not in git) |
 

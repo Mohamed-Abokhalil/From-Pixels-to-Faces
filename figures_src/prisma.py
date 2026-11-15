@@ -1,14 +1,10 @@
-"""PRISMA 2020 flow diagram (R1.1c), two-column layout of PRISMA 2020 for new reviews that include searches of
-databases and other sources.
+"""PRISMA 2020 flow diagram, laid out as the PRISMA 2020 template for new reviews that include searches of databases
+and other sources (Page et al. 2021): grey column headers, grey phase bars, square boxes with thin black borders.
 
-Left column  : the database search (Scopus; counts in literature/scopus_counts.json, supplied by the authors).
-               Scopus exported only yearly counts (no record-level export exists), so this arm is counts-only.
-Right column : other sources -- the scripted supplementary search of OpenAlex and arXiv run for this revision
-               (literature/screening/counts_identification.json, screening_log.csv / screening_summary.json from
-               make_screening_log.py), citation chasing and curated lists, and reviewer suggestions
-               (route column of literature/taxonomy_methods.csv).
-Screening was done by one author (no inter-rater agreement).
-Output: FI_FU_Survey_AIR_revised/fig_prisma.pdf (vector) and figures_src/out/fig_prisma.png
+Database arm : Scopus (literature/scopus_counts.json; yearly counts only, no record-level export).
+Other arm    : supplementary OpenAlex/arXiv search (literature/screening/*), citation searching and curated lists,
+               and suggested studies (route column of literature/taxonomy_methods.csv). Single screener.
+Output: manuscript/fig_prisma.pdf (vector) and figures_src/out/fig_prisma.png
 """
 import csv
 import json
@@ -18,24 +14,29 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyBboxPatch
+from matplotlib.patches import Rectangle
 
 REV = Path(__file__).resolve().parents[1]
 L = REV / "literature"
 S = L / "screening"
-OUT = REV / "FI_FU_Survey_AIR_revised"; (REV / "figures_src" / "out").mkdir(exist_ok=True)
-LAB = {"E-DOMAIN": "not face images", "E-TASK": "no mask-conditioned completion", "E-TYPE": "not a research article",
-       "E-REVIEW": "survey/review", "E-NONDL": "no learned model", "E-NOTMETHOD": "evaluation study only",
-       "E-BFR": "blind restoration, no mask", "E-ACCESS": "not assessable"}
+OUT = REV / "manuscript"; (REV / "figures_src" / "out").mkdir(exist_ok=True)
+LAB = {"E-DOMAIN": "Not face images", "E-TASK": "No mask-conditioned completion", "E-TYPE": "Not a research article",
+       "E-REVIEW": "Survey or review", "E-NONDL": "No learned model", "E-NOTMETHOD": "Evaluation study only",
+       "E-BFR": "Blind restoration without mask", "E-ACCESS": "Not assessable"}
+GREY = "#d9d9d9"
+FS = 6.2
+plt.rcParams.update({"font.family": "DejaVu Sans", "pdf.fonttype": 42})
 
 
-def box(ax, x, y, w, h, text, fc="#ffffff", fs=6.6):
-    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.008,rounding_size=0.01", fc=fc, ec="#333333", lw=0.8))
-    ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=fs, linespacing=1.22)
+def box(ax, x, y, w, h, text, fc="white", fs=FS, ha="center", bold=False):
+    ax.add_patch(Rectangle((x, y), w, h, fc=fc, ec="black", lw=0.6))
+    tx = x + w / 2 if ha == "center" else x + 0.012
+    ax.text(tx, y + h / 2, text, ha=ha, va="center", fontsize=fs, linespacing=1.3, fontweight="bold" if bold else "normal")
 
 
 def arrow(ax, x0, y0, x1, y1):
-    ax.annotate("", xy=(x1, y1), xytext=(x0, y0), arrowprops=dict(arrowstyle="-|>", lw=0.8, color="#333333"))
+    ax.annotate("", xy=(x1, y1), xytext=(x0, y0), arrowprops=dict(arrowstyle="-|>", lw=0.6, color="black", shrinkA=0, shrinkB=0,
+                                                                  mutation_scale=7))
 
 
 def main():
@@ -47,40 +48,52 @@ def main():
     routes = summ["taxonomy_route_counts"]
     per = ident["per_export"]
     n_oa = sum(v for k, v in per.items() if k.startswith("openalex")); n_ax = sum(v for k, v in per.items() if k.startswith("arxiv"))
-
-    fig, ax = plt.subplots(figsize=(7.4, 7.0)); ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
-    ax.text(0.27, 0.985, "Identification of studies via databases", ha="center", fontsize=7.6, fontweight="bold")
-    ax.text(0.75, 0.985, "Identification of studies via other methods", ha="center", fontsize=7.6, fontweight="bold")
-    for y, t in ((0.86, "Identification"), (0.52, "Screening"), (0.08, "Included")):
-        ax.text(0.012, y, t, rotation=90, ha="center", va="center", fontsize=7.6, fontweight="bold", color="#555")
-    # database column (Scopus)
-    box(ax, 0.04, 0.84, 0.24, 0.12, f"Records identified from Scopus\n(n = {sc['total']}; 2016-2025: {sc['total_2016_2025']},\n2026 partial: {sc['by_year']['2026']})\njournals and conference\nproceedings; searched 9 Jul 2026")
-    box(ax, 0.30, 0.84, 0.20, 0.12, "Only yearly counts\nexported; no record-\nlevel export, so records\nnot screened individually")
-    arrow(ax, 0.28, 0.90, 0.30, 0.90)
-    box(ax, 0.04, 0.66, 0.24, 0.10, "Records screened\nindividually: none\n(counts-only export)", fc="#f4f4f4")
-    arrow(ax, 0.16, 0.84, 0.16, 0.76)
-    # other-methods column
-    box(ax, 0.54, 0.84, 0.44, 0.12, f"Supplementary scripted search (12 Nov 2026):\nOpenAlex (n = {n_oa}), arXiv (n = {n_ax})\nduplicates removed (n = {ident['duplicates_removed']})\n"
-                                    f"Citation chasing and curated lists (n = {routes.get('other', 0)} methods)\nReviewer suggestions (n = {routes.get('reviewer', 0)} methods)")
-    box(ax, 0.54, 0.66, 0.20, 0.12, f"Search records screened\n(title/abstract, one author)\n(n = {summ['records_screened']})")
-    arrow(ax, 0.64, 0.84, 0.64, 0.78)
-    ex_txt = f"Records excluded\n(n = {summ['excluded_title_abstract']})\n" + "\n".join(
-        f"{LAB.get(k, k)}: {v}" for k, v in sorted(excl.items(), key=lambda kv: -kv[1]))
-    box(ax, 0.765, 0.48, 0.225, 0.30, ex_txt.replace("no mask-conditioned completion", "no mask-conditioned\ncompletion"), fs=6.0)
-    arrow(ax, 0.74, 0.72, 0.77, 0.66)
-    box(ax, 0.54, 0.44, 0.20, 0.13, f"Records retained\n(n = {summ['retained_title_abstract']})")
-    arrow(ax, 0.64, 0.66, 0.64, 0.57)
-    box(ax, 0.77, 0.26, 0.21, 0.17, f"Retained but not\nreviewed individually;\nno full-text decision\nrecorded\n(n = {summ['retained_not_reviewed_individually']})", fs=6.2)
-    arrow(ax, 0.74, 0.50, 0.77, 0.36)
-    box(ax, 0.54, 0.26, 0.20, 0.13, f"Retained records that are\nmethods of the taxonomy\n(n = {summ['retained_and_in_taxonomy']})")
-    arrow(ax, 0.64, 0.44, 0.64, 0.39)
-    # included
     n_only_other = summ["taxonomy_total"] - summ["retained_and_in_taxonomy"]
-    box(ax, 0.30, 0.02, 0.44, 0.13, f"Methods included in the review (taxonomy table)\n(n = {summ['taxonomy_total']}: {summ['retained_and_in_taxonomy']} found by the scripted search,\n"
-                                    f"{n_only_other} only through other sources)", fc="#eef3f8")
-    arrow(ax, 0.64, 0.26, 0.60, 0.15)
-    ax.annotate("", xy=(0.70, 0.15), xytext=(0.99, 0.84),
-                                                    arrowprops=dict(arrowstyle="-|>", lw=0.8, color="#333333", connectionstyle="angle,angleA=-90,angleB=0"))
+    d = __import__("datetime").date.fromisoformat(sc["run_date"])
+
+    fig, ax = plt.subplots(figsize=(7.4, 6.6)); ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
+    # column headers and phase bars
+    box(ax, 0.06, 0.935, 0.42, 0.055, "Identification of studies via databases", fc=GREY, bold=True)
+    box(ax, 0.52, 0.935, 0.47, 0.055, "Identification of studies via other methods", fc=GREY, bold=True)
+    for y0, y1, t in ((0.715, 0.92, "Identification"), (0.18, 0.70, "Screening"), (0.01, 0.165, "Included")):
+        ax.add_patch(Rectangle((0.0, y0), 0.045, y1 - y0, fc=GREY, ec="black", lw=0.6))
+        ax.text(0.0225, (y0 + y1) / 2, t, rotation=90, ha="center", va="center", fontsize=FS + 0.4, fontweight="bold")
+
+    # database arm
+    box(ax, 0.06, 0.73, 0.22, 0.19, f"Records identified from\nScopus (n = {sc['total']})\n\n2016–2025: {sc['total_2016_2025']}\n"
+                                   f"2026 (to {d.day} {d:%b} {d.year}): {sc['by_year']['2026']}")
+    box(ax, 0.30, 0.73, 0.18, 0.19, f"Records not screened\nindividually (n = {sc['total']}):\nyearly counts only,\nno record-level export")
+    arrow(ax, 0.28, 0.825, 0.30, 0.825)
+
+    # other-methods arm
+    box(ax, 0.52, 0.73, 0.24, 0.19, f"Records identified from:\nOpenAlex (n = {n_oa})\narXiv (n = {n_ax})\n\nMethods identified from:\n"
+                                   f"citation searching and\ncurated lists (n = {routes.get('other', 0)})\nsuggested studies (n = {routes.get('suggested', 0)})", fs=FS - 0.3)
+    box(ax, 0.79, 0.77, 0.20, 0.11, f"Duplicate records\nremoved (n = {ident['duplicates_removed']})")
+    arrow(ax, 0.76, 0.825, 0.79, 0.825)
+
+    box(ax, 0.52, 0.55, 0.24, 0.10, f"Records screened\n(title and abstract)\n(n = {summ['records_screened']})")
+    arrow(ax, 0.64, 0.73, 0.64, 0.65)
+    reasons = "\n".join(f"{LAB.get(k, k)}: {v}".replace("No mask-conditioned ", "No mask-conditioned\n").replace("Blind restoration ", "Blind restoration\n")
+                        for k, v in sorted(excl.items(), key=lambda kv: -kv[1]))
+    box(ax, 0.79, 0.45, 0.20, 0.28, f"Records excluded\n(n = {summ['excluded_title_abstract']})\n\n{reasons}", fs=FS - 0.5)
+    arrow(ax, 0.76, 0.60, 0.79, 0.60)
+
+    box(ax, 0.52, 0.37, 0.24, 0.10, f"Records retained\n(n = {summ['retained_title_abstract']})")
+    arrow(ax, 0.64, 0.55, 0.64, 0.47)
+    box(ax, 0.79, 0.20, 0.20, 0.13, f"Records not assessed\nindividually\n(n = {summ['retained_not_reviewed_individually']})")
+
+    box(ax, 0.52, 0.20, 0.24, 0.13, f"Records describing\nmethods included\nin the review\n(n = {summ['retained_and_in_taxonomy']})")
+    arrow(ax, 0.64, 0.37, 0.64, 0.33)
+    ax.plot([0.76, 0.89], [0.42, 0.42], color="black", lw=0.6); arrow(ax, 0.89, 0.42, 0.89, 0.33)
+
+    # included
+    box(ax, 0.30, 0.025, 0.46, 0.12, f"Methods included in the review (n = {summ['taxonomy_total']})\n\n"
+                                    f"{summ['retained_and_in_taxonomy']} from the screened records;\n"
+                                    f"{n_only_other} from citation searching, curated\nlists and suggested studies")
+    arrow(ax, 0.64, 0.20, 0.64, 0.145)
+    # methods identified outside the scripted search go straight to inclusion
+    ax.plot([0.52, 0.50, 0.50], [0.76, 0.76, 0.20], color="black", lw=0.6)
+    arrow(ax, 0.50, 0.20, 0.50, 0.145)
     for p in (OUT / "fig_prisma.pdf", REV / "figures_src" / "out" / "fig_prisma.png"):
         fig.savefig(p, dpi=300, bbox_inches="tight")
     print("PRISMA written")

@@ -1,6 +1,6 @@
-"""Repeated sampling of RePaint (Lugmayr et al., CVPR 2022) on a stratified benchmark subset (R1.6b).
+"""Repeated sampling of RePaint (Lugmayr et al., CVPR 2022) on a stratified benchmark subset.
 
-Official code (NII/RePaint, commit 8e2a055) read in place; nothing written into it.
+Official code (RePaint, commit 8e2a055) read in place; nothing written into it.
 Config: the repo's face settings (confs/face_example.yml) with model_path forced to the official
 CelebA-HQ checkpoint data/pretrained/celeba256_250000.pt: 1000 training steps respaced to 250,
 resampling schedule t_T=250, jump_length=10, jump_n_sample=10, no classifier guidance.

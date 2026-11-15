@@ -4,8 +4,8 @@
  "citation_key": "zhan2024learning",
  "category": "FI-specific",
  "family": "GAN/CNN",
- "status_in_revision": "excluded",
- "note": "the only MuFIN model in the workspace is the one we trained (see FI); the FU outputs (Face_Unmasking/00_SOTA/MuFIN) cannot come from the released checkpoint; excluded under the official-checkpoint rule",
+ "status": "excluded",
+ "note": "the only MuFIN model in the workspace is the one we trained (see FI); the FU outputs (MuFIN) cannot come from the released checkpoint; excluded under the official-checkpoint rule",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
  "repository": "https://github.com/FVL2020/MuFIN",
@@ -18,9 +18,9 @@
    "sha256": "de693070529805f879a9d25c2ea8bba0f0aa6a0ef492d45abe1bdc260ca17c81"
   }
  ],
- "stored_outputs_produced_in": "Face_Unmasking\\00_SOTA\\MuFIN",
+ "stored_outputs_produced_in": "MuFIN",
  "stored_outputs_identity_checked": true,
- "rerun_in_revision": false,
+ "rerun": false,
  "rerun_command": null,
  "run_settings": "EXCLUDED: the only MuFIN model in the workspace is the one trained by us; outputs cannot come from the released checkpoint",
  "stochastic": false,

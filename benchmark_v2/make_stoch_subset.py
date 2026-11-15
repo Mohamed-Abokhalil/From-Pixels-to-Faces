@@ -1,4 +1,4 @@
-"""Stratified subsets for repeated stochastic sampling (R1.6b). Seed 0.
+"""Stratified subsets for repeated stochastic sampling. Seed 0.
 
 FI: 100 images = all 4 images with >50% hole + 96 drawn proportionally from the other bins.
 FU: 100 images drawn uniformly. Written to testsets/<task>_stoch_subset.txt.

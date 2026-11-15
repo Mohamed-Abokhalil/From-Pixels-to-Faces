@@ -9,7 +9,7 @@ deng2018uv,UV-GAN,2018,CVPR,C,FI-specific,GAN,Pose (UV),3D,UV completion,Dist;ID
 liao2018face,FaceCollab,2018,ACCV,C,FI-specific,GAN,Comp,Landmark;Parsing,Multi-task,Dist,,search,detail
 dolhansky2018eye,Eye in-painting,2018,CVPR,C,FI-specific,GAN,Comp (eyes),Reference,Exemplar,Dist;User,,search,detail
 sun2018natural,Head inpainting,2018,CVPR,C,FI-specific,GAN,Large,Landmark,Two-stage,Dist;ID,,search,detail
-yu2018generative,Contextual Attention,2018,CVPR,C,General inpainting,GAN,Irr,None,Attention;Two-stage,Dist,,reviewer,detail
+yu2018generative,Contextual Attention,2018,CVPR,C,General inpainting,GAN,Irr,None,Attention;Two-stage,Dist,,suggested,detail
 yang2019lafin,LaFIn,2019,arXiv,P,FI-specific,GAN,Irr,Landmark,Two-stage,Dist,FI,search,detail
 jo2019sc,SC-FEGAN,2019,ICCV,C,FI-specific,GAN,Irr,Sketch,Gated conv,Dist;User,,other,detail
 song2019geometry,GeoFace,2019,AAAI,C,FI-specific,GAN,Comp,Landmark;Parsing,Two-stage,Dist,,search,detail
@@ -18,8 +18,8 @@ ren2019structureflow,StructureFlow,2019,ICCV,C,General inpainting,GAN,Irr,Edge,T
 zheng2019pluralistic,Pluralistic,2019,CVPR,C,General inpainting,GAN,Irr,None,VAE;Diverse,Dist;Div,FI,other,baseline
 yu2019free,DeepFillv2,2019,ICCV,C,General inpainting,GAN,Irr,Sketch,Gated conv;Attention,Dist,FI;FU(excluded),other,baseline
 zeng2019learning,PEN-Net,2019,CVPR,C,General inpainting,GAN,Irr,None,Attention,Dist,FI,other,baseline
-cai2020fcsr,FCSR-GAN,2020,IEEE T-BIOM,J,FI-specific,GAN,Comp (LR),Parsing,Multi-task (SR),Dist;ID,,reviewer,detail
-li2020recurrent,RFR,2020,CVPR,C,General inpainting,GAN,Irr,None,Recurrent;Attention,Dist,,reviewer,detail
+cai2020fcsr,FCSR-GAN,2020,IEEE T-BIOM,J,FI-specific,GAN,Comp (LR),Parsing,Multi-task (SR),Dist;ID,,suggested,detail
+li2020recurrent,RFR,2020,CVPR,C,General inpainting,GAN,Irr,None,Recurrent;Attention,Dist,,suggested,detail
 xu2020e2i,E2I,2020,IEEE TCSVT,J,General inpainting,GAN,Irr,Edge,Two-stage,Dist,FI,other,baseline
 wang2020recurrent,RGAC,2020,IEEE TMM,J,FI-specific,GAN,Irr,None,Recurrent,Dist,,search,detail
 fang2020face,Fang et al.,2020,SPIC,J,FI-specific,GAN,Irr,None,Dilated conv,Dist,,search,detail
@@ -28,7 +28,7 @@ li2020learning,Symmetry-CNN,2020,IEEE TIP,J,FI-specific,GAN,Comp,None,Symmetry l
 li2020learning2,DisEnt-Fuse,2020,PR,J,FI-specific,GAN,Comp,None,Disentanglement,Dist;ID,,search,detail
 li2020ifgan,IF-GAN,2020,FG,C,FI-specific,GAN,Irr;Pose,None,Partial conv;ID loss,Dist;ID,,search,detail
 din2020novel,Din et al.,2020,IEEE Access,J,FU-specific,GAN,Lower,Segmentation,Two-stage,Dist,FU(excluded),other,detail
-cai2021semi,Cai et al. (de-occlusion),2021,IEEE TIFS,J,FI-specific,GAN,Real,Parsing,Semi-supervised,Dist;ID,,reviewer,detail
+cai2021semi,Cai et al. (de-occlusion),2021,IEEE TIFS,J,FI-specific,GAN,Real,Parsing,Semi-supervised,Dist;ID,,suggested,detail
 zhang2021face,FPF-Net,2021,ASC,J,FI-specific,GAN,Irr,Landmark;Parsing,Confidence fusion,Dist,,search,detail
 han2021face,EvoGAN,2021,IEEE SPL,J,FI-specific,GAN,Irr,None,Architecture search,Dist,,search,detail
 xiao2021face,AttrFaceNet,2021,ACM MM,C,FI-specific,GAN,Irr,Attribute,Dual pipeline,Dist,FI(excluded),search,detail
@@ -54,15 +54,15 @@ zhang2022gan,DE-GAN,2022,PR,J,FI-specific,GAN,Irr,Landmark;Parsing,VAE prior,Dis
 he2022research,He et al.,2022,Electronics,J,FI-specific,StyleGAN prior,Irr,None,Latent inversion,Dist,,search,detail
 zhang2022pluralistic,PFTANet,2022,IEEE TMM,J,FI-specific,GAN,Irr,Attribute;Parsing,Diverse,Dist;Div,,search,detail
 ni2022ipfc,IPFC,2022,ISEEIE,C,FI-specific,GAN,Irr,None,Attention;ID discriminator,Dist;ID,,search,detail
-zhao2022efficient,Zhao et al. (JCAD),2022,JCAD,J,FI-specific,GAN,Irr,None,Perceptual deblurring,Dist,,reviewer,detail
+zhao2022efficient,Zhao et al. (JCAD),2022,JCAD,J,FI-specific,GAN,Irr,None,Perceptual deblurring,Dist,,suggested,detail
 li2022misf,MISF,2022,CVPR,C,General inpainting,GAN,Irr,None,Predictive filtering,Dist,FI,other,baseline
 suvorov2022resolution,LaMa,2022,WACV,C,General inpainting,GAN,Large,None,Fourier conv;Large masks,Dist,FI,other,baseline
 liu2022delving,DGTS,2022,ACM MM,C,General inpainting,GAN,Irr,Edge,Global-local,Dist,FI,other,baseline
 lugmayr2022repaint,RePaint,2022,CVPR,C,General inpainting,Diffusion,Irr,None,Resampling,Dist;Div,FI;FU,other,baseline
 zeng2022aggregated,AOT-GAN,2022,IEEE TVCG,J,General inpainting,GAN,Irr,None,Contextual transforms,Dist,FI,other,baseline
 lin2022multi,MFCL,2022,ICPR,C,General inpainting,GAN,Irr,Edge,Co-learning,Dist,FI(excluded),other,baseline
-dong2022incremental,ZITS,2022,CVPR,C,General inpainting,Transformer,Large,Edge,Transformer structure,Dist,,reviewer,detail
-liu2022reduce,PUT,2022,CVPR,C,General inpainting,Transformer,Irr,None,Transformer;Diverse,Dist;Div,,reviewer,detail
+dong2022incremental,ZITS,2022,CVPR,C,General inpainting,Transformer,Large,Edge,Transformer structure,Dist,,suggested,detail
+liu2022reduce,PUT,2022,CVPR,C,General inpainting,Transformer,Irr,None,Transformer;Diverse,Dist;Div,,suggested,detail
 luo2023reference,RFTB,2023,IEEE TCSVT,J,FI-specific,Codebook/Transformer,Large,Reference,Dual encoder,Dist;ID,,search,detail
 wang2023restoreformer++,RestoreFormer++,2023,IEEE TPAMI,J,BFR (related),Codebook/Transformer,No mask,None,Codebook attention,Dist;ID,,other,related
 wang2023dr2,DR2,2023,CVPR,C,BFR (related),Diffusion,No mask,None,Degradation remover,Dist;ID,,other,related
@@ -74,7 +74,7 @@ motamed2023patmat,PatMAT,2023,ICCV,C,FI-specific,Codebook/Transformer,Large,Refe
 zuo2023generative,SCAT,2023,AAAI,C,General inpainting,GAN,Irr,None,Segmentation confusion;Contrastive,Dist,FI;FU,other,baseline
 ko2023continuously,CMT,2023,ICCV,C,General inpainting,Transformer,Irr,None,Continuous mask,Dist,FI,other,baseline
 campana2023variable,VHII,2023,Comput. Graph.,J,General inpainting,Transformer,Irr,None,Efficient attention,Dist,FI,other,baseline
-xie2023smartbrush,SmartBrush,2023,CVPR,C,General inpainting,Diffusion,Object,Text,Shape-guided,Dist,,reviewer,detail
+xie2023smartbrush,SmartBrush,2023,CVPR,C,General inpainting,Diffusion,Object,Text,Shape-guided,Dist,,suggested,detail
 mahmoud2023ganmasker,GANMasker,2023,Sensors,J,FU-specific,GAN,Lower,Segmentation,Two-stage;Cross-region fusion,Dist,FU,search,detail
 sola2023unmasking,Sola & Gera,2023,CVPRW,C,FU-specific,GAN,Lower,Expression,Expression conditioning,Dist,,search,detail
 kumar2023sam,SAM C-GAN,2023,SIVP,J,FU-specific,GAN,Lower,Segmentation,Structure awareness,Dist,,search,detail
@@ -91,7 +91,7 @@ sun2024audio,Audio-Face,2024,ACM MM,C,FI-specific,GAN,Lg,Audio,Audio-visual feat
 huang2024sparse,Spa-former,2024,PR,J,General inpainting,Transformer,Irr,None,Sparse attention,Dist,FI,other,baseline
 lin2024tsformer,TSFormer,2024,ACM TOMM,J,General inpainting,Transformer,Irr,Edge,Structure tracking,Dist,FI,other,baseline
 yang2024face,RAFU,2024,arXiv,P,FU-specific,GAN,Lower,Segmentation,Region attention,Dist,,search,detail
-givkashi2024sfi,SFI-Swin,2024,MTA,J,FI-specific,Codebook/Transformer,Comp,Parsing,Symmetry;Swin,Dist,,reviewer,detail
+givkashi2024sfi,SFI-Swin,2024,MTA,J,FI-specific,Codebook/Transformer,Comp,Parsing,Symmetry;Swin,Dist,,suggested,detail
 li2024selection,Li et al. (identity consistency),2024,Vis. Comput.,J,FI-specific,GAN,Irr,Parsing,ID consistency guidance,Dist;ID,,search,detail
 li2024recovery,ID-Inpainter,2024,Sensors,J,FI-specific,GAN,Real,None,ID guidance,Dist;ID,,search,detail
 zhao2025learning,IN$^2$,2025,PR,J,FI-specific,Codebook/Transformer,Real,None,Implicit neural decoder,Dist,,search,detail
@@ -103,8 +103,8 @@ liu2025transref,TransRef,2025,Neurocomp.,J,General inpainting,Transformer,Irr,Re
 zhang2025sqsfill,SqSFill,2025,Neurocomp.,J,General inpainting,GAN,Irr,None,Spatial-spectral,Dist,,other,detail
 wu2025nlmsa,NLMSA,2025,Neurocomp.,J,General inpainting,Transformer,Irr,None,Linear attention,Dist,,other,detail
 yan2025pyramid,Pyramid Fusion,2025,Neurocomp.,J,General inpainting,Transformer,Irr,None,Gated transformer,Dist,,other,detail
-lu2025visual,Lu et al. (style prompt),2025,PR,J,BFR (related),Diffusion,No mask,None,Visual prompts,Dist,,reviewer,related
-lu2025grig,GRIG,2025,CVM,J,General inpainting,GAN,Irr,None,Data-efficient residual,Dist,,reviewer,detail
+lu2025visual,Lu et al. (style prompt),2025,PR,J,BFR (related),Diffusion,No mask,None,Visual prompts,Dist,,suggested,related
+lu2025grig,GRIG,2025,CVM,J,General inpainting,GAN,Irr,None,Data-efficient residual,Dist,,suggested,detail
 pang2025research,Pang et al. (symmetry),2025,Symmetry,J,FI-specific,GAN,Real,Landmark,Symmetry;Dilated U-Net,Dist,,search,detail
 jin2025self,Jin et al. (3D de-occlusion),2025,IEEE THMS,J,FI-specific,GAN,Real,3D,Self-supervised;Outlier segmentation,Dist,,search,detail
 ouyang2025inpaintformer,InpaintFormer,2025,ICME,C,FI-specific,Codebook/Transformer,Irr,Text,Mask-aware attention,Dist,,search,detail

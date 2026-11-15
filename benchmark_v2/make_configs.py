@@ -1,4 +1,4 @@
-"""Per-method benchmark records (Online Resource 2; R1.5a, R5.2d, R5.4a; N-04, N-05).
+"""Per-method benchmark records (Online Resource 2).
 
 Written only from what can be established on disk:
   * the run that produced the stored outputs: the folder in a method repository whose files are byte-identical to the
@@ -6,7 +6,7 @@ Written only from what can be established on disk:
   * the repository (git remote URL) and commit of that code, and the checkpoint files present with SHA-256;
   * settings recovered from the run scripts/configs where they exist (RUN_NOTES);
   * otherwise the statement "official released checkpoint with the default inference settings of the official
-    repository <URL> (commit <c>)", as agreed with the authors (N-05).
+    repository <URL> (commit <c>)", as agreed with the authors.
 Output: configs/<task>_<folder>.json and configs/online_resource_2.csv
 """
 import csv
@@ -67,9 +67,9 @@ CODE = {
 }
 # settings recovered from run scripts / configs on disk
 RUN_NOTES = {
-    "LaMa": "simple-lama-inpainting 0.1.2 (TorchScript Big-LaMa of the official LaMa release, trained on Places2) called by NII/simpleLaMa.py on FI/masked with FI/mask",
+    "LaMa": "simple-lama-inpainting 0.1.2 (TorchScript Big-LaMa of the official LaMa release, trained on Places2) called by simpleLaMa.py on FI/masked with FI/mask",
     "DeepFillv2": "official TensorFlow release_celeba_hq_256_deepfill_v2 checkpoint, test.py called per image by test_all.py",
-    "CTSDG": "official celeba.pt (Google-Drive release, 2021-10-18); test.py with the benchmark masks. A locally trained CTSDG model also exists (RelatedWorks/CTSDG/snapshots) but does not match the stored outputs; the official checkpoint reproduces them more closely (mean hole difference 3-8 vs 5-12 grey levels on 8 images)",
+    "CTSDG": "official celeba.pt (Google-Drive release, 2021-10-18); test.py with the benchmark masks. A locally trained CTSDG model also exists (CTSDG/snapshots) but does not match the stored outputs; the official checkpoint reproduces them more closely (mean hole difference 3-8 vs 5-12 grey levels on 8 images)",
     "RePaint": "official celeba256_250000.pt; default face_example configuration of the official repository",
     "CoPaint": "official celeba256_250000.pt (RePaint CelebA-HQ diffusion model); default settings of the official repository",
     "CoModGAN": "third-party PyTorch port (zengxianyu/co-mod-gan-pytorch) with the converted official FFHQ-512 weights; run at 512 and resized to 256",
@@ -133,20 +133,20 @@ def main():
             elif m.team:
                 settings = "outputs produced by the method's authors (members of this team) with the model of the published paper"
             elif rerun:
-                settings = "re-run in this revision with the official checkpoint and the benchmark masks (rerun_command)"
+                settings = "re-run with the official checkpoint and the benchmark masks (rerun_command)"
             elif m.folder in RUN_NOTES or m.name in RUN_NOTES:
                 settings = RUN_NOTES.get(m.folder) or RUN_NOTES[m.name]
             else:
                 settings = ("official released checkpoint with the default inference settings of the official repository"
                             + (f" {url}" if url else "") + (f" (commit {commit[:7]})" if commit else ""))
             rec = {"task": task, "method": m.name, "citation_key": m.cite, "category": m.category, "family": m.family,
-                   "status_in_revision": m.status, "note": m.note, "developed_by_author_team": m.team,
+                   "status": m.status, "note": m.note, "developed_by_author_team": m.team,
                    "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
                    "repository": url, "git_commit": commit, "local_code": rel(code) if code and code.exists() else None,
                    "checkpoints_present": ck,
                    "stored_outputs_produced_in": rel(src) if src is not None else ("benchmark_v2/reruns" if rerun else None),
                    "stored_outputs_identity_checked": src_ok,
-                   "rerun_in_revision": rerun, "rerun_command": {"spa-former": "python rerun_code/run_spaformer.py", "VHII": "python rerun_code/run_vhii.py",
+                   "rerun": rerun, "rerun_command": {"spa-former": "python rerun_code/run_spaformer.py", "VHII": "python rerun_code/run_vhii.py",
                                                                   "Pluralistic": "python rerun_code/run_pluralistic_seeds.py --task fi --subset all --k 1"}.get(m.folder),
                    "run_settings": settings, "stochastic": m.stochastic,
                    "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"}

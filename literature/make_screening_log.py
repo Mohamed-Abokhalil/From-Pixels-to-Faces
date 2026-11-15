@@ -1,4 +1,4 @@
-"""Full screening log for Online Resource 1 (R1.1, N-06: single screener).
+"""Full screening log for Online Resource 1 (single screener).
 
 One row per de-duplicated record of the scripted OpenAlex/arXiv search with its title/abstract decision and reason
 (first_pass_screen.csv, applied by one author with the rules in criteria.md and overrides.json), and, for every record
@@ -17,7 +17,7 @@ L = Path(__file__).resolve().parent
 REV = L.parent
 norm = lambda t: re.sub(r"[^a-z0-9]", "", (t or "").lower())
 
-bib = open(REV / "FI_FU_Survey_AIR_revised" / "sn-bibliography.bib", encoding="utf8").read()
+bib = open(REV / "manuscript" / "sn-bibliography.bib", encoding="utf8").read()
 key_title = {}
 for m in re.finditer(r"@\w+\{([^,]+),(.*?)\n\}", bib, re.S):
     t = re.search(r"\btitle\s*=\s*[{\"](.+?)[}\"],?\s*\n", m.group(2), re.S)
@@ -55,6 +55,6 @@ mac = {"SLscreened": summ["records_screened"], "SLexcluded": summ["excluded_titl
        "SLonlyOther": summ["taxonomy_total"] - summ["retained_and_in_taxonomy"],
        "ScopusTotal": sc["total"], "ScopusTenYears": sc["total_2016_2025"], "ScopusPartial": sc["by_year"]["2026"],
        "ScopusRunDate": (lambda d: f"{d.day} {d:%B %Y}")(__import__("datetime").date.fromisoformat(sc["run_date"]))}
-open(REV / "FI_FU_Survey_AIR_revised" / "screening_numbers.tex", "w", encoding="utf8").write(
+open(REV / "manuscript" / "screening_numbers.tex", "w", encoding="utf8").write(
     "".join(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in mac.items()))
 print(json.dumps(summ, indent=1))

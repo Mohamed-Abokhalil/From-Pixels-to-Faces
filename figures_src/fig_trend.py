@@ -1,6 +1,6 @@
 """Figure 1: Scopus records per publication year for the query in literature/scopus_counts.json (journals and conference
 proceedings, 2016-2026; 2026 is a partial year). Counts supplied by the authors from Scopus "Analyze search results".
-Output: FI_FU_Survey_AIR_revised/fig_fi_trend.pdf"""
+Output: manuscript/fig_fi_trend.pdf"""
 import json
 from pathlib import Path
 
@@ -21,6 +21,6 @@ for y, v in zip(years, n):
 ax.set_xticks(years); ax.set_xticklabels([str(y) for y in years], fontsize=7)
 ax.set_ylabel("Records", fontsize=8); ax.tick_params(axis="y", labelsize=7)
 ax.legend(fontsize=7, frameon=False, loc="upper left"); ax.spines[["top", "right"]].set_visible(False)
-fig.savefig(REV / "FI_FU_Survey_AIR_revised" / "fig_fi_trend.pdf", bbox_inches="tight")
+fig.savefig(REV / "manuscript" / "fig_fi_trend.pdf", bbox_inches="tight")
 fig.savefig(REV / "figures_src" / "out" / "fig_fi_trend.png", dpi=200, bbox_inches="tight")
 print("total", sum(n), dict(zip(years, n)))

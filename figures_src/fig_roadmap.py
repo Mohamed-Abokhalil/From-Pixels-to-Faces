@@ -1,8 +1,8 @@
-"""Redrawn Figure 2 (R3.1, R4.1, R4.2, R5.1a-b): (A) roadmap of architectural families as parallel
+"""Figure 2: (A) roadmap of architectural families as parallel
 lanes on a publication-year axis, with arrows for mechanisms that one family borrowed from another
 (no arrow implies that a later family superseded an earlier one); (B) the five-dimensional taxonomy
 with every label listed exactly once. Every method/year below is taken from the verified bibliography.
-Output: FI_FU_Survey_AIR_revised/fig_evolution_taxonomy.pdf (vector) + figures_src/out/fig_roadmap.png
+Output: manuscript/fig_evolution_taxonomy.pdf (vector) + figures_src/out/fig_roadmap.png
 """
 from pathlib import Path
 
@@ -81,7 +81,7 @@ def main():
     fig = plt.figure(figsize=(7.2, 8.2))
     ax1 = fig.add_axes([0.02, 0.47, 0.96, 0.50]); panel_a(ax1)
     ax2 = fig.add_axes([0.02, 0.0, 0.96, 0.38]); panel_b(ax2)
-    out = REV / "FI_FU_Survey_AIR_revised" / "fig_evolution_taxonomy.pdf"
+    out = REV / "manuscript" / "fig_evolution_taxonomy.pdf"
     fig.savefig(out, bbox_inches="tight"); fig.savefig(REV / "figures_src" / "out" / "fig_roadmap.png", dpi=220, bbox_inches="tight")
     print("written", out)
 

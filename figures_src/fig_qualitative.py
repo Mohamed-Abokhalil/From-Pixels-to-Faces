@@ -1,4 +1,4 @@
-"""Qualitative figures (R3.3, R4.7). All tiles are recomposited outputs (Eq. 2) at the native 256x256 resolution.
+"""Qualitative figures. All tiles are recomposited outputs (Eq. 2) at the native 256x256 resolution.
 
 fig_visual_fi_p1/p2.jpg : masked input, GT, all FI methods ordered by hole PSNR (Table 9), 2 images per hole-ratio bin
                           (seeded random choice, seed 0; the >50% bin uses 2 of its 4 images)
@@ -19,7 +19,7 @@ REV = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REV / "benchmark_v2"))
 from common import DATA, METHODS, composite, gt_files, load_mask, load_rgb, output_path  # noqa: E402
 
-OUT = REV / "FI_FU_Survey_AIR_revised"
+OUT = REV / "manuscript"
 T = 256
 try:
     FONT = ImageFont.truetype("arial.ttf", 22); FONT_S = ImageFont.truetype("arial.ttf", 18)

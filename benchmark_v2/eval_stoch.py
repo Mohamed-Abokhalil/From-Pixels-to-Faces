@@ -1,4 +1,4 @@
-"""Repeated-sampling analysis for stochastic methods (R1.6b).
+"""Repeated-sampling analysis for stochastic methods.
 
 For each method in reruns/stoch/<task>/<Method>/<stem>_k<j>.png (all samples recomposited with Eq. 2):
   * per-sample hole PSNR, full LPIPS, aligned ArcFace ID-Sim (same protocol as eval_arcface.py)

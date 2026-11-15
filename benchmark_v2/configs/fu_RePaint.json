@@ -4,7 +4,7 @@
  "citation_key": "lugmayr2022repaint",
  "category": "General inpainting",
  "family": "Diffusion",
- "status_in_revision": "ok",
+ "status": "ok",
  "note": "",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
@@ -18,9 +18,9 @@
    "sha256": "eda2de4eb8b433add921c281de1035bbbdcee4a98e97553ab3245ae2f2bcf294"
   }
  ],
- "stored_outputs_produced_in": "Face_Unmasking\\00_SOTA\\RePaint",
+ "stored_outputs_produced_in": "RePaint",
  "stored_outputs_identity_checked": true,
- "rerun_in_revision": false,
+ "rerun": false,
  "rerun_command": null,
  "run_settings": "official celeba256_250000.pt; default face_example configuration of the official repository",
  "stochastic": true,

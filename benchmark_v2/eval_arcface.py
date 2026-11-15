@@ -6,7 +6,7 @@ embeddings, cosine similarity, input normalised as (x-127.5)/127.5.
 
 Protocol "legacy"  - reproduces the submitted manuscript: the whole 256x256 image is resized
                      to 112x112 (bilinear); no detection, no alignment.
-Protocol "aligned" - recommended (R1.6d): SCRFD-10GF (buffalo_l det_10g.onnx) detects 5
+Protocol "aligned" - recommended: SCRFD-10GF (buffalo_l det_10g.onnx) detects 5
                      landmarks on the GROUND-TRUTH image only (det_size 256x256, highest
                      score face). The same similarity transform (insightface norm_crop to the
                      ArcFace template, 112x112) is applied to the GT and to the output, so the
@@ -18,7 +18,7 @@ Rows evaluated: every method (raw and recomposited) + two references:
   Masked input  - the benchmark input I_c (FI: white holes; FU: MaskTheFace overlay)
   Visible-only (mean fill) - hole filled with the mean colour of the visible pixels.
 The gain of a method over "Visible-only" is the identity signal its completion adds
-beyond what the unchanged visible region already carries (R1.6e / R3.5).
+beyond what the unchanged visible region already carries.
 
 Output: results/<task>/arcface_per_image.csv (long format) and arcface_gt_landmarks.json
 """

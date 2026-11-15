@@ -4,23 +4,23 @@
  "citation_key": "zuo2023generative",
  "category": "General inpainting",
  "family": "GAN/CNN",
- "status_in_revision": "ok",
+ "status": "ok",
  "note": "",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
  "repository": "https://github.com/zzw-zjgsu/Generative-Image-Inpainting",
  "git_commit": "83be9e878bd8de8fee8b7c13f36d1a5ab9172607",
- "local_code": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\Generative-Image-Inpainting",
+ "local_code": "Generative-Image-Inpainting",
  "checkpoints_present": [
   {
-   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\Generative-Image-Inpainting\\src\\checkpoints\\CelebA_G0300000.pt",
+   "file": "Generative-Image-Inpainting\\src\\checkpoints\\CelebA_G0300000.pt",
    "bytes": 60847867,
    "sha256": "d25b63807b153923362151e3999c9845cff904e0a64eb29fb3f52b1ec253bc63"
   }
  ],
- "stored_outputs_produced_in": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\Generative-Image-Inpainting\\src\\results\\SCAT_FI\\SCAT",
+ "stored_outputs_produced_in": "Generative-Image-Inpainting\\src\\results\\SCAT_FI\\SCAT",
  "stored_outputs_identity_checked": true,
- "rerun_in_revision": false,
+ "rerun": false,
  "rerun_command": null,
  "run_settings": "official CelebA_G0300000.pt of the SCAT repository (zzw-zjgsu/Generative-Image-Inpainting)",
  "stochastic": false,

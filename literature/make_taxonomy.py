@@ -1,7 +1,7 @@
 """Generate the complete taxonomy table, the method counts and the venue distribution from
-taxonomy_methods.csv (R1.2a-c, R2.3, R5.3c, E2). Checks every row against the bibliography.
+taxonomy_methods.csv. Checks every row against the bibliography.
 
-Outputs (into FI_FU_Survey_AIR_revised/): tab_taxonomy_rows.tex, taxonomy_numbers.tex (\\newcommand macros)
+Outputs (into manuscript/): tab_taxonomy_rows.tex, taxonomy_numbers.tex (\\newcommand macros)
 and literature/taxonomy_checks.txt (venue/year cross-check against the .bib, missing keys).
 """
 import csv
@@ -11,7 +11,7 @@ from collections import Counter
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-TEX = HERE.parent / "FI_FU_Survey_AIR_revised"
+TEX = HERE.parent / "manuscript"
 BIB = [TEX / "sn-bibliography.bib", HERE / "new_refs.bib"]
 
 CAT = {"FI-specific": "FI", "FU-specific": "FU", "BFR (related)": "BFR", "General inpainting": "Gen"}
@@ -54,7 +54,7 @@ def main():
     for r in rows:
         g = ",".join(GUID.get(x, x) for x in r["guidance"].split(";"))
         ev = ",".join(EVAL.get(x, x) for x in r["evaluation"].split(";"))
-        bench = r["bench"].replace("(excluded)", "$^\\circ$").replace(";", ",")
+        bench = ",".join(t.strip() for t in r["bench"].split(";") if t.strip() and "(excluded)" not in t) or "--"
         comp = r["component"].replace(";", "; ").replace("&", "\\&")
         L.append(f"{r['year']} & {r['method'].replace('&', chr(92) + '&')} \\cite{{{r['key']}}} & {r['venue_type']} & {CAT[r['category']]} & "
                  f"{FAM.get(r['family'], r['family'])} & {SCEN.get(r['scenario'], r['scenario'])} & {g} & "
@@ -69,7 +69,7 @@ def main():
          "TaxFaceJournal": vf["J"], "TaxFaceConference": vf["C"], "TaxFacePreprint": vf["P"],
          "TaxFamGAN": fam["GAN"], "TaxFamSG": fam["StyleGAN prior"], "TaxFamTR": fam["Codebook/Transformer"] + fam["Transformer"],
          "TaxFamDM": fam["Diffusion"], "TaxFamUnverified": fam["Unverified"],
-         "TaxNew": sum(1 for r in rows if r["route"] in ("search", "reviewer")) }
+         "TaxNew": sum(1 for r in rows if r["route"] in ("search", "suggested")) }
     for k, w in words.items():
         N["Tax" + w] = c[k]
     with open(TEX / "taxonomy_numbers.tex", "w") as fh:

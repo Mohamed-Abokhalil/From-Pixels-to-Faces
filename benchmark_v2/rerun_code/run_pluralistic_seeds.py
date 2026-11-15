@@ -1,5 +1,5 @@
 """Benchmark re-run (--subset all --k 1; original outputs failed the mask-consistency audit: 49.8%% of
-hole pixels were exact GT copies, i.e. generated with other masks) and repeated sampling of Pluralistic (Zheng et al., CVPR 2019) on the 100-image stochastic subsets (R1.6b).
+hole pixels were exact GT copies, i.e. generated with other masks) and repeated sampling of Pluralistic (Zheng et al., CVPR 2019) on the 100-image stochastic subsets.
 
 Official code (FI/000_Related work/Pluralistic) read in place; checkpoint checkpoints/celeba_random
 (latest_net_E.pth, latest_net_G.pth). Network definitions and the sampling step reproduce

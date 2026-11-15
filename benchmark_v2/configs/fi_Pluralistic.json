@@ -4,30 +4,30 @@
  "citation_key": "zheng2019pluralistic",
  "category": "General inpainting",
  "family": "GAN/CNN",
- "status_in_revision": "rerun",
+ "status": "rerun",
  "note": "original outputs failed the mask-consistency audit (49.8% of hole pixels = GT); re-run with benchmark masks, one seeded sample (reruns/fi/Pluralistic)",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
  "repository": "https://github.com/lyndonzheng/Pluralistic",
  "git_commit": "034a7588957adff1edb027af44f48a35d1c949d3",
- "local_code": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\Pluralistic",
+ "local_code": "Pluralistic",
  "checkpoints_present": [
   {
-   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\Pluralistic\\checkpoints\\celeba_random\\latest_net_E.pth",
+   "file": "Pluralistic\\checkpoints\\celeba_random\\latest_net_E.pth",
    "bytes": 14598621,
    "sha256": "0a13d437e7b2120887b3b08e2d9a7d31327b3450b581b5ae73d226eb8790acfe"
   },
   {
-   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\Pluralistic\\checkpoints\\celeba_random\\latest_net_G.pth",
+   "file": "Pluralistic\\checkpoints\\celeba_random\\latest_net_G.pth",
    "bytes": 9638026,
    "sha256": "fb01f10ef93f5115b7446c6964e9a925db25bb1eb010a8258211704505f1521c"
   }
  ],
  "stored_outputs_produced_in": "benchmark_v2/reruns",
  "stored_outputs_identity_checked": null,
- "rerun_in_revision": true,
+ "rerun": true,
  "rerun_command": "python rerun_code/run_pluralistic_seeds.py --task fi --subset all --k 1",
- "run_settings": "re-run in this revision with the official checkpoint and the benchmark masks (rerun_command)",
+ "run_settings": "re-run with the official checkpoint and the benchmark masks (rerun_command)",
  "stochastic": true,
  "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
 }

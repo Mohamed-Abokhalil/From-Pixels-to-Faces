@@ -10,7 +10,7 @@ Keeps the submission a single .tex file and avoids \\input inside tables (breaks
 import re
 from pathlib import Path
 
-TEX = Path(__file__).resolve().parents[1] / "FI_FU_Survey_AIR_revised"
+TEX = Path(__file__).resolve().parents[1] / "manuscript"
 P = TEX / "sn-article.tex"
 s = open(P, encoding="utf8").read()
 

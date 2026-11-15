@@ -1,8 +1,8 @@
-"""Generate every benchmark table/number used in the revised manuscript from stored per-image files.
+"""Generate every benchmark table/number used in the manuscript from stored per-image files.
 
 Inputs : results/<task>/per_image/*.csv, results/<task>/fid_kid.csv, results/<task>/arcface_per_image.csv,
          results/stoch/*.csv (when present), the submitted summary CSVs (for the old-vs-new comparison)
-Outputs: ../FI_FU_Survey_AIR_revised/tab_fi_bench.tex, tab_fu_bench.tex, tab_fi_bins.tex   (\\input in the paper)
+Outputs: ../manuscript/tab_fi_bench.tex, tab_fu_bench.tex, tab_fi_bins.tex   (\\input in the paper)
          results/<task>/summary.csv, results/old_vs_new_<task>.csv, results/stats_<task>.json, results/numbers.tex
          (numbers.tex defines \\newcommand macros for every number quoted in the text)
 """
@@ -17,7 +17,7 @@ from scipy.stats import spearmanr, wilcoxon
 from common import METHODS, RESULTS, ROOT
 
 HERE = Path(__file__).resolve().parent
-TEX = HERE.parent / "FI_FU_Survey_AIR_revised"
+TEX = HERE.parent / "manuscript"
 OLD = {"fi": ROOT / "results" / "fi_celeba" / "summary_by_bin.csv", "fu": ROOT / "results_bin" / "fu_celeba" / "summary_by_bin.csv"}
 OLD_ID = {"fi": ROOT / "results" / "fi_arcface.json", "fu": ROOT / "results" / "fu_arcface.json"}
 FOLDER_ALIAS = {"DeepFillv2": ["deepfillv2", "DeepFillv2"], "EdgeConnect": ["EdgConnect", "EdgeConnect"]}
@@ -217,7 +217,7 @@ def stats(task, rows, per, A, refs):
         run = max(run, min(1.0, (m - k) * pv[idx])); adj[idx] = run
     for d, a_ in zip(res["pairwise"], adj):
         d["p_holm"] = float(a_)
-    # metric agreement (R2.6): Spearman between per-image metrics pooled over methods
+    # metric agreement: Spearman between per-image metrics pooled over methods
     pool = defaultdict(list)
     for r in ok:
         a = A.get((r["folder"], "comp"), {})
@@ -305,13 +305,13 @@ def main():
         macro(f"{T}nOK", str(len(ok)))
         macro(f"{T}nExcluded", str(sum(1 for r in rows if r["status"] == "excluded")))
         if task == "fu":
-            din = next((r for r in ok if r["folder"] == "Din2020"), None)   # excluded since the official-checkpoint rule (N-04)
+            din = next((r for r in ok if r["folder"] == "Din2020"), None)   # excluded since the official-checkpoint rule
             if din:
                 macro("FUdinRank", num(rank_h[din["method"]]))
                 macro("FUnGenAboveDin", str(sum(1 for r in ok if r["category"] == "General inpainting" and r["comp_psnr_hole"] > din["comp_psnr_hole"])))
             macro("FUnSpecific", str(sum(1 for r in ok if r["category"] == "FU-specific")))
             macro("FUnGeneral", str(sum(1 for r in ok if r["category"] == "General inpainting")))
-            for folder, nm in (("GANMasker", "gan"), ("M2UNet", "mtwo")):   # R1.7e: side-by-side with the values in the papers
+            for folder, nm in (("GANMasker", "gan"), ("M2UNet", "mtwo")):   # side-by-side with the values in the papers
                 t = next(r for r in ok if r["folder"] == folder)
                 macro(f"FU{nm}PSNRfull", f"{t['comp_psnr_full']:.2f}"); macro(f"FU{nm}SSIMfull", f"{t['comp_ssim_full']:.3f}")
                 macro(f"FU{nm}FID", f"{t['comp_fid']:.2f}")

@@ -26,7 +26,7 @@ FIELDS = "id,doi,title,display_name,publication_year,publication_date,type,prima
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "fpfs-revision-script/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "fpfs-script/1.0"})
     for i in range(5):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:

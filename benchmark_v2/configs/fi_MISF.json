@@ -4,38 +4,38 @@
  "citation_key": "li2022misf",
  "category": "General inpainting",
  "family": "GAN/CNN",
- "status_in_revision": "ok",
+ "status": "ok",
  "note": "",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
  "repository": "https://github.com/tsingqguo/misf.git",
  "git_commit": "775ef7d576a43407f9b447dcb80ba10f5c8c6148",
- "local_code": "From-Pixel-to-Face-(survey)\\NII\\misf",
+ "local_code": "misf",
  "checkpoints_present": [
   {
-   "file": "From-Pixel-to-Face-(survey)\\NII\\misf\\checkpoints\\celebA_InpaintingModel_dis.pth",
+   "file": "misf\\checkpoints\\celebA_InpaintingModel_dis.pth",
    "bytes": 11123799,
    "sha256": "8807fa77916e62a071df1917028111b51593fb2fcfb6749e1777a5d1c1028cf8"
   },
   {
-   "file": "From-Pixel-to-Face-(survey)\\NII\\misf\\checkpoints\\celebA_InpaintingModel_gen.pth",
+   "file": "misf\\checkpoints\\celebA_InpaintingModel_gen.pth",
    "bytes": 92260206,
    "sha256": "9c34c628d6bce48ce631896497cde0b77bfbb5233ec7c95983e50b31bfeacc75"
   },
   {
-   "file": "From-Pixel-to-Face-(survey)\\NII\\misf\\checkpoints\\MISF\\celebA_InpaintingModel_dis.pth",
+   "file": "misf\\checkpoints\\MISF\\celebA_InpaintingModel_dis.pth",
    "bytes": 11123799,
    "sha256": "8807fa77916e62a071df1917028111b51593fb2fcfb6749e1777a5d1c1028cf8"
   },
   {
-   "file": "From-Pixel-to-Face-(survey)\\NII\\misf\\checkpoints\\MISF\\celebA_InpaintingModel_gen.pth",
+   "file": "misf\\checkpoints\\MISF\\celebA_InpaintingModel_gen.pth",
    "bytes": 92260206,
    "sha256": "9c34c628d6bce48ce631896497cde0b77bfbb5233ec7c95983e50b31bfeacc75"
   }
  ],
- "stored_outputs_produced_in": "From-Pixel-to-Face-(survey)\\NII\\misf\\checkpoints\\MISF-CelebA",
+ "stored_outputs_produced_in": "misf\\checkpoints\\MISF-CelebA",
  "stored_outputs_identity_checked": true,
- "rerun_in_revision": false,
+ "rerun": false,
  "rerun_command": null,
  "run_settings": "official released checkpoint with the default inference settings of the official repository https://github.com/tsingqguo/misf.git (commit 775ef7d)",
  "stochastic": false,

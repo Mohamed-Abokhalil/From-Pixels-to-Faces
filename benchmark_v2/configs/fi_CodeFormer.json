@@ -4,28 +4,28 @@
  "citation_key": "zhou2022towards",
  "category": "BFR (related)",
  "family": "Latent/VQ",
- "status_in_revision": "ok",
+ "status": "ok",
  "note": "",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
  "repository": "https://github.com/sczhou/CodeFormer.git",
  "git_commit": "b33cc7d639d6545bfcccc7e0bc6ae51f24e79c2b",
- "local_code": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\CodeFormer",
+ "local_code": "CodeFormer",
  "checkpoints_present": [
   {
-   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\CodeFormer\\weights\\CodeFormer\\codeformer.pth",
+   "file": "CodeFormer\\weights\\CodeFormer\\codeformer.pth",
    "bytes": 376637898,
    "sha256": "1009e537e0c2a07d4cabce6355f53cb66767cd4b4297ec7a4a64ca4b8a5684b7"
   },
   {
-   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\CodeFormer\\weights\\CodeFormer\\codeformer_inpainting.pth",
+   "file": "CodeFormer\\weights\\CodeFormer\\codeformer_inpainting.pth",
    "bytes": 370786611,
    "sha256": "b0d1b868c3dacf75d637bbcc0d4b3dd4ce2a064a338dfb4d35c740d3b4ae8797"
   }
  ],
- "stored_outputs_produced_in": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\CodeFormer\\results\\codeformer\\CodeFormer_256",
+ "stored_outputs_produced_in": "CodeFormer\\results\\codeformer\\CodeFormer_256",
  "stored_outputs_identity_checked": true,
- "rerun_in_revision": false,
+ "rerun": false,
  "rerun_command": null,
  "run_settings": "official released checkpoint with the default inference settings of the official repository https://github.com/sczhou/CodeFormer.git (commit b33cc7d)",
  "stochastic": false,

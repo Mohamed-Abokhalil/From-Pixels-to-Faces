@@ -1,6 +1,6 @@
 """Recall check: which methods in the submitted taxonomy (Table 10) were retrieved by the search?
 Matching: normalised title of the bib entry vs. normalised titles of de-duplicated records (exact or
-one contained in the other). Output: screening/recall_vs_submitted_table10.csv"""
+one contained in the other). Output: screening/recall_check_reference_list.csv"""
 import csv
 import re
 import sys
@@ -37,7 +37,7 @@ def main():
         m = [rid for rid, x in rn if t and (x == t or (len(t) > 25 and (t in x or x in t)))]
         hit += bool(m)
         rows.append({"bibkey": k, "title": bt.get(k, ""), "retrieved": bool(m), "rec_ids": ";".join(m)})
-    with open(HERE / "screening" / "recall_vs_submitted_table10.csv", "w", newline="", encoding="utf8") as fh:
+    with open(HERE / "screening" / "recall_check_reference_list.csv", "w", newline="", encoding="utf8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
     print(f"retrieved {hit}/{len(keys)}")
     for r in rows:

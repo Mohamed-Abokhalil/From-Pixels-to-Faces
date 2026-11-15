@@ -7,7 +7,7 @@ Fix: use the official code and the CelebA-HQ checkpoint unchanged; force mask_ty
 Checkpoint: copy of FI/000_Related work/spa-former/checkpoints/celeba_hq (latest_net_G.pth
 sha256 d12a94a0...b580d). Code is read in place; nothing is written into the repo.
 
-Usage (from FPFS_Revision/benchmark_v2):
+Usage (from benchmark_v2):
   set PYTHONDONTWRITEBYTECODE=1
   python rerun_code/run_spaformer.py
 """

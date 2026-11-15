@@ -1,4 +1,4 @@
-# Search protocol as carried out (E1, R1.1, R2.2, R5.3b)
+# Search protocol as carried out
 
 **Unit of inclusion:** a publication proposing a method (one row in the taxonomy table). Language: English.
 
@@ -25,6 +25,6 @@ De-duplication: `dedup.py` (DOI, then normalised title). Title/abstract screenin
 (`screening/screening_log.csv`, built by `make_screening_log.py`).
 
 ## 3. Other sources (reported under "other methods" in PRISMA)
-- Backward/forward citation chasing from included FU papers and from the 10 papers named by Reviewer 1; curated method lists.
-- Papers named by the reviewers (R1.3, R2.7, R4.3).
+- Backward/forward citation chasing from included FU papers and from the 10 papers suggested during peer review; curated method lists.
+- Papers named by the reviewers.
 - Benchmark baselines (general inpainting methods run in our benchmark), labelled "General inpainting (baseline)".

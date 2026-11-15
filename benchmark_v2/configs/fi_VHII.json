@@ -4,25 +4,25 @@
  "citation_key": "campana2023variable",
  "category": "General inpainting",
  "family": "Transformer",
- "status_in_revision": "rerun",
+ "status": "rerun",
  "note": "original outputs used randomly drawn masks (test_dataset.py); re-run with benchmark masks and the official CelebA checkpoint (reruns/fi/VHII)",
  "developed_by_author_team": false,
  "input_resolution": "256x256 (benchmark); inputs of other sizes resized with Lanczos and outputs resized back",
  "repository": "https://github.com/jose13579/variable-hyperparameter-image-impainting.git",
  "git_commit": "783f68214d9fcf37d14cde250e70940580b63f4b",
- "local_code": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\variable-hyperparameter-image-impainting",
+ "local_code": "variable-hyperparameter-image-impainting",
  "checkpoints_present": [
   {
-   "file": "From-Pixel-to-Face-(survey)\\FI\\000_Related work\\variable-hyperparameter-image-impainting\\trained_models\\celeba\\celeba_VHII_efficient\\best_model_celeba.pth",
+   "file": "variable-hyperparameter-image-impainting\\trained_models\\celeba\\celeba_VHII_efficient\\best_model_celeba.pth",
    "bytes": 74430810,
    "sha256": "271978b887d1fb7b1f8fb7e79500ebafa50da67412e0c2c144bad246adaf9fc1"
   }
  ],
  "stored_outputs_produced_in": "benchmark_v2/reruns",
  "stored_outputs_identity_checked": null,
- "rerun_in_revision": true,
+ "rerun": true,
  "rerun_command": "python rerun_code/run_vhii.py",
- "run_settings": "re-run in this revision with the official checkpoint and the benchmark masks (rerun_command)",
+ "run_settings": "re-run with the official checkpoint and the benchmark masks (rerun_command)",
  "stochastic": false,
  "evaluation": "recomposited with Eq. (2); metrics per benchmark_v2/eval_pixel.py, eval_fid.py, eval_arcface.py"
 }

@@ -1,6 +1,6 @@
 [
  {
-  "label": "R1.3-1 Yu2018 Contextual Attention",
+  "label": "S1 Yu2018 Contextual Attention",
   "crossref_candidates": [
    {
     "doi": "10.1109/cvpr.2018.00577",
@@ -63,7 +63,7 @@
   ]
  },
  {
-  "label": "R1.3-2 Li2020 RFR",
+  "label": "S2 Li2020 RFR",
   "crossref_candidates": [
    {
     "doi": "10.1109/cvpr42600.2020.00778",
@@ -125,7 +125,7 @@
   ]
  },
  {
-  "label": "R1.3-3 Cai2020 FCSR-GAN T-BIOM",
+  "label": "S3 Cai2020 FCSR-GAN T-BIOM",
   "crossref_candidates": [
    {
     "doi": "10.1109/tbiom.2019.2951063",
@@ -186,7 +186,7 @@
   ]
  },
  {
-  "label": "R1.3-4 Cai2021 Semi-supervised natural face de-occlusion TIFS",
+  "label": "S4 Cai2021 Semi-supervised natural face de-occlusion TIFS",
   "crossref_candidates": [
    {
     "doi": "10.1109/tifs.2020.3023793",
@@ -246,7 +246,7 @@
   ]
  },
  {
-  "label": "R1.3-5 Dong2022 ZITS",
+  "label": "S5 Dong2022 ZITS",
   "crossref_candidates": [
    {
     "doi": "10.1109/cvpr52688.2022.01107",
@@ -298,7 +298,7 @@
   ]
  },
  {
-  "label": "R1.3-6 Liu2022 PUT",
+  "label": "S6 Liu2022 PUT",
   "crossref_candidates": [
    {
     "doi": "10.1109/cvpr52688.2022.01106",
@@ -361,7 +361,7 @@
   ]
  },
  {
-  "label": "R1.3-7 Zhao2022 JCAD",
+  "label": "S7 Zhao2022 JCAD",
   "crossref_candidates": [
    {
     "doi": "10.3724/sp.j.1089.2022.19169",
@@ -419,7 +419,7 @@
   ]
  },
  {
-  "label": "R1.3-8 Xie2023 SmartBrush",
+  "label": "S8 Xie2023 SmartBrush",
   "crossref_candidates": [
    {
     "doi": "10.1109/cvpr52729.2023.02148",
@@ -478,7 +478,7 @@
   ]
  },
  {
-  "label": "R1.3-9 Lu2025 visual style prompt BFR PR",
+  "label": "S9 Lu2025 visual style prompt BFR PR",
   "crossref_candidates": [
    {
     "doi": "10.1016/j.patcog.2024.111312",
@@ -539,7 +539,7 @@
   ]
  },
  {
-  "label": "R1.3-10 Lu2025 GRIG CVM",
+  "label": "S10 Lu2025 GRIG CVM",
   "crossref_candidates": [
    {
     "doi": "10.26599/cvm.2025.9450408",
@@ -599,7 +599,7 @@
   ]
  },
  {
-  "label": "R4.3-a arXiv 2109.07161",
+  "label": "S11 arXiv 2109.07161",
   "arxiv": {
    "arxiv": "2109.07161",
    "title": "Resolution-robust Large Mask Inpainting with Fourier Convolutions",
@@ -622,7 +622,7 @@
   }
  },
  {
-  "label": "R4.3-b MTA 10.1007/s11042-024-19365-8",
+  "label": "S12 MTA 10.1007/s11042-024-19365-8",
   "crossref": {
    "doi": "10.1007/s11042-024-19365-8",
    "title": "SFI-Swin: symmetric face inpainting with swin transformer by distinctly learning face components distributions",
@@ -644,7 +644,7 @@
   }
  },
  {
-  "label": "R2.7-1 Tyagi 2021 WPC",
+  "label": "S1 Tyagi 2021 WPC",
   "crossref": {
    "doi": "10.1007/s11277-020-08050-2",
    "title": "Unconstrained Face Detection of Multiple Humans Present in the Video",
@@ -664,7 +664,7 @@
   }
  },
  {
-  "label": "R2.7-2 Tyagi 2023 AIC",
+  "label": "S2 Tyagi 2023 AIC",
   "crossref": {
    "doi": "10.1109/aic57670.2023.10263884",
    "title": "Unconstrained Face Recognition from Image Sequence",
@@ -684,7 +684,7 @@
   }
  },
  {
-  "label": "R2.7-3 Tyagi 2024 TS",
+  "label": "S3 Tyagi 2024 TS",
   "crossref": {
    "doi": "10.18280/ts.410537",
    "title": "Side Searching and Object Improvement Methods for Unconstrained Face Recognition Environment",
@@ -704,7 +704,7 @@
   }
  },
  {
-  "label": "R2.7-4 Tyagi 2025 MPCON",
+  "label": "S4 Tyagi 2025 MPCON",
   "crossref": {
    "doi": "10.1109/mpcon66082.2025.11251496",
    "title": "Effective Unconstrained Face Recognition from Images Using RFG: A review",

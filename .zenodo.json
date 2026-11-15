@@ -1,7 +1,7 @@
 {
   "title": "From Pixels to Faces: review artefacts and re-executable face inpainting/unmasking benchmark",
   "upload_type": "software",
-  "description": "<p>Code, Scopus query and counts, supplementary search and full screening log, coded taxonomy, test-file lists with hashes, masks, per-method configurations with output provenance, and per-image scores for the review 'From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking' (Artificial Intelligence Review, revised version). The generated outputs of the benchmarked methods are archived in a separate Zenodo record: https://doi.org/10.5281/zenodo.24193552. CelebA and CelebA-HQ images are not included.</p>",
+  "description": "<p>Code, Scopus query and counts, supplementary search and full screening log, coded taxonomy, test-file lists with hashes, masks, per-method configurations with output provenance, and per-image scores for the review 'From Pixels to Faces: A Comprehensive Survey of Deep Learning-Based Face Inpainting and Face Unmasking' (Artificial Intelligence Review). The generated outputs of the benchmarked methods are archived in a separate Zenodo record: https://doi.org/10.5281/zenodo.24193552. CelebA and CelebA-HQ images are not included.</p>",
   "creators": [
     {"name": "Mahmoud, Mohamed", "affiliation": "Chungbuk National University; Assiut University"},
     {"name": "Abdalla, Mahmoud", "affiliation": "Chungbuk National University"},
@@ -10,7 +10,7 @@
     {"name": "Kang, Hyun-Soo", "affiliation": "Chungbuk National University"}
   ],
   "license": "MIT",
-  "version": "v2.0",
+  "version": "v2.1",
   "keywords": ["face inpainting", "face unmasking", "face completion", "benchmark", "systematic review", "reproducibility"],
   "related_identifiers": [
     {"identifier": "10.5281/zenodo.24193552", "relation": "isSupplementedBy", "scheme": "doi", "resource_type": "dataset"}

@@ -1,4 +1,4 @@
-"""Build literature/scopus_counts.json from the official Scopus yearly-count export (N-01).
+"""Build literature/scopus_counts.json from the official Scopus yearly-count export.
 
 Source: literature/exports/Scopus-10-Analyze-Year (1).csv  (Scopus > Analyze search results > Documents by year),
 query run by the authors on 9 July 2026. Scopus provides only yearly counts here; no record-level export exists.

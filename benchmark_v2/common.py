@@ -1,7 +1,7 @@
 """Shared paths, method registry and image helpers for the FPFS benchmark v2.
 
 All source data are read in place (read-only) from the original study folders.
-Everything derived is written under FPFS_Revision/benchmark_v2/.
+Everything derived is written under benchmark_v2/.
 """
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image
 
 HERE = Path(__file__).resolve().parent
-REV = HERE.parent                         # FPFS_Revision
+REV = HERE.parent                         # repository root
 ROOT = REV.parent                         # main directory (read-only)
 DATA = {"fi": ROOT / "data" / "CelebA_FI", "fu": ROOT / "data" / "CelebA_FU"}
 ORIG = {"fi": ROOT / "FI", "fu": ROOT / "FU"}      # MD5-identical originals
@@ -68,7 +68,7 @@ FI_METHODS: List[Method] = [
     Method("CoModGAN", "CoModGAN", 2021, "zhao2021large", "General inpainting", "StyleGAN prior", stochastic=True),
     Method("CTSDG", "CTSDG", 2021, "guo2021image", "General inpainting", "GAN/CNN"),
     Method("AttrFaceNet", "AttrFaceNet", 2021, "xiao2021face", "FI-specific", "GAN/CNN",
-           status="excluded", note="outputs come from a model trained by us (RelatedWorks/AttrFaceNet/checkpoints: config MODE 1, training log from iteration 1, 2025-09-25/26), not from the released checkpoint; excluded under the official-checkpoint rule"),
+           status="excluded", note="outputs come from a model trained by us (AttrFaceNet/checkpoints: config MODE 1, training log from iteration 1, 2025-09-25/26), not from the released checkpoint; excluded under the official-checkpoint rule"),
     Method("GPEN", "GPEN", 2021, "yang2021gan", "BFR (related)", "StyleGAN prior"),
     Method("MISF", "MISF", 2022, "li2022misf", "General inpainting", "GAN/CNN"),
     Method("LaMa", "LaMa", 2022, "suvorov2022resolution", "General inpainting", "GAN/CNN"),
@@ -83,7 +83,7 @@ FI_METHODS: List[Method] = [
     Method("CoPaint", "CoPaint", 2023, "zhang2023towards", "General inpainting", "Diffusion", stochastic=True),
     Method("NDMA", "NDMA", 2023, "phutke2023nested", "FI-specific", "Transformer"),
     Method("MuFIN", "MuFIN", 2024, "zhan2024learning", "FI-specific", "GAN/CNN",
-           status="excluded", note="outputs identical to RelatedWorks/MuFIN/checkpoints/results, written by a model we trained (config MODE 1, 40 epochs, 161,500 iterations, log of 2025-09-16), not the released BaiduNetdisk checkpoint; excluded under the official-checkpoint rule"),
+           status="excluded", note="outputs identical to MuFIN/checkpoints/results, written by a model we trained (config MODE 1, 40 epochs, 161,500 iterations, log of 2025-09-16), not the released BaiduNetdisk checkpoint; excluded under the official-checkpoint rule"),
     Method("Spa-former", "spa-former", 2024, "huang2024sparse", "General inpainting", "Transformer",
            status="rerun", note="original outputs used generated random masks (mask_type [2,4]); re-run with benchmark masks and the official CelebA-HQ checkpoint (reruns/fi/spa-former)"),
     Method("TSFormer", "TSFormer", 2024, "lin2024tsformer", "General inpainting", "Transformer",
@@ -93,19 +93,19 @@ FI_METHODS: List[Method] = [
 
 FU_METHODS: List[Method] = [
     Method("GLCIC", "GLCIC", 2017, "iizuka2017globally", "General inpainting", "GAN/CNN",
-           status="excluded", note="outputs come from the comparison set of our earlier unmasking papers (Face_Unmasking/00_SOTA/GLCIC); they cannot be traced to the official Torch7 release (no run of it exists; local .t7 files are empty placeholders); excluded under the official-checkpoint rule"),
+           status="excluded", note="outputs come from the comparison set of our earlier unmasking papers (GLCIC); they cannot be traced to the official Torch7 release (no run of it exists; local .t7 files are empty placeholders); excluded under the official-checkpoint rule"),
     Method("EdgeConnect", "EdgeConnect", 2019, "nazeri2019edgeconnect", "General inpainting", "GAN/CNN"),
     Method("DeepFillv2", "DeepFillv2", 2019, "yu2019free", "General inpainting", "GAN/CNN",
-           status="excluded", note="outputs (Face_Unmasking/00_SOTA/GatedConv) are not reproduced by the official CelebA-HQ DeepFillv2 checkpoint (mean hole difference 25-34 grey levels on two test images); model of unknown provenance; excluded under the official-checkpoint rule"),
+           status="excluded", note="outputs (GatedConv) are not reproduced by the official CelebA-HQ DeepFillv2 checkpoint (mean hole difference 25-34 grey levels on two test images); model of unknown provenance; excluded under the official-checkpoint rule"),
     Method("Din et al.", "Din2020", 2020, "din2020novel", "FU-specific", "GAN/CNN",
-           status="excluded", note="no official code or checkpoint was released; the outputs (Face_Unmasking/00_SOTA/GUMF) come from a re-implementation trained by us (kaylode/facemask-removal, local weights stage2/model_99_99000.pth); excluded under the official-checkpoint rule"),
+           status="excluded", note="no official code or checkpoint was released; the outputs (GUMF) come from a re-implementation trained by us (kaylode/facemask-removal, local weights stage2/model_99_99000.pth); excluded under the official-checkpoint rule"),
     Method("CoModGAN", "CoModGAN", 2021, "zhao2021large", "General inpainting", "StyleGAN prior", stochastic=True),
     Method("RePaint", "RePaint", 2022, "lugmayr2022repaint", "General inpainting", "Diffusion", stochastic=True),
     Method("GANMasker", "GANMasker", 2023, "mahmoud2023ganmasker", "FU-specific", "GAN/CNN", team=True),
     Method("SCAT", "SCAT", 2023, "zuo2023generative", "General inpainting", "GAN/CNN"),
     Method("CoPaint", "CoPaint", 2023, "zhang2023towards", "General inpainting", "Diffusion", stochastic=True),
     Method("MuFIN", "MuFIN", 2024, "zhan2024learning", "FI-specific", "GAN/CNN",
-           status="excluded", note="the only MuFIN model in the workspace is the one we trained (see FI); the FU outputs (Face_Unmasking/00_SOTA/MuFIN) cannot come from the released checkpoint; excluded under the official-checkpoint rule"),
+           status="excluded", note="the only MuFIN model in the workspace is the one we trained (see FI); the FU outputs (MuFIN) cannot come from the released checkpoint; excluded under the official-checkpoint rule"),
     Method("M2UNet", "M2UNet", 2026, "mahmoud2026m2unet", "FU-specific", "GAN/CNN", team=True),
 ]
 

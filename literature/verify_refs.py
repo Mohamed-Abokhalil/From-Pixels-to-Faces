@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-UA = {"User-Agent": "fpfs-revision-script/1.0"}
+UA = {"User-Agent": "fpfs-script/1.0"}
 
 
 def get(url, raw=False):

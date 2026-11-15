@@ -25,7 +25,7 @@ def main(d="2026-11-12"):
     while True:
         url = "http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
             {"search_query": q, "start": start, "max_results": 200, "sortBy": "submittedDate", "sortOrder": "ascending"})
-        req = urllib.request.Request(url, headers={"User-Agent": "fpfs-revision-script/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "fpfs-script/1.0"})
         xml = urllib.request.urlopen(req, timeout=120).read()
         root = ET.fromstring(xml)
         total = int(root.find("{http://a9.com/-/spec/opensearch/1.1/}totalResults").text)
