@@ -133,7 +133,9 @@ def bench_table(task, rows, refs):
                  " & ".join(fid if k == "comp_fid" else cell(r, k, d, marks[k], i) for k, d, _ in cols) + " \\\\")
     L.append("\\midrule")
     for r in refs:
-        L.append(f"-- & \\textit{{{r['method']}}} & -- & " + " & ".join(fmt(r.get(k), d) if k not in ("comp_fid", "comp_kid") else "--" for k, d, _ in cols) + " \\\\")
+        if r["folder"] == "_masked":          # the unfilled input adds nothing to the visible-only reference; not shown
+            continue
+        L.append(f"-- & \\textit{{Visible region only}} & -- & " + " & ".join(fmt(r.get(k), d) if k not in ("comp_fid", "comp_kid") else "--" for k, d, _ in cols) + " \\\\")
     open(TEX / f"tab_{task}_bench_rows.tex", "w", encoding="utf8").write("\n".join(L) + "\n")
     sds = [r["comp_fid_sd"] for r in rows if r["status"] != "excluded" and r.get("comp_fid_sd") is not None]
     if sds:

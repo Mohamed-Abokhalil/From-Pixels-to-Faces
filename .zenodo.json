@@ -10,7 +10,7 @@
     {"name": "Kang, Hyun-Soo", "affiliation": "Chungbuk National University"}
   ],
   "license": "MIT",
-  "version": "v2.1",
+  "version": "v2.2",
   "keywords": ["face inpainting", "face unmasking", "face completion", "benchmark", "systematic review", "reproducibility"],
   "related_identifiers": [
     {"identifier": "10.5281/zenodo.24193552", "relation": "isSupplementedBy", "scheme": "doi", "resource_type": "dataset"}
